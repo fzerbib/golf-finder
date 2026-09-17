@@ -1,0 +1,60 @@
+<meta charset="utf-8">
+<title>Fairway Finder</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+
+<div class="page">
+  <header class="header">
+    <p class="eyebrow">France · España</p>
+    <h1>⛳ Fairway Finder</h1>
+    <p class="subtitle">Trouvez un golf par région — green fee et slope, quand on les connaît.</p>
+  </header>
+
+  <div class="search-bar">
+    <span class="search-eyebrow">Rechercher</span>
+    <div class="search-shell">
+      <input
+        id="search-input"
+        type="text"
+        placeholder="Région, ville ou nom du golf — ex : Bretagne, Andalousie, Costa Blanca…"
+        autocomplete="off"
+      />
+      <button id="clear-btn" type="button" aria-label="Effacer la recherche" hidden>&times;</button>
+    </div>
+  </div>
+
+  <div id="region-chips" class="chips"></div>
+
+  <p id="result-count" class="result-count"></p>
+
+  <div id="results" class="results" hidden></div>
+
+  <p id="prompt-state" class="empty-state">
+    Tapez une région, une ville ou le nom d'un golf pour commencer — par exemple
+    <em>Bretagne</em>, <em>Andalousie</em>, <em>Costa Blanca</em> ou <em>Biarritz</em>.
+  </p>
+
+  <p id="empty-state" class="empty-state" hidden>
+    Aucun golf trouvé pour cette recherche. Essayez un autre nom (région, ville proche,
+    ou nom du golf).
+  </p>
+
+  <footer class="footer">
+    <p>
+      <strong id="db-count"></strong> golfs référencés en France et en Espagne, dont
+      <strong id="verified-count"></strong> avec green fee et slope vérifiés manuellement
+      (badge « Tarifs vérifiés »). Les autres proviennent d'OpenStreetMap (localisation
+      uniquement, pas de tarif) — badge « Infos non vérifiées ».
+    </p>
+    <p>
+      Localisation des golfs : © les contributeurs d'OpenStreetMap, données sous licence
+      <a href="https://opendatacommons.org/licenses/odbl/" target="_blank" rel="noopener noreferrer">ODbL</a>
+      (<a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">openstreetmap.org/copyright</a>).
+      Les prix de green fees évoluent selon la saison, le jour et les promotions : vérifiez-les
+      toujours sur le site officiel du golf avant de réserver.
+    </p>
+  </footer>
+</div>
+
+<script src="data/golfs.js"></script>
+<script src="app.js"></script>

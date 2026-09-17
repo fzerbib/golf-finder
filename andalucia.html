@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Andalucía Golf Map</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="andalucia.css">
+</head>
+<body>
+<div class="page">
+  <header class="header">
+    <p class="eyebrow">Andalucía</p>
+    <h1>🗺️ Andalucía Golf Map</h1>
+    <p class="subtitle">Les golfs d'Andalousie, sur une vraie carte et par nom — green fee et slope quand on les connaît.</p>
+  </header>
+
+  <div class="search-bar">
+    <span class="search-eyebrow">Rechercher</span>
+    <div class="search-shell">
+      <input
+        id="search-input"
+        type="text"
+        placeholder="Nom du golf, ville ou province — ex : Aloha, Marbella, Málaga, Sotogrande…"
+        autocomplete="off"
+      />
+      <button id="clear-btn" type="button" aria-label="Effacer la recherche" hidden>&times;</button>
+    </div>
+  </div>
+
+  <div id="province-chips" class="chips"></div>
+
+  <div class="map-wrap">
+    <div id="map" role="img" aria-label="Carte des golfs d'Andalousie"></div>
+  </div>
+
+  <p id="result-count" class="result-count"></p>
+
+  <div id="results" class="results"></div>
+
+  <p id="empty-state" class="empty-state" hidden>
+    Aucun golf trouvé pour cette recherche. Essayez un autre nom (golf, ville, province).
+  </p>
+
+  <footer class="footer">
+    <p>
+      <strong id="db-count"></strong> golfs référencés en Andalousie, dont
+      <strong id="verified-count"></strong> avec green fee et slope vérifiés manuellement
+      (badge « Tarifs vérifiés »). Les autres proviennent d'OpenStreetMap — badge « Infos non vérifiées ».
+    </p>
+    <p>
+      Province affichée = capitale provinciale la plus proche à vol d'oiseau (approximatif près des
+      frontières entre provinces), calculée à partir des coordonnées OpenStreetMap du golf.
+    </p>
+    <p>
+      Carte : © les contributeurs <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a>,
+      licence <a href="https://opendatacommons.org/licenses/odbl/" target="_blank" rel="noopener noreferrer">ODbL</a>, affichée via
+      <a href="https://leafletjs.com/" target="_blank" rel="noopener noreferrer">Leaflet</a>.
+      Les prix de green fees évoluent selon la saison et la demande : vérifiez-les sur le site du golf
+      avant de réserver.
+    </p>
+  </footer>
+</div>
+
+<script src="data/golfs.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="app-andalucia.js"></script>
+</body>
+</html>

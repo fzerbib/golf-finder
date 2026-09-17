@@ -1,0 +1,29 @@
+.map-wrap {
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 12px;
+  box-shadow: var(--shadow);
+  margin-bottom: 18px;
+}
+
+#map {
+  width: 100%;
+  height: 480px;
+  border-radius: 10px;
+}
+
+.leaflet-tooltip {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+}
+
+.leaflet-tooltip strong {
+  font-family: var(--font-mono);
+}
+
+.card.is-highlighted {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
