@@ -20,6 +20,7 @@
   const addPlayerBtn = document.getElementById("add-player");
   const tableEl = document.getElementById("score-table");
   const shareBtn = document.getElementById("share-round");
+  const deleteBtn = document.getElementById("delete-round");
   const statusEl = document.getElementById("save-status");
   const rosterChipsEl = document.getElementById("roster-chips");
 
@@ -148,6 +149,13 @@
     saveTimer = setTimeout(save, 800);
   }
 
+  function setRoundIdInUrl(id) {
+    const url = new URL(window.location.href);
+    url.searchParams.delete("golf");
+    url.searchParams.set("id", id);
+    window.history.replaceState({}, "", url);
+  }
+
   async function save() {
     if (!supabase) {
       setStatus("Non sauvegardé (backend non configuré)");
@@ -157,16 +165,30 @@
     if (!roundId) {
       const { data, error } = await supabase.from("rounds").insert(payload).select("id").single();
       if (error) {
+        if (error.code === "23505") {
+          // Une autre carte a été créée entre-temps pour ce golf (contrainte unique
+          // golf_id) : on bascule dessus au lieu d'échouer.
+          const { data: existing } = await supabase
+            .from("rounds")
+            .select("id")
+            .eq("golf_id", golf.id)
+            .maybeSingle();
+          if (existing) {
+            roundId = existing.id;
+            setRoundIdInUrl(roundId);
+            shareBtn.disabled = false;
+            deleteBtn.disabled = false;
+            return save();
+          }
+        }
         console.error("Supabase insert failed:", error);
         setStatus("Erreur de sauvegarde");
         return;
       }
       roundId = data.id;
-      const url = new URL(window.location.href);
-      url.searchParams.delete("golf");
-      url.searchParams.set("id", roundId);
-      window.history.replaceState({}, "", url);
+      setRoundIdInUrl(roundId);
       shareBtn.disabled = false;
+      deleteBtn.disabled = false;
     } else {
       const { error } = await supabase
         .from("rounds")
@@ -329,6 +351,7 @@
       renderPlayers();
       renderTable();
       shareBtn.disabled = !roundId;
+      deleteBtn.disabled = !roundId;
       if (!supabase) setStatus("Non sauvegardé (backend non configuré)");
     } else {
       notFoundEl.hidden = false;
@@ -360,16 +383,56 @@
     }, 1600);
   });
 
+  deleteBtn.addEventListener("click", async () => {
+    if (!roundId) return;
+    const ok = window.confirm(
+      `Supprimer définitivement la carte de score de ${golf.name} ? Cette action est irréversible.`
+    );
+    if (!ok) return;
+    if (supabase) {
+      const { error } = await supabase.from("rounds").delete().eq("id", roundId);
+      if (error) {
+        console.error("Supabase delete failed:", error);
+        setStatus("Erreur lors de la suppression");
+        return;
+      }
+    }
+    resetToBlankRound();
+    const url = new URL(window.location.href);
+    url.searchParams.delete("id");
+    url.searchParams.set("golf", golf.id);
+    window.history.replaceState({}, "", url);
+    setStatus("");
+    renderPlayers();
+    renderTable();
+    shareBtn.disabled = true;
+    deleteBtn.disabled = true;
+  });
+
+  function applyRoundData(data) {
+    golf = golfIndex.get(data.golf_id) || null;
+    holes = Array.isArray(data.holes) && data.holes.length ? data.holes : buildDefaultHoles(18, data.golf_id);
+    players = (data.players || []).map((p) => p.name).slice(0, MAX_PLAYERS);
+    if (players.length === 0) players = ["Joueur 1"];
+    scores = data.scores || {};
+  }
+
+  function resetToBlankRound() {
+    roundId = null;
+    players = ["Joueur 1"];
+    scores = {};
+    if (golf) {
+      const count = golf.holes === 9 ? 9 : 18;
+      holes = buildDefaultHoles(count, golf.id);
+    }
+  }
+
   async function init() {
     loadRoster();
     if (roundId && supabase) {
       const { data, error } = await supabase.from("rounds").select("*").eq("id", roundId).maybeSingle();
       if (!error && data) {
-        golf = golfIndex.get(data.golf_id) || null;
-        holes = Array.isArray(data.holes) && data.holes.length ? data.holes : buildDefaultHoles(18, data.golf_id);
-        players = (data.players || []).map((p) => p.name).slice(0, MAX_PLAYERS);
-        if (players.length === 0) players = ["Joueur 1"];
-        scores = data.scores || {};
+        applyRoundData(data);
       } else {
         roundId = null;
       }
@@ -378,7 +441,19 @@
     if (!golf) {
       const golfId = params.get("golf");
       golf = golfId ? golfIndex.get(golfId) : null;
-      if (golf) {
+
+      // Une seule carte de référence par golf : si une carte existe déjà pour ce golf,
+      // on la recharge au lieu d'en proposer une neuve.
+      if (golf && supabase) {
+        const { data } = await supabase.from("rounds").select("*").eq("golf_id", golf.id).maybeSingle();
+        if (data) {
+          roundId = data.id;
+          applyRoundData(data);
+          setRoundIdInUrl(roundId);
+        }
+      }
+
+      if (golf && !roundId) {
         const count = golf.holes === 9 ? 9 : 18;
         holes = buildDefaultHoles(count, golf.id);
       }

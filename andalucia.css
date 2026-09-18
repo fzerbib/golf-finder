@@ -292,3 +292,25 @@
 .roster-chip-remove:hover {
   color: var(--sand);
 }
+
+.danger-btn {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 7px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--sand);
+  background: var(--sand-soft);
+  color: var(--sand);
+  cursor: pointer;
+}
+
+.danger-btn:hover:not(:disabled) {
+  background: var(--sand);
+  color: var(--surface);
+}
+
+.danger-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
