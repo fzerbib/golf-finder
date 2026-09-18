@@ -242,3 +242,53 @@
   outline: 2px solid var(--accent);
   border-radius: 4px;
 }
+
+.roster-label {
+  font-size: 0.76rem;
+  color: var(--ink-muted);
+  margin: 14px 0 8px;
+}
+
+.roster-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.roster-chip-label {
+  font-family: var(--font-mono);
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 0.78rem;
+  padding: 6px 4px 6px 10px;
+  border: none;
+  background: transparent;
+  color: var(--accent-strong);
+  cursor: pointer;
+}
+
+.roster-chip-label:disabled {
+  color: var(--ink-muted);
+  cursor: default;
+}
+
+.roster-chip.is-added {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+}
+
+.roster-chip-remove {
+  border: none;
+  background: transparent;
+  color: var(--ink-muted);
+  font-size: 0.9rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 4px 8px 4px 2px;
+}
+
+.roster-chip-remove:hover {
+  color: var(--sand);
+}

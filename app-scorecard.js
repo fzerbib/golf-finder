@@ -21,6 +21,7 @@
   const tableEl = document.getElementById("score-table");
   const shareBtn = document.getElementById("share-round");
   const statusEl = document.getElementById("save-status");
+  const rosterChipsEl = document.getElementById("roster-chips");
 
   const golfIndex = new Map((typeof GOLF_DATA !== "undefined" ? GOLF_DATA : []).map((g) => [g.id, g]));
 
@@ -31,6 +32,100 @@
   let holes = [];
   let scores = {}; // { "<hole number>": [score, score, ...] }
   let saveTimer = null;
+
+  // --- Liste de joueurs enregistrés (persistée une fois, réutilisable sur toutes les
+  // cartes de score, indépendante des joueurs propres à chaque carte) ---
+  let roster = [];
+  let rosterId = null;
+
+  async function loadRoster() {
+    if (!supabase) return;
+    const { data, error } = await supabase
+      .from("player_roster")
+      .select("id, names")
+      .order("updated_at", { ascending: true })
+      .limit(1)
+      .maybeSingle();
+    if (error) {
+      console.error("Supabase roster load failed:", error);
+      return;
+    }
+    if (data) {
+      rosterId = data.id;
+      roster = data.names || [];
+    } else {
+      const { data: created, error: insertError } = await supabase
+        .from("player_roster")
+        .insert({ names: [] })
+        .select("id, names")
+        .single();
+      if (!insertError) {
+        rosterId = created.id;
+        roster = created.names || [];
+      }
+    }
+    renderRoster();
+  }
+
+  async function saveRoster() {
+    if (!supabase || !rosterId) return;
+    await supabase.from("player_roster").update({ names: roster, updated_at: new Date().toISOString() }).eq("id", rosterId);
+  }
+
+  function addToRoster(name) {
+    const trimmed = name.trim();
+    if (!trimmed || /^Joueur \d+$/.test(trimmed)) return;
+    if (roster.some((n) => n.toLowerCase() === trimmed.toLowerCase())) return;
+    roster.push(trimmed);
+    renderRoster();
+    saveRoster();
+  }
+
+  function removeFromRoster(name) {
+    roster = roster.filter((n) => n !== name);
+    renderRoster();
+    saveRoster();
+  }
+
+  function renderRoster() {
+    if (!rosterChipsEl) return;
+    rosterChipsEl.innerHTML = "";
+    roster.forEach((name) => {
+      const chip = document.createElement("span");
+      const alreadyInRound = players.includes(name);
+      chip.className = `chip roster-chip${alreadyInRound ? " is-added" : ""}`;
+
+      const label = document.createElement("button");
+      label.type = "button";
+      label.className = "roster-chip-label";
+      label.textContent = name;
+      label.disabled = alreadyInRound || players.length >= MAX_PLAYERS;
+      label.addEventListener("click", () => {
+        const emptySlot = players.findIndex((p) => /^Joueur \d+$/.test(p));
+        if (emptySlot !== -1) {
+          players[emptySlot] = name;
+        } else if (players.length < MAX_PLAYERS) {
+          players.push(name);
+        } else {
+          return;
+        }
+        renderPlayers();
+        renderTable();
+        renderRoster();
+        scheduleSave();
+      });
+
+      const removeBtn = document.createElement("button");
+      removeBtn.type = "button";
+      removeBtn.className = "roster-chip-remove";
+      removeBtn.textContent = "×";
+      removeBtn.setAttribute("aria-label", `Oublier ${name} de la liste enregistrée`);
+      removeBtn.addEventListener("click", () => removeFromRoster(name));
+
+      chip.append(label, removeBtn);
+      rosterChipsEl.appendChild(chip);
+    });
+  }
 
   function buildDefaultHoles(count, golfId) {
     const ref = (typeof HOLES_DATA !== "undefined" && HOLES_DATA[golfId]) || [];
@@ -104,6 +199,7 @@
         renderTableHeaderNamesOnly();
         scheduleSave();
       });
+      input.addEventListener("blur", () => addToRoster(input.value));
       row.appendChild(input);
       if (players.length > 1) {
         const removeBtn = document.createElement("button");
@@ -118,12 +214,14 @@
           });
           renderPlayers();
           renderTable();
+          renderRoster();
           scheduleSave();
         });
         row.appendChild(removeBtn);
       }
       playerListEl.appendChild(row);
     });
+    renderRoster();
   }
 
   function renderTableHeaderNamesOnly() {
@@ -263,6 +361,7 @@
   });
 
   async function init() {
+    loadRoster();
     if (roundId && supabase) {
       const { data, error } = await supabase.from("rounds").select("*").eq("id", roundId).maybeSingle();
       if (!error && data) {
