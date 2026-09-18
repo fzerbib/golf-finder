@@ -179,3 +179,66 @@
   opacity: 0.5;
   cursor: not-allowed;
 }
+
+.scorecard-link {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--accent-strong);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.scorecard-link:hover {
+  text-decoration: underline;
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+.score-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  min-width: 480px;
+}
+
+.score-table th,
+.score-table td {
+  border: 1px solid var(--line);
+  padding: 6px 8px;
+  text-align: center;
+}
+
+.score-table thead th {
+  background: var(--surface-2);
+  color: var(--ink-muted);
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.score-table tfoot td {
+  background: var(--accent-soft);
+  font-weight: 700;
+  color: var(--accent-strong);
+}
+
+.score-table input.score-input {
+  width: 3.2em;
+  text-align: center;
+  border: none;
+  background: transparent;
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  color: var(--ink);
+}
+
+.score-table input.score-input:focus {
+  outline: 2px solid var(--accent);
+  border-radius: 4px;
+}

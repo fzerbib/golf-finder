@@ -126,6 +126,11 @@
       });
       daySelect.addEventListener("change", () => setDay(it.id, daySelect.value));
 
+      const scorecardLink = document.createElement("a");
+      scorecardLink.className = "scorecard-link";
+      scorecardLink.href = `scorecard.html?golf=${encodeURIComponent(it.id)}`;
+      scorecardLink.textContent = "Carte de score";
+
       const removeBtn = document.createElement("button");
       removeBtn.type = "button";
       removeBtn.className = "selection-remove";
@@ -133,7 +138,7 @@
       removeBtn.setAttribute("aria-label", `Retirer ${golf ? golf.name : "ce golf"}`);
       removeBtn.addEventListener("click", () => removeGolf(it.id));
 
-      row.append(name, daySelect, removeBtn);
+      row.append(name, daySelect, scorecardLink, removeBtn);
       listEl.appendChild(row);
     });
 

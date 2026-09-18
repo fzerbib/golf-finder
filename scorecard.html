@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carte de score</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="andalucia.css">
+</head>
+<body>
+<div class="page">
+  <header class="header">
+    <p class="eyebrow">Carte de score</p>
+    <h1>⛳ <span id="golf-name">Carte de score</span></h1>
+    <p class="subtitle" id="golf-location"></p>
+  </header>
+
+  <nav class="page-nav">
+    <a href="index.html">Fairway Finder (liste)</a>
+    <a href="carte.html">Carte France &amp; Espagne</a>
+    <a href="andalucia.html">Carte Andalousie</a>
+  </nav>
+
+  <p id="not-found" class="empty-state" hidden>
+    Golf introuvable. Ouvre cette page depuis le bouton « Créer une carte de score » de
+    « Ma sélection » sur la carte, ou via un lien de carte de score déjà partagé.
+  </p>
+
+  <div id="scorecard-app" hidden>
+    <section class="selection-panel">
+      <div class="selection-header">
+        <h2>Joueurs <span id="player-count" class="selection-count">0/6</span></h2>
+        <button id="add-player" type="button" class="selection-share-btn">+ Ajouter un joueur</button>
+      </div>
+      <ul id="player-list" class="selection-list"></ul>
+    </section>
+
+    <div class="map-wrap">
+      <div class="table-scroll">
+        <table id="score-table" class="score-table"></table>
+      </div>
+    </div>
+
+    <div class="selection-header" style="margin: 0 0 20px;">
+      <button id="share-round" type="button" class="selection-share-btn" disabled>Copier le lien à partager</button>
+      <span id="save-status" class="selection-count"></span>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>
+      Par et index de handicap pré-remplis depuis OpenStreetMap quand disponibles (licence
+      <a href="https://opendatacommons.org/licenses/odbl/" target="_blank" rel="noopener noreferrer">ODbL</a>) —
+      la couverture est partielle, complète ou corrige librement chaque trou si besoin.
+    </p>
+  </footer>
+</div>
+
+<script src="data/golfs.js"></script>
+<script src="data/holes.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="app-scorecard.js"></script>
+</body>
+</html>

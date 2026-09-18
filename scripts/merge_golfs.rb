@@ -188,6 +188,7 @@ header = <<~JS
 JS
 
 File.write("data/golfs.js", header)
+File.write("data/golfs.json", JSON.pretty_generate(records))
 verified_count = records.count { |r| r["verified"] }
 puts "Total golfs: #{records.length} (#{verified_count} vérifiés avec green fee/slope, #{records.length - verified_count} listés via OpenStreetMap sans tarif)"
-puts "Written to data/golfs.js"
+puts "Written to data/golfs.js (+ data/golfs.json for other scripts to consume)"
