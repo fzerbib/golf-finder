@@ -57,16 +57,55 @@
       .trim();
   }
 
+  function levenshtein(a, b) {
+    const m = a.length;
+    const n = b.length;
+    if (m === 0) return n;
+    if (n === 0) return m;
+    let prev = Array.from({ length: n + 1 }, (_, j) => j);
+    for (let i = 1; i <= m; i++) {
+      const cur = [i];
+      for (let j = 1; j <= n; j++) {
+        cur[j] =
+          a[i - 1] === b[j - 1]
+            ? prev[j - 1]
+            : 1 + Math.min(prev[j - 1], prev[j], cur[j - 1]);
+      }
+      prev = cur;
+    }
+    return prev[n];
+  }
+
+  function fuzzyThreshold(len) {
+    if (len <= 4) return 0;
+    if (len <= 7) return 1;
+    return 2;
+  }
+
   function matches(golf, query) {
     if (!query) return true;
-    const haystacks = [
+    const fields = [
       golf.region,
       golf.country,
       golf.city,
       golf.name,
       ...(REGION_ALIASES[golf.region] || [])
-    ].map(normalize);
-    return haystacks.some((h) => h.includes(query));
+    ];
+    const normFields = fields.map(normalize);
+    if (normFields.some((f) => f.includes(query))) return true;
+
+    // Fuzzy fallback: tolerate small typos (1-2 letters) word by word, so a
+    // misspelled search ("Valderama" for "Valderrama") still finds a match.
+    const queryWords = query.split(/\s+/).filter(Boolean);
+    if (queryWords.length === 0) return false;
+    const haystackWords = normFields.flatMap((f) => f.split(/[^a-z0-9]+/).filter(Boolean));
+    return queryWords.every((qw) =>
+      haystackWords.some((hw) => {
+        if (hw.includes(qw)) return true;
+        const threshold = fuzzyThreshold(qw.length);
+        return threshold > 0 && Math.abs(hw.length - qw.length) <= threshold && levenshtein(hw, qw) <= threshold;
+      })
+    );
   }
 
   function formatGreenFee(fee) {
