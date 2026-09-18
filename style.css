@@ -73,6 +73,33 @@ body {
   margin-bottom: 32px;
 }
 
+.page-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  margin: 0 0 24px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.page-nav a {
+  color: var(--ink-muted);
+  text-decoration: none;
+}
+
+.page-nav a:hover {
+  color: var(--accent-strong);
+  text-decoration: underline;
+}
+
+.page-nav a[aria-current="page"] {
+  color: var(--accent-strong);
+  font-weight: 600;
+}
+
 .eyebrow {
   font-family: var(--font-mono);
   text-transform: uppercase;
