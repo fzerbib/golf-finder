@@ -13,6 +13,17 @@ def normalize(s)
    .strip
 end
 
+# Stable identifier for a golf, independent of array position or dataset
+# regeneration: OSM's own element id when known (won't change between fetches),
+# else a slug of the name (only for the rare curated entry with no OSM match).
+def stable_id(record)
+  if record["osmType"] && record["osmId"]
+    "#{record["osmType"]}-#{record["osmId"]}"
+  else
+    "slug-#{normalize(record["name"]).gsub(" ", "-")}"
+  end
+end
+
 # name -> [alias substrings used to find the matching OSM record(s)]
 CURATED_ALIASES = {
   "Le Golf National" => ["golf national"],
@@ -60,6 +71,7 @@ curated.each do |c|
   if candidate
     matched_osm_ids[candidate.object_id] = true
     records << {
+      "id" => stable_id(candidate),
       "name" => candidate["name"],
       "country" => candidate["country"],
       "region" => candidate["region"],
@@ -79,6 +91,7 @@ curated.each do |c|
   else
     warn "! No OSM match found for curated entry: #{c["name"]} (#{c["country"]}) - kept standalone"
     records << {
+      "id" => stable_id(c),
       "name" => c["name"],
       "country" => c["country"],
       "region" => nil,
@@ -101,6 +114,7 @@ end
 osm.each do |o|
   next if matched_osm_ids[o.object_id]
   records << {
+    "id" => stable_id(o),
     "name" => o["name"],
     "country" => o["country"],
     "region" => o["region"],
@@ -133,6 +147,7 @@ js_records = records.map do |r|
   fee = r["greenFee"] || { "low" => nil, "high" => nil, "currency" => "EUR" }
   <<~JS.strip
     {
+        id: #{js_string(r["id"])},
         name: #{js_string(r["name"])},
         country: #{js_string(r["country"])},
         region: #{js_string(r["region"])},

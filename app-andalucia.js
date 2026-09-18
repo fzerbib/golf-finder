@@ -43,7 +43,7 @@
     const province = nearestProvince(g.lat, g.lon);
     const zoneTags = [];
     if (g.lat != null && inMarbellaZone(g.lat, g.lon)) zoneTags.push("costa del sol", "marbella");
-    return Object.assign({}, g, { _id: `g${i}`, province, zoneTags });
+    return Object.assign({}, g, { province, zoneTags });
   });
 
   function normalize(str) {
@@ -125,7 +125,7 @@
   function cardTemplate(golf) {
     const card = document.createElement("article");
     card.className = "card";
-    card.id = `card-${golf._id}`;
+    card.id = `card-${golf.id}`;
 
     const badge = document.createElement("span");
     badge.className = golf.verified ? "badge badge-verified" : "badge badge-unverified";
@@ -177,7 +177,7 @@
     link.rel = "noopener noreferrer";
     card.appendChild(link);
 
-    card.addEventListener("mouseenter", () => setActiveDot(golf._id));
+    card.addEventListener("mouseenter", () => setActiveDot(golf.id));
     card.addEventListener("mouseleave", () => setActiveDot(null));
 
     return card;
@@ -231,7 +231,7 @@
       `<strong>${golf.name}</strong>${fee ? ` · ${fee}` : ""}${golf.slope != null ? ` · slope ${golf.slope}` : ""}`
     );
     marker.on("click", () => {
-      const card = document.getElementById(`card-${golf._id}`);
+      const card = document.getElementById(`card-${golf.id}`);
       if (card) {
         card.scrollIntoView({ behavior: "smooth", block: "center" });
         card.classList.add("is-highlighted");
@@ -239,7 +239,7 @@
       }
     });
     marker.addTo(map);
-    markers.set(golf._id, marker);
+    markers.set(golf.id, marker);
   });
 
   const FULL_BOUNDS = L.latLngBounds(allLatLngs);
@@ -270,7 +270,7 @@
     clearBtn.hidden = query.length === 0;
 
     const filtered = ANDALUSIA.filter((g) => matches(g, query));
-    const visibleIds = new Set(filtered.map((g) => g._id));
+    const visibleIds = new Set(filtered.map((g) => g.id));
 
     updateMarkers(visibleIds);
     zoomToSelection(query ? filtered : ANDALUSIA);

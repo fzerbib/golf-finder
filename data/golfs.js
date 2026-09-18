@@ -14,6 +14,7 @@
 // slope/courseRating/greenFee/note/lastChecked, puis passer verified à true.
 const GOLF_DATA = [
   {
+    id: "node-12015146026",
     name: "Aguilón Golf",
     country: "Espagne",
     region: "Andalousie",
@@ -31,6 +32,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-631135335",
     name: "Aguilón Golf",
     country: "Espagne",
     region: "Andalousie",
@@ -48,6 +50,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-291682603",
     name: "Alcadeisa Links",
     country: "Espagne",
     region: "Andalousie",
@@ -65,6 +68,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3873410",
     name: "Alcaidesa Links Golf Resort",
     country: "Espagne",
     region: "Andalousie",
@@ -82,6 +86,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3300452",
     name: "Alferini Golf",
     country: "Espagne",
     region: "Andalousie",
@@ -99,6 +104,7 @@ const GOLF_DATA = [
     lastChecked: "2026-09-17"
   },
   {
+    id: "relation-3308783",
     name: "Alhaurin Golf",
     country: "Espagne",
     region: "Andalousie",
@@ -116,6 +122,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3198971",
     name: "Almenara Golf Resort",
     country: "Espagne",
     region: "Andalousie",
@@ -133,6 +140,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3300116",
     name: "Antequera Golf",
     country: "Espagne",
     region: "Andalousie",
@@ -150,6 +158,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-631134701",
     name: "Arcos Gardens Golf Club",
     country: "Espagne",
     region: "Andalousie",
@@ -167,6 +176,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3300476",
     name: "Atalaya Golf & Country Club",
     country: "Espagne",
     region: "Andalousie",
@@ -184,6 +194,7 @@ const GOLF_DATA = [
     lastChecked: "2026-09-17"
   },
   {
+    id: "way-1155438104",
     name: "Azata Golf",
     country: "Espagne",
     region: "Andalousie",
@@ -201,6 +212,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1155438103",
     name: "Azata Golf",
     country: "Espagne",
     region: "Andalousie",
@@ -218,6 +230,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3310202",
     name: "Añoreta Golf",
     country: "Espagne",
     region: "Andalousie",
@@ -235,6 +248,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-319147500",
     name: "Barceló Montecastillo Golf",
     country: "Espagne",
     region: "Andalousie",
@@ -252,6 +266,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-976038708",
     name: "Benalup",
     country: "Espagne",
     region: "Andalousie",
@@ -269,6 +284,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3301393",
     name: "Bil Bil Pitch & Putt",
     country: "Espagne",
     region: "Andalousie",
@@ -286,6 +302,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-172434912",
     name: "Cabopino golf",
     country: "Espagne",
     region: "Andalousie",
@@ -303,6 +320,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-16378288",
     name: "Calanova Golf Club",
     country: "Espagne",
     region: "Andalousie",
@@ -320,6 +338,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-170984725",
     name: "Campo América",
     country: "Espagne",
     region: "Andalousie",
@@ -337,6 +356,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-343672934",
     name: "Campo Asia",
     country: "Espagne",
     region: "Andalousie",
@@ -354,6 +374,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-170989070",
     name: "Campo Europa",
     country: "Espagne",
     region: "Andalousie",
@@ -371,6 +392,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-172222354",
     name: "Campo Los Lagos",
     country: "Espagne",
     region: "Andalousie",
@@ -388,6 +410,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-244709315",
     name: "Campo Los Olivos",
     country: "Espagne",
     region: "Andalousie",
@@ -405,6 +428,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-52868185",
     name: "Campo de Golf Campano",
     country: "Espagne",
     region: "Andalousie",
@@ -422,6 +446,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-180595723",
     name: "Campo de Golf Isla Canela Links by Isla Canela",
     country: "Espagne",
     region: "Andalousie",
@@ -439,6 +464,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-281634367",
     name: "Campo de Golf Miguel Ángel Jiménez",
     country: "Espagne",
     region: "Andalousie",
@@ -456,6 +482,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3299743",
     name: "Campo de Golf Río Real",
     country: "Espagne",
     region: "Andalousie",
@@ -473,6 +500,7 @@ const GOLF_DATA = [
     lastChecked: "2026-09-17"
   },
   {
+    id: "way-488915399",
     name: "Campo de Golf de Pineda",
     country: "Espagne",
     region: "Andalousie",
@@ -490,6 +518,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-172433462",
     name: "Cerrado del Aguila Golf",
     country: "Espagne",
     region: "Andalousie",
@@ -507,6 +536,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3298654",
     name: "Club Zaudín Golf",
     country: "Espagne",
     region: "Andalousie",
@@ -524,6 +554,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-435501108",
     name: "Club de Golf \"Hato Verde\"",
     country: "Espagne",
     region: "Andalousie",
@@ -541,6 +572,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-435455533",
     name: "Club de Golf \"Hato Verde\"",
     country: "Espagne",
     region: "Andalousie",
@@ -558,6 +590,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-1402560",
     name: "Club de Golf Aloha",
     country: "Espagne",
     region: "Andalousie",
@@ -575,6 +608,7 @@ const GOLF_DATA = [
     lastChecked: "2026-09-17"
   },
   {
+    id: "way-229521358",
     name: "Club de Golf Bellavista",
     country: "Espagne",
     region: "Andalousie",
@@ -592,6 +626,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-2167551989",
     name: "Club de Golf Corta Atalaya",
     country: "Espagne",
     region: "Andalousie",
@@ -609,6 +644,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-8238880",
     name: "Club de Golf El Candado",
     country: "Espagne",
     region: "Andalousie",
@@ -626,6 +662,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-188317272",
     name: "Club de Golf El Coto de la Serena",
     country: "Espagne",
     region: "Andalousie",
@@ -643,6 +680,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-105294806",
     name: "Club de Golf La Cañada",
     country: "Espagne",
     region: "Andalousie",
@@ -660,6 +698,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-3043908803",
     name: "Club de Golf La Garza",
     country: "Espagne",
     region: "Andalousie",
@@ -677,6 +716,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-60046149",
     name: "Club de Golf Málaga Parador",
     country: "Espagne",
     region: "Andalousie",
@@ -694,6 +734,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-52495324",
     name: "Club de Golf Novo Sancti Petri",
     country: "Espagne",
     region: "Andalousie",
@@ -711,6 +752,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-276501588",
     name: "Club de Golf Novo Sancti Petri",
     country: "Espagne",
     region: "Andalousie",
@@ -728,6 +770,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-276501587",
     name: "Club de Golf Novo Sancti Petri",
     country: "Espagne",
     region: "Andalousie",
@@ -745,6 +788,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-52095387",
     name: "Club de Golf Novo Sancti Petri",
     country: "Espagne",
     region: "Andalousie",
@@ -762,6 +806,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-84845103",
     name: "Club de Golf Novo Sancti Petri",
     country: "Espagne",
     region: "Andalousie",
@@ -779,6 +824,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-84845101",
     name: "Club de Golf Novo Sancti Petri",
     country: "Espagne",
     region: "Andalousie",
@@ -796,6 +842,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-276501591",
     name: "Club de Golf Novo Sancti Petri",
     country: "Espagne",
     region: "Andalousie",
@@ -813,6 +860,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-276501590",
     name: "Club de Golf Novo Sancti Petri",
     country: "Espagne",
     region: "Andalousie",
@@ -830,6 +878,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-276501589",
     name: "Club de Golf Novo Sancti Petri",
     country: "Espagne",
     region: "Andalousie",
@@ -847,6 +896,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-2501899",
     name: "Club de Golf Playa Serena",
     country: "Espagne",
     region: "Andalousie",
@@ -864,6 +914,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-249806802",
     name: "Club de Golf Pozoblanco",
     country: "Espagne",
     region: "Andalousie",
@@ -881,6 +932,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-237391513",
     name: "Club de Golf Valderrama",
     country: "Espagne",
     region: "Andalousie",
@@ -898,6 +950,7 @@ const GOLF_DATA = [
     lastChecked: "2026-09-17"
   },
   {
+    id: "way-175483665",
     name: "Club de Golf de Guadalhorce",
     country: "Espagne",
     region: "Andalousie",
@@ -915,6 +968,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-258452874",
     name: "Cortijo Grande",
     country: "Espagne",
     region: "Andalousie",
@@ -932,6 +986,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3302571",
     name: "Costa Ballena Ocean Golf Club",
     country: "Espagne",
     region: "Andalousie",
@@ -949,6 +1004,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3301112",
     name: "Course A",
     country: "Espagne",
     region: "Andalousie",
@@ -966,6 +1022,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3301113",
     name: "Course B",
     country: "Espagne",
     region: "Andalousie",
@@ -983,6 +1040,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-253154773",
     name: "Desert Springs Golf Club",
     country: "Espagne",
     region: "Andalousie",
@@ -1000,6 +1058,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-187380304",
     name: "Doña Julia",
     country: "Espagne",
     region: "Andalousie",
@@ -1017,6 +1076,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-2523808",
     name: "Doña Julia Golf Club",
     country: "Espagne",
     region: "Andalousie",
@@ -1034,6 +1094,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1326459174",
     name: "Doña Julia parte alta",
     country: "Espagne",
     region: "Andalousie",
@@ -1051,6 +1112,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-244155660",
     name: "Driving Range / German Golf Academy",
     country: "Espagne",
     region: "Andalousie",
@@ -1068,6 +1130,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-244109824",
     name: "El Campanario Golf Course",
     country: "Espagne",
     region: "Andalousie",
@@ -1085,6 +1148,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-172432255",
     name: "El Chaparral Golf Club",
     country: "Espagne",
     region: "Andalousie",
@@ -1102,6 +1166,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-186098955",
     name: "El Higueral Golf",
     country: "Espagne",
     region: "Andalousie",
@@ -1119,6 +1184,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-320834796",
     name: "El Paraiso Golf Clubhouse",
     country: "Espagne",
     region: "Andalousie",
@@ -1136,6 +1202,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-147409088",
     name: "El Paraíso Golf Club",
     country: "Espagne",
     region: "Andalousie",
@@ -1153,6 +1220,7 @@ const GOLF_DATA = [
     lastChecked: "2026-09-17"
   },
   {
+    id: "way-170785539",
     name: "El Soto Golf",
     country: "Espagne",
     region: "Andalousie",
@@ -1170,6 +1238,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-1690176",
     name: "Escuela Pública de Golf El Toyo",
     country: "Espagne",
     region: "Andalousie",
@@ -1187,6 +1256,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-102882432",
     name: "Escuela Pública de Golf La Cartuja",
     country: "Espagne",
     region: "Andalousie",
@@ -1204,6 +1274,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-244048306",
     name: "Estepona Golf",
     country: "Espagne",
     region: "Andalousie",
@@ -1221,6 +1292,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-139728265",
     name: "Flamingos Golf",
     country: "Espagne",
     region: "Andalousie",
@@ -1238,6 +1310,7 @@ const GOLF_DATA = [
     lastChecked: "2026-09-17"
   },
   {
+    id: "way-222531220",
     name: "Golf Academy Albayt Resort",
     country: "Espagne",
     region: "Andalousie",
@@ -1255,6 +1328,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-167071648",
     name: "Golf Benalmadena Pitch& Putt",
     country: "Espagne",
     region: "Andalousie",
@@ -1272,6 +1346,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3323996",
     name: "Golf Course Almerimar",
     country: "Espagne",
     region: "Andalousie",
@@ -1289,6 +1364,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-153946662",
     name: "Golf Córdoba",
     country: "Espagne",
     region: "Andalousie",
@@ -1306,6 +1382,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3298747",
     name: "Golf El Puerto",
     country: "Espagne",
     region: "Andalousie",
@@ -1323,6 +1400,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-222133571",
     name: "Golf El Rompido - Campo Norte",
     country: "Espagne",
     region: "Andalousie",
@@ -1340,6 +1418,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-223150371",
     name: "Golf El Rompido - Campo Sur",
     country: "Espagne",
     region: "Andalousie",
@@ -1357,6 +1436,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3299762",
     name: "Golf La Dama de Noche",
     country: "Espagne",
     region: "Andalousie",
@@ -1374,6 +1454,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-729640031",
     name: "Golf La Estancia",
     country: "Espagne",
     region: "Andalousie",
@@ -1391,6 +1472,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-226069291",
     name: "Golf Nuevo Portil",
     country: "Espagne",
     region: "Andalousie",
@@ -1408,6 +1490,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-1170115",
     name: "Golf Torrequebrada",
     country: "Espagne",
     region: "Andalousie",
@@ -1425,6 +1508,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-7091039",
     name: "Granada Club de Golf",
     country: "Espagne",
     region: "Andalousie",
@@ -1442,6 +1526,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-702311528",
     name: "Greenlife Golf Driving Range",
     country: "Espagne",
     region: "Andalousie",
@@ -1459,6 +1544,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-172444896",
     name: "Greenlife Golf Marbella",
     country: "Espagne",
     region: "Andalousie",
@@ -1476,6 +1562,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-154575700",
     name: "Isla Canela Golf Course",
     country: "Espagne",
     region: "Andalousie",
@@ -1493,6 +1580,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3296953",
     name: "Islantilla Golf Resort",
     country: "Espagne",
     region: "Andalousie",
@@ -1510,6 +1598,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3308721",
     name: "La Cala Resort",
     country: "Espagne",
     region: "Andalousie",
@@ -1527,6 +1616,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3299445",
     name: "La Duquesa Golf & Country Club",
     country: "Espagne",
     region: "Andalousie",
@@ -1544,6 +1634,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-37468184",
     name: "La Envía Golf",
     country: "Espagne",
     region: "Andalousie",
@@ -1561,6 +1652,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-291682602",
     name: "La Hacienda Links Golf Resort",
     country: "Espagne",
     region: "Andalousie",
@@ -1578,6 +1670,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1381917038",
     name: "La Monacilla",
     country: "Espagne",
     region: "Andalousie",
@@ -1595,6 +1688,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3296981",
     name: "La Monacilla Golf Club",
     country: "Espagne",
     region: "Andalousie",
@@ -1612,6 +1706,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-5450006",
     name: "La Noria Golf & Resort",
     country: "Espagne",
     region: "Andalousie",
@@ -1629,6 +1724,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3301126",
     name: "La Quinta Golf & Country Club",
     country: "Espagne",
     region: "Andalousie",
@@ -1646,6 +1742,7 @@ const GOLF_DATA = [
     lastChecked: "2026-09-17"
   },
   {
+    id: "way-237391514",
     name: "La Reserva Golf Club",
     country: "Espagne",
     region: "Andalousie",
@@ -1663,6 +1760,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3299682",
     name: "La Resina Golf & Country Club",
     country: "Espagne",
     region: "Andalousie",
@@ -1680,6 +1778,7 @@ const GOLF_DATA = [
     lastChecked: "2026-09-17"
   },
   {
+    id: "relation-16364140",
     name: "La Siesta Golf Calahonda",
     country: "Espagne",
     region: "Andalousie",
@@ -1697,6 +1796,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-244158078",
     name: "La Zagaleta Country Club - La Zagaleta Course",
     country: "Espagne",
     region: "Andalousie",
@@ -1714,6 +1814,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-2716680",
     name: "Las Minas Golf",
     country: "Espagne",
     region: "Andalousie",
@@ -1731,6 +1832,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-213412144",
     name: "Lauro Golf",
     country: "Espagne",
     region: "Andalousie",
@@ -1748,6 +1850,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-1725567",
     name: "Los Moriscos Club de Golf",
     country: "Espagne",
     region: "Andalousie",
@@ -1765,6 +1868,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3299800",
     name: "Los Naranjos Golf Club",
     country: "Espagne",
     region: "Andalousie",
@@ -1782,6 +1886,7 @@ const GOLF_DATA = [
     lastChecked: "2026-09-17"
   },
   {
+    id: "way-97681590",
     name: "Magna Marbella Golf",
     country: "Espagne",
     region: "Andalousie",
@@ -1799,6 +1904,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-139728266",
     name: "Marbella Club Golf Resort",
     country: "Espagne",
     region: "Andalousie",
@@ -1816,6 +1922,7 @@ const GOLF_DATA = [
     lastChecked: "2026-09-17"
   },
   {
+    id: "relation-3299714",
     name: "Marbella Golf Country Club",
     country: "Espagne",
     region: "Andalousie",
@@ -1833,6 +1940,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3324010",
     name: "Marina Golf Mojácar",
     country: "Espagne",
     region: "Andalousie",
@@ -1850,6 +1958,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-2297099",
     name: "Miraflores golf",
     country: "Espagne",
     region: "Andalousie",
@@ -1867,6 +1976,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-220296432",
     name: "Montenmedio Golf & Country Club",
     country: "Espagne",
     region: "Andalousie",
@@ -1884,6 +1994,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-170980184",
     name: "Par 3 Course",
     country: "Espagne",
     region: "Andalousie",
@@ -1901,6 +2012,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3300481",
     name: "Real Club de Golf Guadalmina",
     country: "Espagne",
     region: "Andalousie",
@@ -1918,6 +2030,7 @@ const GOLF_DATA = [
     lastChecked: "2026-09-17"
   },
   {
+    id: "way-97671239",
     name: "Real Club de Golf Las Brisas",
     country: "Espagne",
     region: "Andalousie",
@@ -1935,6 +2048,7 @@ const GOLF_DATA = [
     lastChecked: "2026-09-17"
   },
   {
+    id: "way-73922417",
     name: "Real Club de Golf de Sevilla",
     country: "Espagne",
     region: "Andalousie",
@@ -1952,6 +2066,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-258648125",
     name: "Real Club de Golf de Sotogrande",
     country: "Espagne",
     region: "Andalousie",
@@ -1969,6 +2084,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-16201357",
     name: "Rota Club de Golf",
     country: "Espagne",
     region: "Andalousie",
@@ -1986,6 +2102,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1554802239",
     name: "SAN ROQUE NEW COURSE",
     country: "Espagne",
     region: "Andalousie",
@@ -2003,6 +2120,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-237391517",
     name: "San Roque Club",
     country: "Espagne",
     region: "Andalousie",
@@ -2020,6 +2138,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3297010",
     name: "Sanlúcar Club de Golf",
     country: "Espagne",
     region: "Andalousie",
@@ -2037,6 +2156,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3299716",
     name: "Santa Clara Golf Club Marbella",
     country: "Espagne",
     region: "Andalousie",
@@ -2054,6 +2174,7 @@ const GOLF_DATA = [
     lastChecked: "2026-09-17"
   },
   {
+    id: "relation-3310266",
     name: "Santa Clara Golf Granada",
     country: "Espagne",
     region: "Andalousie",
@@ -2071,6 +2192,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-172443763",
     name: "Santa María Golf & Country Club",
     country: "Espagne",
     region: "Andalousie",
@@ -2088,6 +2210,7 @@ const GOLF_DATA = [
     lastChecked: "2026-09-17"
   },
   {
+    id: "way-171834521",
     name: "Santana Golf & Country Club",
     country: "Espagne",
     region: "Andalousie",
@@ -2105,6 +2228,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-297353455",
     name: "Sherry Golf Jerez",
     country: "Espagne",
     region: "Andalousie",
@@ -2122,6 +2246,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-243993148",
     name: "The Pine Trees",
     country: "Espagne",
     region: "Andalousie",
@@ -2139,6 +2264,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-12896175652",
     name: "The Range golf lessons",
     country: "Espagne",
     region: "Andalousie",
@@ -2156,6 +2282,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-244108926",
     name: "Tramores Golf",
     country: "Espagne",
     region: "Andalousie",
@@ -2173,6 +2300,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3299672",
     name: "Valle Romano Golf & Resort",
     country: "Espagne",
     region: "Andalousie",
@@ -2190,6 +2318,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3319413",
     name: "Valle del Este Golf Resort",
     country: "Espagne",
     region: "Andalousie",
@@ -2207,6 +2336,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-183417445",
     name: "Villa Nueva Golf Resort",
     country: "Espagne",
     region: "Andalousie",
@@ -2224,6 +2354,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-162444207",
     name: "Vista Hermosa Club de Golf",
     country: "Espagne",
     region: "Andalousie",
@@ -2241,6 +2372,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-255238604",
     name: "Arcosur Golf",
     country: "Espagne",
     region: "Aragon",
@@ -2258,6 +2390,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3330805",
     name: "Augusta Golf Calatayud",
     country: "Espagne",
     region: "Aragon",
@@ -2275,6 +2408,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-834733576",
     name: "Campo Municipal de Golf El Castillejo",
     country: "Espagne",
     region: "Aragon",
@@ -2292,6 +2426,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-965983888",
     name: "Campo de Golf Cinco Villas",
     country: "Espagne",
     region: "Aragon",
@@ -2309,6 +2444,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-38012566",
     name: "Club de Golf La Peñaza",
     country: "Espagne",
     region: "Aragon",
@@ -2326,6 +2462,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-287147431",
     name: "Golf de Guara",
     country: "Espagne",
     region: "Aragon",
@@ -2343,6 +2480,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-391775945",
     name: "International Club de Golf Jaca",
     country: "Espagne",
     region: "Aragon",
@@ -2360,6 +2498,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-54947290",
     name: "Las Ranillas urban golf",
     country: "Espagne",
     region: "Aragon",
@@ -2377,6 +2516,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-222799515",
     name: "Los Lagos Golf",
     country: "Espagne",
     region: "Aragon",
@@ -2394,6 +2534,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-317874478",
     name: "Margas Hotel & Golf",
     country: "Espagne",
     region: "Aragon",
@@ -2411,6 +2552,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-234588992",
     name: "Aldama Golf Pitch & Putt",
     country: "Espagne",
     region: "Asturies",
@@ -2428,6 +2570,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-21112883",
     name: "Campo Municipal La Llorea",
     country: "Espagne",
     region: "Asturies",
@@ -2445,6 +2588,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-1531451",
     name: "Campo Municipal de Golf El Tragamón",
     country: "Espagne",
     region: "Asturies",
@@ -2462,6 +2606,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-917882",
     name: "Campo Municipal de Golf de Las Caldas",
     country: "Espagne",
     region: "Asturies",
@@ -2479,6 +2624,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1435536213",
     name: "Campo de Golf Cierro Grande",
     country: "Espagne",
     region: "Asturies",
@@ -2496,6 +2642,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-129367423",
     name: "Campo de Golf La Morgal",
     country: "Espagne",
     region: "Asturies",
@@ -2513,6 +2660,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1435754383",
     name: "Campo de Golf de Castropol",
     country: "Espagne",
     region: "Asturies",
@@ -2530,6 +2678,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-44890650",
     name: "Campo de Golf de las Caldas",
     country: "Espagne",
     region: "Asturies",
@@ -2547,6 +2696,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-41479660",
     name: "Club de Golf La Cuesta Llanes",
     country: "Espagne",
     region: "Asturies",
@@ -2564,6 +2714,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-175353572",
     name: "Club de Golf de Castiello",
     country: "Espagne",
     region: "Asturies",
@@ -2581,6 +2732,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-556257235",
     name: "Deva Golf Pitch&Putt",
     country: "Espagne",
     region: "Asturies",
@@ -2598,6 +2750,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-392042540",
     name: "El Viso",
     country: "Espagne",
     region: "Asturies",
@@ -2615,6 +2768,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-36148089",
     name: "La Barganiza",
     country: "Espagne",
     region: "Asturies",
@@ -2632,6 +2786,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-381995172",
     name: "Los Balagares Golf",
     country: "Espagne",
     region: "Asturies",
@@ -2649,6 +2804,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-2397662828",
     name: "Rasa de Berbes",
     country: "Espagne",
     region: "Asturies",
@@ -2666,6 +2822,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-594184763",
     name: "Rasa de Berbes",
     country: "Espagne",
     region: "Asturies",
@@ -2683,6 +2840,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-39817579",
     name: "Villaviciosa Golf",
     country: "Espagne",
     region: "Asturies",
@@ -2700,6 +2858,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-1301223",
     name: "Abama Golf",
     country: "Espagne",
     region: "Canaries",
@@ -2717,6 +2876,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-2586907",
     name: "Amarilla Golf",
     country: "Espagne",
     region: "Canaries",
@@ -2734,6 +2894,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-437040736",
     name: "Anfi Tauro Golf",
     country: "Espagne",
     region: "Canaries",
@@ -2751,6 +2912,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-437179671",
     name: "Anfi Tauro Golf Academy & Par 3 Course",
     country: "Espagne",
     region: "Canaries",
@@ -2768,6 +2930,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-4523109",
     name: "Buenavista Golf",
     country: "Espagne",
     region: "Canaries",
@@ -2785,6 +2948,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-28530345",
     name: "Campo Los Lagos",
     country: "Espagne",
     region: "Canaries",
@@ -2802,6 +2966,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-28530242",
     name: "Campo Prácticas",
     country: "Espagne",
     region: "Canaries",
@@ -2819,6 +2984,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-95863856",
     name: "Campo de Golf La Rosaleda",
     country: "Espagne",
     region: "Canaries",
@@ -2836,6 +3002,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-104487804",
     name: "Centro de Golf Los Palos",
     country: "Espagne",
     region: "Canaries",
@@ -2853,6 +3020,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-17005425",
     name: "El Cortijo Golf Center",
     country: "Espagne",
     region: "Canaries",
@@ -2870,6 +3038,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-117331178",
     name: "Fuerteventura Golf Club",
     country: "Espagne",
     region: "Canaries",
@@ -2887,6 +3056,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-117329442",
     name: "Golf Club Salinas de Antigua",
     country: "Espagne",
     region: "Canaries",
@@ -2904,6 +3074,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-28530316",
     name: "Golf Costa Adeje",
     country: "Espagne",
     region: "Canaries",
@@ -2921,6 +3092,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1103404084",
     name: "Golf Costa Teguise",
     country: "Espagne",
     region: "Canaries",
@@ -2938,6 +3110,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-101504482",
     name: "Golf Resort Salobre Norte",
     country: "Espagne",
     region: "Canaries",
@@ -2955,6 +3128,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-101266766",
     name: "Golf Resort Salobre Sur",
     country: "Espagne",
     region: "Canaries",
@@ -2972,6 +3146,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-13107306",
     name: "Golf del Sur",
     country: "Espagne",
     region: "Canaries",
@@ -2989,6 +3164,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-4077462",
     name: "Golf las Américas",
     country: "Espagne",
     region: "Canaries",
@@ -3006,6 +3182,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-235062061",
     name: "Grand Hotel Callao Pitch & Putt",
     country: "Espagne",
     region: "Canaries",
@@ -3023,6 +3200,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-13347219",
     name: "Jandía Golf Course",
     country: "Espagne",
     region: "Canaries",
@@ -3040,6 +3218,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-182934084",
     name: "Lanzarote Golf Resort",
     country: "Espagne",
     region: "Canaries",
@@ -3057,6 +3236,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-37722356",
     name: "Las Palmeras Golf",
     country: "Espagne",
     region: "Canaries",
@@ -3074,6 +3254,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-4523052",
     name: "Lopesan Meloneras Golf",
     country: "Espagne",
     region: "Canaries",
@@ -3091,6 +3272,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-27509187",
     name: "Maspalomas Golf",
     country: "Espagne",
     region: "Canaries",
@@ -3108,6 +3290,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-207351918",
     name: "Mirador Lobos Golf",
     country: "Espagne",
     region: "Canaries",
@@ -3125,6 +3308,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-1627576",
     name: "Playitas Golf",
     country: "Espagne",
     region: "Canaries",
@@ -3142,6 +3326,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-138316442",
     name: "Real Club de Golf Las Palmas",
     country: "Espagne",
     region: "Canaries",
@@ -3159,6 +3344,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-1458990",
     name: "Real Club de Golf de Tenerife",
     country: "Espagne",
     region: "Canaries",
@@ -3176,6 +3362,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-750272988",
     name: "Tecina Golf",
     country: "Espagne",
     region: "Canaries",
@@ -3193,6 +3380,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-127838784",
     name: "Tecina Golf",
     country: "Espagne",
     region: "Canaries",
@@ -3210,6 +3398,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-56205383",
     name: "Campo de Golf Abra del Pas Celia Martín",
     country: "Espagne",
     region: "Cantabrie",
@@ -3227,6 +3416,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-169012698",
     name: "Campo de Golf Rovacías",
     country: "Espagne",
     region: "Cantabrie",
@@ -3244,6 +3434,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-69995736",
     name: "Campo de golf de Nestares",
     country: "Espagne",
     region: "Cantabrie",
@@ -3261,6 +3452,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-4924784",
     name: "Club de Golf Mataleñas",
     country: "Espagne",
     region: "Cantabrie",
@@ -3278,6 +3470,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-91454199",
     name: "Club de Golf Ramón Sota",
     country: "Espagne",
     region: "Cantabrie",
@@ -3295,6 +3488,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-7262202444",
     name: "Golf Santa Marina",
     country: "Espagne",
     region: "Cantabrie",
@@ -3312,6 +3506,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1239832583",
     name: "Golf Shangri-la",
     country: "Espagne",
     region: "Cantabrie",
@@ -3329,6 +3524,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-4746791195",
     name: "Hotel Milagros Golf",
     country: "Espagne",
     region: "Cantabrie",
@@ -3346,6 +3542,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-55617277",
     name: "La Junquera",
     country: "Espagne",
     region: "Cantabrie",
@@ -3363,6 +3560,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-110403161",
     name: "Noja Golf",
     country: "Espagne",
     region: "Cantabrie",
@@ -3380,6 +3578,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-111211595",
     name: "Real Golf Club Oyambre",
     country: "Espagne",
     region: "Cantabrie",
@@ -3397,6 +3596,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-111211597",
     name: "Real Golf Club Oyambre",
     country: "Espagne",
     region: "Cantabrie",
@@ -3414,6 +3614,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-55616756",
     name: "Real Golf de Pedreña",
     country: "Espagne",
     region: "Cantabrie",
@@ -3431,6 +3632,7 @@ const GOLF_DATA = [
     lastChecked: "2026-09-17"
   },
   {
+    id: "way-848050602",
     name: "Abedul Golf",
     country: "Espagne",
     region: "Castille-La Manche",
@@ -3448,6 +3650,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-81767316",
     name: "Cabanillas Golf Club",
     country: "Espagne",
     region: "Castille-La Manche",
@@ -3465,6 +3668,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-152345709",
     name: "Campo de Golf Las Pinaíllas",
     country: "Espagne",
     region: "Castille-La Manche",
@@ -3482,6 +3686,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-4452244",
     name: "Campo de Golf San Rafael (Club de Golf Tomelloso)",
     country: "Espagne",
     region: "Castille-La Manche",
@@ -3499,6 +3704,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-182585171",
     name: "Club de Golf Villar de Olalla",
     country: "Espagne",
     region: "Castille-La Manche",
@@ -3516,6 +3722,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1558352522",
     name: "Club de Talavera Pitch & Putt",
     country: "Espagne",
     region: "Castille-La Manche",
@@ -3533,6 +3740,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-626635874",
     name: "Golf Ciudad Real",
     country: "Espagne",
     region: "Castille-La Manche",
@@ -3550,6 +3758,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-245166763",
     name: "Golf Escalona (defunct!)",
     country: "Espagne",
     region: "Castille-La Manche",
@@ -3567,6 +3776,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-165325419",
     name: "Golf Municipal la Lagunilla",
     country: "Espagne",
     region: "Castille-La Manche",
@@ -3584,6 +3794,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-4244144",
     name: "Golf Valdeluz",
     country: "Espagne",
     region: "Castille-La Manche",
@@ -3601,6 +3812,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-6948242701",
     name: "Golf Valdeluz",
     country: "Espagne",
     region: "Castille-La Manche",
@@ -3618,6 +3830,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3380569",
     name: "Golf de Layos",
     country: "Espagne",
     region: "Castille-La Manche",
@@ -3635,6 +3848,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-165913033",
     name: "Palomarejos Golf",
     country: "Espagne",
     region: "Castille-La Manche",
@@ -3652,6 +3866,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3330823",
     name: "Señorío de Illescas Club de Golf",
     country: "Espagne",
     region: "Castille-La Manche",
@@ -3669,6 +3884,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-186499845",
     name: "Torrijos Golf - Campo de Golf Pablo Hernández",
     country: "Espagne",
     region: "Castille-La Manche",
@@ -3686,6 +3902,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-2181030956",
     name: "Aldeamayor Club de Golf",
     country: "Espagne",
     region: "Castille-et-León",
@@ -3703,6 +3920,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3326197",
     name: "Campo Municipal de Golf Isla Dos Aguas",
     country: "Espagne",
     region: "Castille-et-León",
@@ -3720,6 +3938,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1137630691",
     name: "Campo de Golf La Cerrallana",
     country: "Espagne",
     region: "Castille-et-León",
@@ -3737,6 +3956,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3332693",
     name: "Campo de Golf Los Ángeles de San Rafael",
     country: "Espagne",
     region: "Castille-et-León",
@@ -3754,6 +3974,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-881677881",
     name: "Campo de Golf Valdemazo",
     country: "Espagne",
     region: "Castille-et-León",
@@ -3771,6 +3992,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-11954359583",
     name: "Campo de Golf Villahabibi",
     country: "Espagne",
     region: "Castille-et-León",
@@ -3788,6 +4010,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-88347070",
     name: "Campo de Golf de Salamanca",
     country: "Espagne",
     region: "Castille-et-León",
@@ -3805,6 +4028,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-64014198",
     name: "Campo de Golf de San Miguel del Camino",
     country: "Espagne",
     region: "Castille-et-León",
@@ -3822,6 +4046,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1032802867",
     name: "Campo de Golf de Villarrín",
     country: "Espagne",
     region: "Castille-et-León",
@@ -3839,6 +4064,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1366385399",
     name: "Campo de golf Navagrulla",
     country: "Espagne",
     region: "Castille-et-León",
@@ -3856,6 +4082,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1278159609",
     name: "Campo de golf Villa de Cuéllar",
     country: "Espagne",
     region: "Castille-et-León",
@@ -3873,6 +4100,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-5084807529",
     name: "Club Deportivo Los Canchorrales",
     country: "Espagne",
     region: "Castille-et-León",
@@ -3890,6 +4118,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-286456967",
     name: "Club de Golf El Bierzo",
     country: "Espagne",
     region: "Castille-et-León",
@@ -3907,6 +4136,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-191554162",
     name: "Club de Golf El Espinar",
     country: "Espagne",
     region: "Castille-et-León",
@@ -3924,6 +4154,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-220559456",
     name: "Club de Golf Las Llanás",
     country: "Espagne",
     region: "Castille-et-León",
@@ -3941,6 +4172,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-289501778",
     name: "Club de Golf Navaluenga",
     country: "Espagne",
     region: "Castille-et-León",
@@ -3958,6 +4190,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1300786429",
     name: "Club de Golf Salas de los Infantes",
     country: "Espagne",
     region: "Castille-et-León",
@@ -3975,6 +4208,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-42116393",
     name: "Club de Golf Soria",
     country: "Espagne",
     region: "Castille-et-León",
@@ -3992,6 +4226,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3330776",
     name: "Club de Golf Villarias",
     country: "Espagne",
     region: "Castille-et-León",
@@ -4009,6 +4244,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1137630382",
     name: "El Maderal",
     country: "Espagne",
     region: "Castille-et-León",
@@ -4026,6 +4262,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-367865578",
     name: "Escuela Municipal de Golf",
     country: "Espagne",
     region: "Castille-et-León",
@@ -4043,6 +4280,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-55509875",
     name: "Escuela Municipal de Golf Los Ángeles de San Rafael",
     country: "Espagne",
     region: "Castille-et-León",
@@ -4060,6 +4298,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-552248250",
     name: "Escuela de Golf de Azadinos",
     country: "Espagne",
     region: "Castille-et-León",
@@ -4077,6 +4316,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-219467816",
     name: "Escuela de Golf de Miranda de Ebro",
     country: "Espagne",
     region: "Castille-et-León",
@@ -4094,6 +4334,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-275767012",
     name: "Golf Candeleda",
     country: "Espagne",
     region: "Castille-et-León",
@@ -4111,6 +4352,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-72885092",
     name: "Golf El Fresnillo",
     country: "Espagne",
     region: "Castille-et-León",
@@ -4128,6 +4370,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-183162314",
     name: "Golf Entrepinos",
     country: "Espagne",
     region: "Castille-et-León",
@@ -4145,6 +4388,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-87521371",
     name: "Golf Lerma",
     country: "Espagne",
     region: "Castille-et-León",
@@ -4162,6 +4406,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-12478721649",
     name: "Golf Rural",
     country: "Espagne",
     region: "Castille-et-León",
@@ -4179,6 +4424,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1080812406",
     name: "Golf Valderrey",
     country: "Espagne",
     region: "Castille-et-León",
@@ -4196,6 +4442,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3323987",
     name: "Golf Villa Mayor",
     country: "Espagne",
     region: "Castille-et-León",
@@ -4213,6 +4460,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1180046208",
     name: "Golf del Club de campo El Tiro",
     country: "Espagne",
     region: "Castille-et-León",
@@ -4230,6 +4478,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-162582465",
     name: "Grijota Golf",
     country: "Espagne",
     region: "Castille-et-León",
@@ -4247,6 +4496,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-129384371",
     name: "Izki Golf",
     country: "Espagne",
     region: "Castille-et-León",
@@ -4264,6 +4514,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-39507765",
     name: "La Almarza",
     country: "Espagne",
     region: "Castille-et-León",
@@ -4281,6 +4532,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-652069918",
     name: "La Dehesa de Morón",
     country: "Espagne",
     region: "Castille-et-León",
@@ -4298,6 +4550,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-20088113",
     name: "La Faisanera Golf Segovia",
     country: "Espagne",
     region: "Castille-et-León",
@@ -4315,6 +4568,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-190902682",
     name: "La Galera",
     country: "Espagne",
     region: "Castille-et-León",
@@ -4332,6 +4586,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-88347052",
     name: "La Valmuza Golf Resort",
     country: "Espagne",
     region: "Castille-et-León",
@@ -4349,6 +4604,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-87521367",
     name: "Riocerezo",
     country: "Espagne",
     region: "Castille-et-León",
@@ -4366,6 +4622,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-107825044",
     name: "Saldaña Golf",
     country: "Espagne",
     region: "Castille-et-León",
@@ -4383,6 +4640,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-120233234",
     name: "San Juan de Lechedo",
     country: "Espagne",
     region: "Castille-et-León",
@@ -4400,6 +4658,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-107435837",
     name: "Sotoverde Golf",
     country: "Espagne",
     region: "Castille-et-León",
@@ -4417,6 +4676,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-16848020",
     name: "Valdorros",
     country: "Espagne",
     region: "Castille-et-León",
@@ -4434,6 +4694,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3324419",
     name: "Bonmont Golf Course",
     country: "Espagne",
     region: "Catalogne",
@@ -4451,6 +4712,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-231355342",
     name: "BonÀrea Golf Pitch & Putt",
     country: "Espagne",
     region: "Catalogne",
@@ -4468,6 +4730,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-123335708",
     name: "Can Cuiàs Golf",
     country: "Espagne",
     region: "Catalogne",
@@ -4485,6 +4748,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-18628646",
     name: "Can Rafel 9 forats",
     country: "Espagne",
     region: "Catalogne",
@@ -4502,6 +4766,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-114329078",
     name: "Castell de Godmar Pitch & Putt",
     country: "Espagne",
     region: "Catalogne",
@@ -4519,6 +4784,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-223261702",
     name: "Centre de Golf El Vendrell",
     country: "Espagne",
     region: "Catalogne",
@@ -4536,6 +4802,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-184632979",
     name: "Club Golf d'Aro",
     country: "Espagne",
     region: "Catalogne",
@@ -4553,6 +4820,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-8399069",
     name: "Club de Golf Camprodon",
     country: "Espagne",
     region: "Catalogne",
@@ -4570,6 +4838,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-7146763",
     name: "Club de Golf Castellterçol",
     country: "Espagne",
     region: "Catalogne",
@@ -4587,6 +4856,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-268412621",
     name: "Club de Golf Costa Dorada",
     country: "Espagne",
     region: "Catalogne",
@@ -4604,6 +4874,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-223260889",
     name: "Club de Golf La Graiera-Calafell",
     country: "Espagne",
     region: "Catalogne",
@@ -4621,6 +4892,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-7117935",
     name: "Club de Golf La Mola",
     country: "Espagne",
     region: "Catalogne",
@@ -4638,6 +4910,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1373119713",
     name: "Club de Golf La Mola",
     country: "Espagne",
     region: "Catalogne",
@@ -4655,6 +4928,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-10264875",
     name: "Club de Golf La Roqueta",
     country: "Espagne",
     region: "Catalogne",
@@ -4672,6 +4946,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-172545406",
     name: "Club de Golf Llavaneres",
     country: "Espagne",
     region: "Catalogne",
@@ -4689,6 +4964,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-202666092",
     name: "Club de Golf Masia Bach",
     country: "Espagne",
     region: "Catalogne",
@@ -4706,6 +4982,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-6209591",
     name: "Club de Golf Montbrú-Moià",
     country: "Espagne",
     region: "Catalogne",
@@ -4723,6 +5000,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-10704119",
     name: "Club de Golf Port del Comte",
     country: "Espagne",
     region: "Catalogne",
@@ -4740,6 +5018,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-293290633",
     name: "Club de Golf Ribera Salada",
     country: "Espagne",
     region: "Catalogne",
@@ -4757,6 +5036,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3344592",
     name: "Club de Golf Terramar",
     country: "Espagne",
     region: "Catalogne",
@@ -4774,6 +5054,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-14613034",
     name: "Club de Golf Vallromanes",
     country: "Espagne",
     region: "Catalogne",
@@ -4791,6 +5072,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3330816",
     name: "Club de Golf de Sant Cugat",
     country: "Espagne",
     region: "Catalogne",
@@ -4808,6 +5090,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-6370687",
     name: "Club de golf Osona - Muntanyà - El Brull",
     country: "Espagne",
     region: "Catalogne",
@@ -4825,6 +5108,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-9351449",
     name: "Empordà Golf Club",
     country: "Espagne",
     region: "Catalogne",
@@ -4842,6 +5126,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-7566056",
     name: "Fontanals Golf",
     country: "Espagne",
     region: "Catalogne",
@@ -4859,6 +5144,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-714986444",
     name: "Gaudí Reus Golf Club",
     country: "Espagne",
     region: "Catalogne",
@@ -4876,6 +5162,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-14461588",
     name: "Golf Aravell",
     country: "Espagne",
     region: "Catalogne",
@@ -4893,6 +5180,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-142600230",
     name: "Golf Can Dragó",
     country: "Espagne",
     region: "Catalogne",
@@ -4910,6 +5198,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-179183087",
     name: "Golf Costa Brava",
     country: "Espagne",
     region: "Catalogne",
@@ -4927,6 +5216,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-248285083",
     name: "Golf De Caldes",
     country: "Espagne",
     region: "Catalogne",
@@ -4944,6 +5234,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-87313937",
     name: "Golf La Garriga",
     country: "Espagne",
     region: "Catalogne",
@@ -4961,6 +5252,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-1643090",
     name: "Golf Lleida & Country Club",
     country: "Espagne",
     region: "Catalogne",
@@ -4978,6 +5270,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-7935389",
     name: "Golf Pitch & Putt Mas Gorombau",
     country: "Espagne",
     region: "Catalogne",
@@ -4995,6 +5288,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-184709022",
     name: "Golf Pitch&Putt Platja d'Aro",
     country: "Espagne",
     region: "Catalogne",
@@ -5012,6 +5306,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-8266231",
     name: "Golf Platja de Pals",
     country: "Espagne",
     region: "Catalogne",
@@ -5029,6 +5324,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-7192793",
     name: "Golf Salardú Pitch & Putt",
     country: "Espagne",
     region: "Catalogne",
@@ -5046,6 +5342,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-7470159",
     name: "Golf Sant Feliu",
     country: "Espagne",
     region: "Catalogne",
@@ -5063,6 +5360,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-128190526",
     name: "Golf Sant Joan",
     country: "Espagne",
     region: "Catalogne",
@@ -5080,6 +5378,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-14058614",
     name: "Golf Sant Marc–Club de Golf Puigcerdà",
     country: "Espagne",
     region: "Catalogne",
@@ -5097,6 +5396,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3333332",
     name: "Golf Sant Vicenç de Montalt",
     country: "Espagne",
     region: "Catalogne",
@@ -5114,6 +5414,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-204800746",
     name: "Golf Urgell Pitch & Putt Bellpuig",
     country: "Espagne",
     region: "Catalogne",
@@ -5131,6 +5432,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-7165888885",
     name: "Golf can Sant Joan",
     country: "Espagne",
     region: "Catalogne",
@@ -5148,6 +5450,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-10365099",
     name: "Golf la Roca",
     country: "Espagne",
     region: "Catalogne",
@@ -5165,6 +5468,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3319640",
     name: "Hills Course",
     country: "Espagne",
     region: "Catalogne",
@@ -5182,6 +5486,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-283556644",
     name: "Hotel Restaurant Mas Gallau Pitch & Putt",
     country: "Espagne",
     region: "Catalogne",
@@ -5199,6 +5504,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3319641",
     name: "Lumine Golf Course",
     country: "Espagne",
     region: "Catalogne",
@@ -5216,6 +5522,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-8746972",
     name: "Manresa Golf Club",
     country: "Espagne",
     region: "Catalogne",
@@ -5233,6 +5540,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-5357090",
     name: "Mas Pagès Pitch & Putt",
     country: "Espagne",
     region: "Catalogne",
@@ -5250,6 +5558,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-20675075",
     name: "Mas Torrellas",
     country: "Espagne",
     region: "Catalogne",
@@ -5267,6 +5576,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-247401828",
     name: "Minigolf",
     country: "Espagne",
     region: "Catalogne",
@@ -5284,6 +5594,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-17716885",
     name: "Montseny P&P",
     country: "Espagne",
     region: "Catalogne",
@@ -5301,6 +5612,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-20584686",
     name: "P&P Ampolla",
     country: "Espagne",
     region: "Catalogne",
@@ -5318,6 +5630,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-33637256",
     name: "P&P Franciac",
     country: "Espagne",
     region: "Catalogne",
@@ -5335,6 +5648,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-369066655",
     name: "Peralada Golf Club",
     country: "Espagne",
     region: "Catalogne",
@@ -5352,6 +5666,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-103119593",
     name: "Pitch & Putt Castelló Empuriabrava",
     country: "Espagne",
     region: "Catalogne",
@@ -5369,6 +5684,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1017657244",
     name: "Pitch & Putt Fornells",
     country: "Espagne",
     region: "Catalogne",
@@ -5386,6 +5702,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-231437078",
     name: "Pitch & Putt Gualta",
     country: "Espagne",
     region: "Catalogne",
@@ -5403,6 +5720,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1024910497",
     name: "Pitch & Putt Lleida",
     country: "Espagne",
     region: "Catalogne",
@@ -5420,6 +5738,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-335651972",
     name: "Pitch & Putt Palma de Cervelló",
     country: "Espagne",
     region: "Catalogne",
@@ -5437,6 +5756,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-220012574",
     name: "Pitch & Putt Portal del Roc",
     country: "Espagne",
     region: "Catalogne",
@@ -5454,6 +5774,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-845807107",
     name: "Pitch & Putt Sant Cebrià",
     country: "Espagne",
     region: "Catalogne",
@@ -5471,6 +5792,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3333392",
     name: "Pitch & Putt Vallromanes",
     country: "Espagne",
     region: "Catalogne",
@@ -5488,6 +5810,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-173073991",
     name: "Pitch&Putt Barcelona-Teia",
     country: "Espagne",
     region: "Catalogne",
@@ -5505,6 +5828,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-341013222",
     name: "Pitch&Putt La Figuerola",
     country: "Espagne",
     region: "Catalogne",
@@ -5522,6 +5846,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-530597222",
     name: "Pitch&Putt La Figuerola",
     country: "Espagne",
     region: "Catalogne",
@@ -5539,6 +5864,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-2917872914",
     name: "Raimat",
     country: "Espagne",
     region: "Catalogne",
@@ -5556,6 +5882,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-2754990",
     name: "Real Club de Golf el Prat",
     country: "Espagne",
     region: "Catalogne",
@@ -5573,6 +5900,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-13936370",
     name: "Reial Club de Golf de la Cerdanya",
     country: "Espagne",
     region: "Catalogne",
@@ -5590,6 +5918,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-139883022",
     name: "Roc 3 Pitch&Putt",
     country: "Espagne",
     region: "Catalogne",
@@ -5607,6 +5936,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1165605014",
     name: "Stadium Course at Camiral Golf & Wellness",
     country: "Espagne",
     region: "Catalogne",
@@ -5624,6 +5954,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-279838842",
     name: "Taradell Club de Golf",
     country: "Espagne",
     region: "Catalogne",
@@ -5641,6 +5972,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-110747903",
     name: "Torremirona Golf Course",
     country: "Espagne",
     region: "Catalogne",
@@ -5658,6 +5990,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1165603948",
     name: "Tour Course at Camiral Golf & Wellness",
     country: "Espagne",
     region: "Catalogne",
@@ -5675,6 +6008,7 @@ const GOLF_DATA = [
     lastChecked: "2026-09-17"
   },
   {
+    id: "relation-18016683",
     name: "Vallès Pitch & Putt & Driving Range",
     country: "Espagne",
     region: "Catalogne",
@@ -5692,6 +6026,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-231088313",
     name: "Asociación de Golf Villa de El Escorial",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -5709,6 +6044,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1208445686",
     name: "Campo de Golf Club Deportivo Somontes",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -5726,6 +6062,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-225046353",
     name: "Campo de Golf El Estudiante",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -5743,6 +6080,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-203307740",
     name: "Campo de Golf El Robledal",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -5760,6 +6098,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-29254617",
     name: "Campo de Golf Santander",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -5777,6 +6116,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-357563647",
     name: "Campo prácticas",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -5794,6 +6134,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-30750432",
     name: "Centro Nacional de Golf de la Real Federación Española de Golf",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -5811,6 +6152,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-30727898",
     name: "Centro de Tecnificacion de Golf Pitch & Putt",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -5828,6 +6170,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-14612",
     name: "Club de Campo Villa de Madrid",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -5845,6 +6188,7 @@ const GOLF_DATA = [
     lastChecked: "2026-09-17"
   },
   {
+    id: "way-28307854",
     name: "Club de Campo y Deportes Golf Scratch",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -5862,6 +6206,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1118501733",
     name: "Club de Golf Aranjuez",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -5879,6 +6224,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3324029",
     name: "Club de Golf Jardín de Aranjuez",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -5896,6 +6242,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-24767877",
     name: "Club de Golf La Dehesa",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -5913,6 +6260,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-216613583",
     name: "Club de Golf La Moraleja",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -5930,6 +6278,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-34908901",
     name: "Club de Golf de la Base Aérea de Torrejón de Ardoz",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -5947,6 +6296,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-1345525",
     name: "Club de golf El Bosque",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -5964,6 +6314,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-183372424",
     name: "El Encín Golf",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -5981,6 +6332,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-25057302",
     name: "Forus Golf Las Rejas",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -5998,6 +6350,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-28226111",
     name: "Golf Centro Deportivo Barberán",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -6015,6 +6368,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-28348461",
     name: "Golf La Moraleja 1",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -6032,6 +6386,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-28348916",
     name: "Golf La Moraleja 2",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -6049,6 +6404,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-7133162556",
     name: "Golf La Peñuela",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -6066,6 +6422,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-33548666",
     name: "Golf Negralejo",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -6083,6 +6440,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-4519198",
     name: "Golf Olivar de la Hinojosa",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -6100,6 +6458,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3329293",
     name: "Golf Park Madrid",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -6117,6 +6476,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-23599363",
     name: "Golf rústico - Club de Golf Pozuelo",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -6134,6 +6494,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-28262254",
     name: "Jarama RACE Club",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -6151,6 +6512,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-282754140",
     name: "La Finca Golf Los Lagos - Campo de Golf",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -6168,6 +6530,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-28246745",
     name: "Nuevo Club de Golf de Madrid",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -6185,6 +6548,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-61456526",
     name: "Real Club de Golf La Herrería",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -6202,6 +6566,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-4378214",
     name: "Real Club de la Puerta de Hierro",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -6219,6 +6584,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-27867330",
     name: "Real Sociedad Hípica Española Club de Campo",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -6236,6 +6602,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-28243998",
     name: "Retamares Casino Club de Golf",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -6253,6 +6620,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-238423930",
     name: "Zona de Cross",
     country: "Espagne",
     region: "Communauté de Madrid",
@@ -6270,6 +6638,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-93522323",
     name: "Altea Club de Golf",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6287,6 +6656,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1472981400",
     name: "Campo de Golf y Escuela Las Rejas Benidorm Sol de Poniente",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6304,6 +6674,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-365524297",
     name: "Club de Campo Mediterráneo",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6321,6 +6692,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-25484741",
     name: "Club de Golf Alenda",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6338,6 +6710,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3310307",
     name: "Club de Golf Alicante",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6355,6 +6728,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-25703162",
     name: "Club de Golf Bonalba",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6372,6 +6746,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-12163828",
     name: "Club de Golf Costa de Azahar",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6389,6 +6764,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-191040049",
     name: "Club de Golf El Bosque",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6406,6 +6782,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-25035117",
     name: "Club de Golf El Plantío",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6423,6 +6800,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-48876790",
     name: "Club de Golf Escorpión",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6440,6 +6818,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-23927323",
     name: "Club de Golf Ifach",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6457,6 +6836,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-23854584",
     name: "Club de Golf Jávea",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6474,6 +6854,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-27597549",
     name: "Club de Golf La Finca",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6491,6 +6872,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-27249484",
     name: "Club de Golf Las Ramblas de Orihuela",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6508,6 +6890,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-27249332",
     name: "Club de Golf Villamartín",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6525,6 +6908,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-20242343",
     name: "Club de Golf de Manises",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6542,6 +6926,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-216995810",
     name: "Cofrentes Golf Pitch & Putt",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6559,6 +6944,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-541614076",
     name: "Escuela de golf Elche",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6576,6 +6962,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-98854430",
     name: "Font del Llop Golf Resort",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6593,6 +6980,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-152186589",
     name: "Foressos Golf",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6610,6 +6998,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3330820",
     name: "Golf Oliva Nova",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6627,6 +7016,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-210674518",
     name: "Golf Parador de El Saler",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6644,6 +7034,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-234987365",
     name: "Golf de Gandia",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6661,6 +7052,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1452620781",
     name: "Gregal",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6678,6 +7070,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-234987843",
     name: "La Galiana Campo de Golf",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6695,6 +7088,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3319596",
     name: "La Marquesa Golf en Rojales",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6712,6 +7106,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-374409231",
     name: "Las Colinas Golf & Country Club",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6729,6 +7124,7 @@ const GOLF_DATA = [
     lastChecked: "2026-09-17"
   },
   {
+    id: "way-23839438",
     name: "Llebeig",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6746,6 +7142,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-133629743",
     name: "Lo Romero",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6763,6 +7160,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-114577114",
     name: "Meliá Villaitana",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6780,6 +7178,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19862389",
     name: "Mestral",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6797,6 +7196,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-8992811375",
     name: "Puig Campana Golf",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6814,6 +7214,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-27249377",
     name: "Real Club de Golf Campoamor",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6831,6 +7232,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3333388",
     name: "Sierra Cortina Pitch & Putt",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6848,6 +7250,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3333329",
     name: "Vistabella Golf",
     country: "Espagne",
     region: "Communauté valencienne",
@@ -6865,6 +7268,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-5316647606",
     name: "Campo Municipal de Golf Galisteo",
     country: "Espagne",
     region: "Estrémadure",
@@ -6882,6 +7286,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3296990",
     name: "Don Tello Golf",
     country: "Espagne",
     region: "Estrémadure",
@@ -6899,6 +7304,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-283121142",
     name: "Golf Isla Valdecañas",
     country: "Espagne",
     region: "Estrémadure",
@@ -6916,6 +7322,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-234900304",
     name: "Golf del Guadiana",
     country: "Espagne",
     region: "Estrémadure",
@@ -6933,6 +7340,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-50447436",
     name: "Norba Club de Golf",
     country: "Espagne",
     region: "Estrémadure",
@@ -6950,6 +7358,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-620891067",
     name: "Parraluz Golf",
     country: "Espagne",
     region: "Estrémadure",
@@ -6967,6 +7376,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-363643831",
     name: "Talayuela Golf",
     country: "Espagne",
     region: "Estrémadure",
@@ -6984,6 +7394,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-148974487",
     name: "Balneario de Mondariz Golf Club",
     country: "Espagne",
     region: "Galice",
@@ -7001,6 +7412,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1517049151",
     name: "Barbanza Golf",
     country: "Espagne",
     region: "Galice",
@@ -7018,6 +7430,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-289953507",
     name: "Campo de Golf Balneario das Augas Santas",
     country: "Espagne",
     region: "Galice",
@@ -7035,6 +7448,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-188694814",
     name: "Campo de Golf Campomar",
     country: "Espagne",
     region: "Galice",
@@ -7052,6 +7466,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-25581892",
     name: "Campo de Golf Meis",
     country: "Espagne",
     region: "Galice",
@@ -7069,6 +7484,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-377110060",
     name: "Campo de Golf Río Cabe",
     country: "Espagne",
     region: "Galice",
@@ -7086,6 +7502,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-217214994",
     name: "Campo de Golf da Torre de Hércules",
     country: "Espagne",
     region: "Galice",
@@ -7103,6 +7520,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-162854797",
     name: "Campo de Golf da Zapateira",
     country: "Espagne",
     region: "Galice",
@@ -7120,6 +7538,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1036352660",
     name: "Campo de Golf de Xaz",
     country: "Espagne",
     region: "Galice",
@@ -7137,6 +7556,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-158456362",
     name: "Club de Golf Balneario de Guitiriz",
     country: "Espagne",
     region: "Galice",
@@ -7154,6 +7574,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-319193250",
     name: "Club de Golf El Pilar-Sarria",
     country: "Espagne",
     region: "Galice",
@@ -7171,6 +7592,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-313727699",
     name: "Club de Golf Lugo",
     country: "Espagne",
     region: "Galice",
@@ -7188,6 +7610,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-53800512",
     name: "Club de Golf Ría de Vigo",
     country: "Espagne",
     region: "Galice",
@@ -7205,6 +7628,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-240494826",
     name: "Club de Golf Val de Rois",
     country: "Espagne",
     region: "Galice",
@@ -7222,6 +7646,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-78089968",
     name: "Club de Golf de Miño",
     country: "Espagne",
     region: "Galice",
@@ -7239,6 +7664,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-195780851",
     name: "Clube de Golf A Toxa",
     country: "Espagne",
     region: "Galice",
@@ -7256,6 +7682,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1113741917",
     name: "Compostela Golf",
     country: "Espagne",
     region: "Galice",
@@ -7273,6 +7700,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3321429",
     name: "Golf Urbanización Porto Avieira",
     country: "Espagne",
     region: "Galice",
@@ -7290,6 +7718,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-169543758",
     name: "Hércules Clube de Golf",
     country: "Espagne",
     region: "Galice",
@@ -7307,6 +7736,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-100654751",
     name: "Montealegre Club de Golf",
     country: "Espagne",
     region: "Galice",
@@ -7324,6 +7754,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1531016319",
     name: "Pitch & Putt Pazo da Touza",
     country: "Espagne",
     region: "Galice",
@@ -7341,6 +7772,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-190518708",
     name: "Real Aero Club de Santiago",
     country: "Espagne",
     region: "Galice",
@@ -7358,6 +7790,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-2147088",
     name: "Real Aero Club de Vigo",
     country: "Espagne",
     region: "Galice",
@@ -7375,6 +7808,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-490212528",
     name: "Club de Golf Sojuela",
     country: "Espagne",
     region: "La Rioja",
@@ -7392,6 +7826,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-365264",
     name: "El Campo de Logroño",
     country: "Espagne",
     region: "La Rioja",
@@ -7409,6 +7844,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-46523174",
     name: "Pitch & Putt",
     country: "Espagne",
     region: "La Rioja",
@@ -7426,6 +7862,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-90889948",
     name: "Rioja Alta",
     country: "Espagne",
     region: "La Rioja",
@@ -7443,6 +7880,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-123009371",
     name: "Campo de roda golf",
     country: "Espagne",
     region: "Murcie",
@@ -7460,6 +7898,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-39195984",
     name: "Camposol Golf Club",
     country: "Espagne",
     region: "Murcie",
@@ -7477,6 +7916,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3333320",
     name: "Club de Golf Altorreal",
     country: "Espagne",
     region: "Murcie",
@@ -7494,6 +7934,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-116095002",
     name: "Club de Golf Veneziola",
     country: "Espagne",
     region: "Murcie",
@@ -7511,6 +7952,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-14718066",
     name: "Club de Golf de Torre-Pacheco",
     country: "Espagne",
     region: "Murcie",
@@ -7528,6 +7970,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-102682269",
     name: "Condado de Alhama",
     country: "Espagne",
     region: "Murcie",
@@ -7545,6 +7988,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-78624987",
     name: "Corvera Golf",
     country: "Espagne",
     region: "Murcie",
@@ -7562,6 +8006,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-87176802",
     name: "E.G Montepríncipe Golf",
     country: "Espagne",
     region: "Murcie",
@@ -7579,6 +8024,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-1216562",
     name: "El Valle Golf Resort",
     country: "Espagne",
     region: "Murcie",
@@ -7596,6 +8042,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-81088635",
     name: "Hacienda Riquelme Golf Course",
     country: "Espagne",
     region: "Murcie",
@@ -7613,6 +8060,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3319450",
     name: "Isla del Fraile Pitch & Putt",
     country: "Espagne",
     region: "Murcie",
@@ -7630,6 +8078,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-293706501",
     name: "La Manga Club - West Course",
     country: "Espagne",
     region: "Murcie",
@@ -7647,6 +8096,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-293760345",
     name: "La Manga Club North & East Course",
     country: "Espagne",
     region: "Murcie",
@@ -7664,6 +8114,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-226404373",
     name: "La Manga Pitch & Putt",
     country: "Espagne",
     region: "Murcie",
@@ -7681,6 +8132,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-1216583",
     name: "La Peraleja Golf Resort",
     country: "Espagne",
     region: "Murcie",
@@ -7698,6 +8150,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-469206933",
     name: "La Tercia Golf Resort",
     country: "Espagne",
     region: "Murcie",
@@ -7715,6 +8168,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-81092046",
     name: "La Torre Golf Resort",
     country: "Espagne",
     region: "Murcie",
@@ -7732,6 +8186,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3319459",
     name: "Lorca Resort Golf & Spa",
     country: "Espagne",
     region: "Murcie",
@@ -7749,6 +8204,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3329286",
     name: "Mar Menor Golf Resort",
     country: "Espagne",
     region: "Murcie",
@@ -7766,6 +8222,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-1216560",
     name: "Mosa Trajectum Golf Resort",
     country: "Espagne",
     region: "Murcie",
@@ -7783,6 +8240,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-1216554",
     name: "Santa Elena Golf Club",
     country: "Espagne",
     region: "Murcie",
@@ -7800,6 +8258,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-130569838",
     name: "Serena Golf",
     country: "Espagne",
     region: "Murcie",
@@ -7817,6 +8276,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-1216582",
     name: "Sierra Golf Resort",
     country: "Espagne",
     region: "Murcie",
@@ -7834,6 +8294,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-81088632",
     name: "United Golf Resort",
     country: "Espagne",
     region: "Murcie",
@@ -7851,6 +8312,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-27231448",
     name: "Campo de Golf de Zuasti",
     country: "Espagne",
     region: "Navarre",
@@ -7868,6 +8330,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-38039200",
     name: "Golf Castillo de Gorraiz",
     country: "Espagne",
     region: "Navarre",
@@ -7885,6 +8348,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-881028803",
     name: "Lizaso Golf Pitch & Putt",
     country: "Espagne",
     region: "Navarre",
@@ -7902,6 +8366,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-1243069584",
     name: "Señorío de Zuasti",
     country: "Espagne",
     region: "Navarre",
@@ -7919,6 +8384,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-147135897",
     name: "Ultzamako Golf Kluba",
     country: "Espagne",
     region: "Navarre",
@@ -7936,6 +8402,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-10340597",
     name: "Club Artxanda Golf",
     country: "Espagne",
     region: "Pays basque",
@@ -7953,6 +8420,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3321424",
     name: "Club Deportivo Martiartu Pitch & Putt",
     country: "Espagne",
     region: "Pays basque",
@@ -7970,6 +8438,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-452796537",
     name: "Club Derio Golf",
     country: "Espagne",
     region: "Pays basque",
@@ -7987,6 +8456,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-500682237",
     name: "Club de Golf Artxanda",
     country: "Espagne",
     region: "Pays basque",
@@ -8004,6 +8474,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-211896748",
     name: "Goiburu Golf Club",
     country: "Espagne",
     region: "Pays basque",
@@ -8021,6 +8492,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-110587662",
     name: "Golf Jundiz",
     country: "Espagne",
     region: "Pays basque",
@@ -8038,6 +8510,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-532052140",
     name: "Irelore golf eskola",
     country: "Espagne",
     region: "Pays basque",
@@ -8055,6 +8528,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-202307257",
     name: "Justiz Golf",
     country: "Espagne",
     region: "Pays basque",
@@ -8072,6 +8546,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-440859532",
     name: "Karakas",
     country: "Espagne",
     region: "Pays basque",
@@ -8089,6 +8564,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-32877582",
     name: "Larrabea Club de Golf",
     country: "Espagne",
     region: "Pays basque",
@@ -8106,6 +8582,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-9853502",
     name: "Laukariz Golf Klub Zelaia",
     country: "Espagne",
     region: "Pays basque",
@@ -8123,6 +8600,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-2992765",
     name: "Meaztegi Golf",
     country: "Espagne",
     region: "Pays basque",
@@ -8140,6 +8618,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3332836",
     name: "Real Golf Club de San Sebastián",
     country: "Espagne",
     region: "Pays basque",
@@ -8157,6 +8636,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-27251911",
     name: "Real Golf Club de Zarautz",
     country: "Espagne",
     region: "Pays basque",
@@ -8174,6 +8654,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-211691537",
     name: "Real Nuevo Club de Golf Basozabal",
     country: "Espagne",
     region: "Pays basque",
@@ -8191,6 +8672,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-41931800",
     name: "Real Sociedad de Golf de Neguri",
     country: "Espagne",
     region: "Pays basque",
@@ -8208,6 +8690,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-155189991",
     name: "Seminario Urban Golf",
     country: "Espagne",
     region: "Pays basque",
@@ -8225,6 +8708,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-497712962",
     name: "Urduña Pitch & Putt",
     country: "Espagne",
     region: "Pays basque",
@@ -8242,6 +8726,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1165087757",
     name: "Urnieta Pitch & Putt",
     country: "Espagne",
     region: "Pays basque",
@@ -8259,6 +8744,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-509263220",
     name: "Zuiako golf-zelaia",
     country: "Espagne",
     region: "Pays basque",
@@ -8276,6 +8762,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-163802870",
     name: "Capdepera",
     country: "Espagne",
     region: "Îles Baléares",
@@ -8293,6 +8780,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-40755710",
     name: "Club de Golf Alcanada",
     country: "Espagne",
     region: "Îles Baléares",
@@ -8310,6 +8798,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-7257090",
     name: "Club de Golf Son Servera",
     country: "Espagne",
     region: "Îles Baléares",
@@ -8327,6 +8816,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-308615627",
     name: "Driving Range",
     country: "Espagne",
     region: "Îles Baléares",
@@ -8344,6 +8834,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3332769",
     name: "Golf Canyamel",
     country: "Espagne",
     region: "Îles Baléares",
@@ -8361,6 +8852,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-17187353",
     name: "Golf Club Ibiza",
     country: "Espagne",
     region: "Îles Baléares",
@@ -8378,6 +8870,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-150465361",
     name: "Golf Pollença",
     country: "Espagne",
     region: "Îles Baléares",
@@ -8395,6 +8888,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-27279169",
     name: "Golf Santa Ponça I",
     country: "Espagne",
     region: "Îles Baléares",
@@ -8412,6 +8906,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-32723004",
     name: "Golf Santa Ponça II",
     country: "Espagne",
     region: "Îles Baléares",
@@ -8429,6 +8924,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-6728166",
     name: "Golf Santa Ponça III",
     country: "Espagne",
     region: "Îles Baléares",
@@ -8446,6 +8942,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-162429593",
     name: "Golf Son Parc Menorca",
     country: "Espagne",
     region: "Îles Baléares",
@@ -8463,6 +8960,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-136406738",
     name: "Golf Vall d´Or",
     country: "Espagne",
     region: "Îles Baléares",
@@ -8480,6 +8978,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3319608",
     name: "Golf de Andratx",
     country: "Espagne",
     region: "Îles Baléares",
@@ -8497,6 +8996,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3977168",
     name: "Golf de Son Antem",
     country: "Espagne",
     region: "Îles Baléares",
@@ -8514,6 +9014,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-28625559",
     name: "Golf de Son Antem",
     country: "Espagne",
     region: "Îles Baléares",
@@ -8531,6 +9032,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-60140256",
     name: "Golf de Son Gual",
     country: "Espagne",
     region: "Îles Baléares",
@@ -8548,6 +9050,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-51852280",
     name: "Golf de Son Muntaner",
     country: "Espagne",
     region: "Îles Baléares",
@@ -8565,6 +9068,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-1654444",
     name: "Golf de Son Quint",
     country: "Espagne",
     region: "Îles Baléares",
@@ -8582,6 +9086,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-81397943",
     name: "Golf de Son Térmens",
     country: "Espagne",
     region: "Îles Baléares",
@@ -8599,6 +9104,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-1130271",
     name: "Golf de Son Vida",
     country: "Espagne",
     region: "Îles Baléares",
@@ -8616,6 +9122,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-98739153",
     name: "Maioris",
     country: "Espagne",
     region: "Îles Baléares",
@@ -8633,6 +9140,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-2738804",
     name: "Pula Golf",
     country: "Espagne",
     region: "Îles Baléares",
@@ -8650,6 +9158,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-6775065",
     name: "Reial Golf de Bendinat",
     country: "Espagne",
     region: "Îles Baléares",
@@ -8667,6 +9176,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-42587006",
     name: "T Golf Calvia",
     country: "Espagne",
     region: "Îles Baléares",
@@ -8684,6 +9194,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-108783334",
     name: "T Golf Palma Puntiro",
     country: "Espagne",
     region: "Îles Baléares",
@@ -8701,6 +9212,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-805489807",
     name: "arboleda",
     country: "Espagne",
     region: "Îles Baléares",
@@ -8718,6 +9230,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-460578299",
     name: "Easygolf Montmeyran",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -8735,6 +9248,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-10416296",
     name: "Garden Golf de Mionnay",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -8752,6 +9266,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-482619986",
     name: "Golf",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -8769,6 +9284,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3334750",
     name: "Golf & Country Club de Bossey",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -8786,6 +9302,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-164818549",
     name: "Golf Club Aix les Bains",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -8803,6 +9320,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-212736932",
     name: "Golf Club Avoriaz",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -8820,6 +9338,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-425968946",
     name: "Golf Club Domaine de Champlong",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -8837,6 +9356,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-117975437",
     name: "Golf Club de Lyon",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -8854,6 +9374,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-18620332",
     name: "Golf Club de Vezac",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -8871,6 +9392,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-7413656",
     name: "Golf Club des Serves",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -8888,6 +9410,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-425536492",
     name: "Golf Club du Campanil",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -8905,6 +9428,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-4751504",
     name: "Golf Club du Val de Cher",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -8922,6 +9446,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-294557340",
     name: "Golf Country Club d'Ésery",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -8939,6 +9464,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-95149376",
     name: "Golf Driving Range",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -8956,6 +9482,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1393697408",
     name: "Golf Granier Apremont",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -8973,6 +9500,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-125967213",
     name: "Golf International de Grenoble",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -8990,6 +9518,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-203618750",
     name: "Golf Les Gets",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9007,6 +9536,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-13372967618",
     name: "Golf Pitch And Putt Bas-en-Basset",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9024,6 +9554,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-42265503",
     name: "Golf d'Albon",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9041,6 +9572,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-75616005",
     name: "Golf d'Annonay-Gourdan",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9058,6 +9590,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-54949523",
     name: "Golf d'Evian",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9075,6 +9608,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-229076870",
     name: "Golf de Bourg-en-Bresse",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9092,6 +9626,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1394230256",
     name: "Golf de Briailles",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9109,6 +9644,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-25517559",
     name: "Golf de Chamonix",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9126,6 +9662,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-139128639",
     name: "Golf de Chassieu",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9143,6 +9680,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-211885973",
     name: "Golf de Corrençon",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9160,6 +9698,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1354464727",
     name: "Golf de Courchevel",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9177,6 +9716,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-211254416",
     name: "Golf de Cunlhat",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9194,6 +9734,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-183551300",
     name: "Golf de Divonne-les-Bains",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9211,6 +9752,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-178532552",
     name: "Golf de Flaine",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9228,6 +9770,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-131923892",
     name: "Golf de Gonville",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9245,6 +9788,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-103553037",
     name: "Golf de Grenoble Charmeil",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9262,6 +9806,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-2870677",
     name: "Golf de Grenoble-Uriage",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9279,6 +9824,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-170605779",
     name: "Golf de Haute Auvergne",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9296,6 +9842,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-144880540",
     name: "Golf de Lyon Tassin",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9313,6 +9860,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-17667965",
     name: "Golf de Lyon Verger",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9330,6 +9878,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-270292813",
     name: "Golf de Machilly",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9347,6 +9896,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-202120864",
     name: "Golf de Mauriac Val Saint-Jean",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9364,6 +9914,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1420914309",
     name: "Golf de Montrottier",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9381,6 +9932,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-545813299",
     name: "Golf de Mornex",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9398,6 +9950,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-11634319",
     name: "Golf de Méribel",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9415,6 +9968,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-184458423",
     name: "Golf de Porte-de-Savoie",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9432,6 +9986,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-171485870",
     name: "Golf de Riom",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9449,6 +10004,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-236891554",
     name: "Golf de Royat-Charade",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9466,6 +10022,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-168759964",
     name: "Golf de Saint-Étienne",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9483,6 +10040,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-288888432",
     name: "Golf de Sainte-Agathe",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9500,6 +10058,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-95458066",
     name: "Golf de Seyssins",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9517,6 +10076,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19272795",
     name: "Golf de Tignes",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9534,6 +10094,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-460186822",
     name: "Golf de Valence Saint-Didier",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9551,6 +10112,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-89559695",
     name: "Golf de l'Alpe d'Huez",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9568,6 +10130,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-70119265",
     name: "Golf de la Bièvre",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9585,6 +10148,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-190706755",
     name: "Golf de la Bresse",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9602,6 +10166,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-212737505",
     name: "Golf de la Chapelle-en-Vercors",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9619,6 +10184,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-194283742",
     name: "Golf de la Commanderie",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9636,6 +10202,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1269309649",
     name: "Golf de la Drôme Provencale",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9653,6 +10220,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-171230592",
     name: "Golf de la Forêt de Montpensier",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9670,6 +10238,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-169366117",
     name: "Golf de la Maison Blanche",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9687,6 +10256,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-897994702",
     name: "Golf de la Manchette",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9704,6 +10274,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1392250973",
     name: "Golf de la Plaine",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9721,6 +10292,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-212735958",
     name: "Golf de la Rosière",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9738,6 +10310,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-233449525",
     name: "Golf de la Sorelle",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9755,6 +10328,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-197059443",
     name: "Golf de la Valdaine",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9772,6 +10346,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1184662685",
     name: "Golf de la Valette",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9789,6 +10364,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-212749167",
     name: "Golf de la Valserine",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9806,6 +10382,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-142244633",
     name: "Golf des 3 vallons",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9823,6 +10400,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-728902261",
     name: "Golf des Alpes",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9840,6 +10418,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1311718563",
     name: "Golf des Arcs",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9857,6 +10436,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-425974114",
     name: "Golf des Avenelles",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9874,6 +10454,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-785647219",
     name: "Golf des Chanalets",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9891,6 +10472,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-495910403",
     name: "Golf des Confins",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9908,6 +10490,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-212750050",
     name: "Golf des Deux Alpes",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9925,6 +10508,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-497413260",
     name: "Golf des Verneys",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9942,6 +10526,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-156867661",
     name: "Golf des Volcans",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9959,6 +10544,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-365618199",
     name: "Golf des bords de Loire",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9976,6 +10562,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-172915824",
     name: "Golf des Étangs",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -9993,6 +10580,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-425976061",
     name: "Golf du Battut",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -10010,6 +10598,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-45898890",
     name: "Golf du Beaujolais",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -10027,6 +10616,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-425932514",
     name: "Golf du Belvédère",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -10044,6 +10634,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-10321739",
     name: "Golf du Chambon-sur-Lignon",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -10061,6 +10652,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-177619889",
     name: "Golf du Château de Faverges",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -10078,6 +10670,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-152789935",
     name: "Golf du Clou",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -10095,6 +10688,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-283564999",
     name: "Golf du Domaine du Val d'Auzon",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -10112,6 +10706,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-248190244",
     name: "Golf du Forez",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -10129,6 +10724,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-8362488",
     name: "Golf du Gouverneur",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -10146,6 +10742,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-714482108",
     name: "Golf du Grand-Bornand",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -10163,6 +10760,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-897996163",
     name: "Golf du Haut Bugey",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -10180,6 +10778,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-21273857",
     name: "Golf du Lac d'Annecy",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -10197,6 +10796,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-159744729",
     name: "Golf du Léman",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -10214,6 +10814,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-246962436",
     name: "Golf du Mont d'Arbois",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -10231,6 +10832,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3918242",
     name: "Golf du Mont-Dore",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -10248,6 +10850,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-479418805",
     name: "Golf du Puy en Velay",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -10265,6 +10868,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-171834344",
     name: "Golf du Sporting Club de Vichy",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -10282,6 +10886,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-392182101",
     name: "Hippodrome Golf Club",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -10299,6 +10904,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-309102696",
     name: "Jiva Hill Golf Club",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -10316,6 +10922,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-297670966",
     name: "Lyon Salvagny Golf Club",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -10333,6 +10940,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-114449252",
     name: "Parcours de golf de L'ATOL'",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -10350,6 +10958,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-124419192",
     name: "Practice",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -10367,6 +10976,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-295059893",
     name: "Practice de golf",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -10384,6 +10994,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-444928155",
     name: "Putting-Golf de Tence",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -10401,6 +11012,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1394444131",
     name: "Superflu Golf Club",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -10418,6 +11030,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-172591442",
     name: "Training Center Golf d'Evian",
     country: "France",
     region: "Auvergne-Rhône-Alpes",
@@ -10435,6 +11048,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-121720638",
     name: "Golf Bluegreen Quétigny",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10452,6 +11066,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-157466674",
     name: "Golf Dijon Bourgogne Jacques Laffite",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10469,6 +11084,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-289972765",
     name: "Golf Municipal",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10486,6 +11102,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-6332293",
     name: "Golf d'Autun",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10503,6 +11120,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-330855830",
     name: "Golf de Beaune Levernois",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10520,6 +11138,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-330855829",
     name: "Golf de Beaune Levernois",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10537,6 +11156,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-218730637",
     name: "Golf de Besançon",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10554,6 +11174,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-425971911",
     name: "Golf de Bourbon-Lancy",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10571,6 +11192,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-38245863",
     name: "Golf de Chalon La Roseraie",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10588,6 +11210,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-594772335",
     name: "Golf de Clairis",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10605,6 +11228,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-191887416",
     name: "Golf de Luxeuil-Bellevue",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10622,6 +11246,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-11293062687",
     name: "Golf de Misery",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10639,6 +11264,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-195646412",
     name: "Golf de Mâcon La Salle",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10656,6 +11282,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19237863",
     name: "Golf de Prunevelle",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10673,6 +11300,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-231577180",
     name: "Golf de Rougemont-le-Château",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10690,6 +11318,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-226263700",
     name: "Golf de Saint-Claude",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10707,6 +11336,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-14391632",
     name: "Golf de Salives",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10724,6 +11354,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-268865385",
     name: "Golf de Venarey-Les-Laumes",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10741,6 +11372,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1057884767",
     name: "Golf de la Chassagne",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10758,6 +11390,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-957126065",
     name: "Golf des 4 Saisons",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10775,6 +11408,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-60350875",
     name: "Golf des Étraches",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10792,6 +11426,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1396655080",
     name: "Golf du Château d'Avoise",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10809,6 +11444,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-9933602",
     name: "Golf du Château de Bournel",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10826,6 +11462,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-126045470",
     name: "Golf du Château de Chailly",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10843,6 +11480,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-142393472",
     name: "Golf du Mont Saint-Jean",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10860,6 +11498,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-142394635",
     name: "Golf du Rochat",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10877,6 +11516,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-171274491",
     name: "Golf du Roncemay",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10894,6 +11534,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-358655970",
     name: "Golf du Sénonais",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10911,6 +11552,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-169003815",
     name: "Golf du Val d'Amour",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10928,6 +11570,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-239181495",
     name: "Golf du Val de Sorne",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10945,6 +11588,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-171828745",
     name: "Golf du château de Tanlay",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10962,6 +11606,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-417632211",
     name: "Golf du nivernais",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10979,6 +11624,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-371899681",
     name: "Golf du pré lamy",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -10996,6 +11642,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-4512617940",
     name: "Practice de Golf des 4 Arpents",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -11013,6 +11660,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-204990414",
     name: "Practice de golf de Sens",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -11030,6 +11678,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-12056717394",
     name: "SwinGolf et FootGolf",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -11047,6 +11696,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-6293548885",
     name: "golf éducatif de la Maladrerie",
     country: "France",
     region: "Bourgogne-Franche-Comté",
@@ -11064,6 +11714,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-150521369",
     name: "Carhaix-Golf",
     country: "France",
     region: "Bretagne",
@@ -11081,6 +11732,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-6183465",
     name: "Dinard Golf",
     country: "France",
     region: "Bretagne",
@@ -11098,6 +11750,7 @@ const GOLF_DATA = [
     lastChecked: "2026-09-17"
   },
   {
+    id: "way-115108958",
     name: "GAEA Golf de Lancieux",
     country: "France",
     region: "Bretagne",
@@ -11115,6 +11768,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-168289746",
     name: "Golf Bluegreen Lac au Duc Ploërmel",
     country: "France",
     region: "Bretagne",
@@ -11132,6 +11786,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-895702039",
     name: "Golf Bluegreen Saint-Laurent",
     country: "France",
     region: "Bretagne",
@@ -11149,6 +11804,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-160684736",
     name: "Golf Cap Malo",
     country: "France",
     region: "Bretagne",
@@ -11166,6 +11822,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-2527683",
     name: "Golf Gilles de Boisgelin",
     country: "France",
     region: "Bretagne",
@@ -11183,6 +11840,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-123146466",
     name: "Golf Pen Ar Bed",
     country: "France",
     region: "Bretagne",
@@ -11200,6 +11858,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1341656305",
     name: "Golf de Baden",
     country: "France",
     region: "Bretagne",
@@ -11217,6 +11876,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-488555602",
     name: "Golf de Belle-Isle en Mer",
     country: "France",
     region: "Bretagne",
@@ -11234,6 +11894,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-195989122",
     name: "Golf de Belle-île-en-Mer",
     country: "France",
     region: "Bretagne",
@@ -11251,6 +11912,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-237490092",
     name: "Golf de Brest Iroise",
     country: "France",
     region: "Bretagne",
@@ -11268,6 +11930,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-885208505",
     name: "Golf de Brest Marine Le Bergot",
     country: "France",
     region: "Bretagne",
@@ -11285,6 +11948,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-194461901",
     name: "Golf de Bégard",
     country: "France",
     region: "Bretagne",
@@ -11302,6 +11966,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-706595899",
     name: "Golf de Caden",
     country: "France",
     region: "Bretagne",
@@ -11319,6 +11984,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-118940855",
     name: "Golf de Cesson-Sévigné",
     country: "France",
     region: "Bretagne",
@@ -11336,6 +12002,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-2832942",
     name: "Golf de Cicé-Blossac",
     country: "France",
     region: "Bretagne",
@@ -11353,6 +12020,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-106839031",
     name: "Golf de Cornouaille",
     country: "France",
     region: "Bretagne",
@@ -11370,6 +12038,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-223337260",
     name: "Golf de Dinan - La Corbinais",
     country: "France",
     region: "Bretagne",
@@ -11387,6 +12056,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-222890239",
     name: "Golf de Kerbernez",
     country: "France",
     region: "Bretagne",
@@ -11404,6 +12074,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-196120897",
     name: "Golf de Lanniron",
     country: "France",
     region: "Bretagne",
@@ -11421,6 +12092,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19211221",
     name: "Golf de Ploemeur Océan",
     country: "France",
     region: "Bretagne",
@@ -11438,6 +12110,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-26674205",
     name: "Golf de Pléneuf Val André",
     country: "France",
     region: "Bretagne",
@@ -11455,6 +12128,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-923642032",
     name: "Golf de Quiberon",
     country: "France",
     region: "Bretagne",
@@ -11472,6 +12146,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-168168951",
     name: "Golf de Rennes Saint-Jacques",
     country: "France",
     region: "Bretagne",
@@ -11489,6 +12164,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-170237528",
     name: "Golf de Rhuys Kerver",
     country: "France",
     region: "Bretagne",
@@ -11506,6 +12182,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-998011040",
     name: "Golf de Rimaison",
     country: "France",
     region: "Bretagne",
@@ -11523,6 +12200,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-6800338",
     name: "Golf de Saint-Cast Pen Guen",
     country: "France",
     region: "Bretagne",
@@ -11540,6 +12218,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-310365436",
     name: "Golf de Saint-Malo",
     country: "France",
     region: "Bretagne",
@@ -11557,6 +12236,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-439898214",
     name: "Golf de Saint-Samson",
     country: "France",
     region: "Bretagne",
@@ -11574,6 +12254,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-8236332",
     name: "Golf de Tréméreuc",
     country: "France",
     region: "Bretagne",
@@ -11591,6 +12272,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-15005972",
     name: "Golf de Val Queven",
     country: "France",
     region: "Bretagne",
@@ -11608,6 +12290,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-4537809",
     name: "Golf de l'Odet",
     country: "France",
     region: "Bretagne",
@@ -11625,6 +12308,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-478485337",
     name: "Golf de la Crinière",
     country: "France",
     region: "Bretagne",
@@ -11642,6 +12326,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-44168505",
     name: "Golf de la Freslonnière",
     country: "France",
     region: "Bretagne",
@@ -11659,6 +12344,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-80278223",
     name: "Golf de la baie de Morlaix",
     country: "France",
     region: "Bretagne",
@@ -11676,6 +12362,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-40671194",
     name: "Golf des Abers",
     country: "France",
     region: "Bretagne",
@@ -11693,6 +12380,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-255301304",
     name: "Golf des Ajoncs d'or",
     country: "France",
     region: "Bretagne",
@@ -11710,6 +12398,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-156597577",
     name: "Golf des Ormes",
     country: "France",
     region: "Bretagne",
@@ -11727,6 +12416,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-500728192",
     name: "Golf des Rochers Sévigné",
     country: "France",
     region: "Bretagne",
@@ -11744,6 +12434,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-60920393",
     name: "Golf des Sables d'Or",
     country: "France",
     region: "Bretagne",
@@ -11761,6 +12452,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-798403690",
     name: "Golf du Château du Bois-Guy",
     country: "France",
     region: "Bretagne",
@@ -11778,6 +12470,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-239310258",
     name: "Parcours Compact",
     country: "France",
     region: "Bretagne",
@@ -11795,6 +12488,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-16631869",
     name: "Pitch & Putt Golf de Carantec",
     country: "France",
     region: "Bretagne",
@@ -11812,6 +12506,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-239310259",
     name: "Practice",
     country: "France",
     region: "Bretagne",
@@ -11829,6 +12524,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-9227863",
     name: "Practice Golf de Saint-Grégoire",
     country: "France",
     region: "Bretagne",
@@ -11846,6 +12542,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-514269339",
     name: "Swin golf de Saint-Aubin-du-Cormier",
     country: "France",
     region: "Bretagne",
@@ -11863,6 +12560,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1342112030",
     name: "Vannes Atlantheix",
     country: "France",
     region: "Bretagne",
@@ -11880,6 +12578,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-482574895",
     name: "Domaine de Vaugouard",
     country: "France",
     region: "Centre-Val de Loire",
@@ -11897,6 +12596,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-234155918",
     name: "Domaine des Dryades",
     country: "France",
     region: "Centre-Val de Loire",
@@ -11914,6 +12614,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-374839261",
     name: "ESN Golf Nogent Le Roi",
     country: "France",
     region: "Centre-Val de Loire",
@@ -11931,6 +12632,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-11070690",
     name: "Golf Bluegreen Tours Ardrée",
     country: "France",
     region: "Centre-Val de Loire",
@@ -11948,6 +12650,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-158783885",
     name: "Golf d'Orléans Donnery",
     country: "France",
     region: "Centre-Val de Loire",
@@ -11965,6 +12668,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-157726249",
     name: "Golf d'Orléans Limère",
     country: "France",
     region: "Centre-Val de Loire",
@@ -11982,6 +12686,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-18767940",
     name: "Golf de Bourges",
     country: "France",
     region: "Centre-Val de Loire",
@@ -11999,6 +12704,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-937797016",
     name: "Golf de Fleuray - Amboise",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12016,6 +12722,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-668743809",
     name: "Golf de Fontenay",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12033,6 +12740,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1107049309",
     name: "Golf de Loches-Verneuil",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12050,6 +12758,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-65541772",
     name: "Golf de Marcilly",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12067,6 +12776,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1406402296",
     name: "Golf de Saint-Laurent-Nouan",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12084,6 +12794,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-42996580",
     name: "Golf de Sancerre",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12101,6 +12812,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-157835283",
     name: "Golf de Sully sur Loire",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12118,6 +12830,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-38110404",
     name: "Golf de Touraine",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12135,6 +12848,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-781154880",
     name: "Golf de la Bosse",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12152,6 +12866,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-170361721",
     name: "Golf de la Gloriette",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12169,6 +12884,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-46430453",
     name: "Golf de la Picardière",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12186,6 +12902,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-490408236",
     name: "Golf de la Vallée de Germigny",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12203,6 +12920,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-290885105",
     name: "Golf des Aisses",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12220,6 +12938,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-764532461",
     name: "Golf des Rosiers",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12237,6 +12956,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1200706152",
     name: "Golf des Sarrays",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12254,6 +12974,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-232432337",
     name: "Golf des Étoiles",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12271,6 +12992,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-594772244",
     name: "Golf du Château de Cheverny",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12288,6 +13010,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19597761",
     name: "Golf du Château de Maintenon",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12305,6 +13028,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-426855190",
     name: "Golf du Château des Sept Tours",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12322,6 +13046,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-290885108",
     name: "Golf du Domaine de la Carte",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12339,6 +13064,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-269823252",
     name: "Golf du Perche",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12356,6 +13082,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-170297879",
     name: "Golf du Val de l'Indre",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12373,6 +13100,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19214278",
     name: "Golf du bois d'O",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12390,6 +13118,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-594773158",
     name: "Golf du château d’Augerville",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12407,6 +13136,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-584188334",
     name: "Golf privé du château du Coudreceau",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12424,6 +13154,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1396656395",
     name: "Golf éducatif des villages Vovéens",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12441,6 +13172,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-164393268",
     name: "Le Golf Parc Robert Hersant",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12458,6 +13190,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19220297",
     name: "Les Bordes Golf Club",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12475,6 +13208,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-13776104731",
     name: "Mini Golf de La Gamelle",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12492,6 +13226,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1391714186",
     name: "Practice Golf de la Bouchardière",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12509,6 +13244,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-986920093",
     name: "Swin Golf de Chambray-lès-Tours",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12526,6 +13262,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-28561330",
     name: "swin golf",
     country: "France",
     region: "Centre-Val de Loire",
@@ -12543,6 +13280,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-56084254",
     name: "Alsace Golf Club",
     country: "France",
     region: "Grand Est",
@@ -12560,6 +13298,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1492352850",
     name: "C.O. Golf - Performance & Training Center",
     country: "France",
     region: "Grand Est",
@@ -12577,6 +13316,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-412824549",
     name: "Garden Golf Nancy-Pulnoy",
     country: "France",
     region: "Grand Est",
@@ -12594,6 +13334,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-269050363",
     name: "Golf & Country Club Basel",
     country: "France",
     region: "Grand Est",
@@ -12611,6 +13352,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1138470441",
     name: "Golf Académie 57",
     country: "France",
     region: "Grand Est",
@@ -12628,6 +13370,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-56190671",
     name: "Golf Château de Preisch",
     country: "France",
     region: "Grand Est",
@@ -12645,6 +13388,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-635227014",
     name: "Golf Club La Ligne Bleue des Vosges",
     country: "France",
     region: "Grand Est",
@@ -12662,6 +13406,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-130894384",
     name: "Golf Club d'Avrainville",
     country: "France",
     region: "Grand Est",
@@ -12679,6 +13424,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-139761538",
     name: "Golf Club de Nancy",
     country: "France",
     region: "Grand Est",
@@ -12696,6 +13442,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-5404285",
     name: "Golf International de Longwy",
     country: "France",
     region: "Grand Est",
@@ -12713,6 +13460,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-185033894",
     name: "Golf Saint Apollinaire",
     country: "France",
     region: "Grand Est",
@@ -12730,6 +13478,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-325856984",
     name: "Golf d'Arc-en-Barrois",
     country: "France",
     region: "Grand Est",
@@ -12747,6 +13496,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-195782446",
     name: "Golf d'Épinal",
     country: "France",
     region: "Grand Est",
@@ -12764,6 +13514,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-554572603",
     name: "Golf de Bezannes",
     country: "France",
     region: "Grand Est",
@@ -12781,6 +13532,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-27168848",
     name: "Golf de Bitche",
     country: "France",
     region: "Grand Est",
@@ -12798,6 +13550,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-41755317",
     name: "Golf de Champagne",
     country: "France",
     region: "Grand Est",
@@ -12815,6 +13568,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-187246918",
     name: "Golf de Chérisey",
     country: "France",
     region: "Grand Est",
@@ -12832,6 +13586,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-197207007",
     name: "Golf de Combles",
     country: "France",
     region: "Grand Est",
@@ -12849,6 +13604,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-108773071",
     name: "Golf de Faulquemont",
     country: "France",
     region: "Grand Est",
@@ -12866,6 +13622,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-9933634",
     name: "Golf de La Largue",
     country: "France",
     region: "Grand Est",
@@ -12883,6 +13640,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-40903321",
     name: "Golf de La Wantzenau",
     country: "France",
     region: "Grand Est",
@@ -12900,6 +13658,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-140649774",
     name: "Golf de Madine",
     country: "France",
     region: "Grand Est",
@@ -12917,6 +13676,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-2101009",
     name: "Golf de Metz-Technopôle",
     country: "France",
     region: "Grand Est",
@@ -12934,6 +13694,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1392174254",
     name: "Golf de Mourmelon",
     country: "France",
     region: "Grand Est",
@@ -12951,6 +13712,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19247369",
     name: "Golf de Reims",
     country: "France",
     region: "Grand Est",
@@ -12968,6 +13730,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-55981303",
     name: "Golf de Sarreguemines",
     country: "France",
     region: "Grand Est",
@@ -12985,6 +13748,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19248331",
     name: "Golf de Strasbourg",
     country: "France",
     region: "Grand Est",
@@ -13002,6 +13766,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-393190983",
     name: "Golf de Troyes la Cordelière",
     country: "France",
     region: "Grand Est",
@@ -13019,6 +13784,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-15336367",
     name: "Golf de Vittel Ermitage",
     country: "France",
     region: "Grand Est",
@@ -13036,6 +13802,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-37876421",
     name: "Golf de l'Ermitage",
     country: "France",
     region: "Grand Est",
@@ -13053,6 +13820,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-64161100",
     name: "Golf de la Grande Romanie",
     country: "France",
     region: "Grand Est",
@@ -13070,6 +13838,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-103179100",
     name: "Golf de la Grange aux Ormes",
     country: "France",
     region: "Grand Est",
@@ -13087,6 +13856,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-37872987",
     name: "Golf de la forêt d'Orient",
     country: "France",
     region: "Grand Est",
@@ -13104,6 +13874,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-46434108",
     name: "Golf des Bouleaux",
     country: "France",
     region: "Grand Est",
@@ -13121,6 +13892,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-590145438",
     name: "Golf des Poursaudes",
     country: "France",
     region: "Grand Est",
@@ -13138,6 +13910,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1394441002",
     name: "Golf du Chardonnay",
     country: "France",
     region: "Grand Est",
@@ -13155,6 +13928,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-714792622",
     name: "Golf du Château de Hombourg",
     country: "France",
     region: "Grand Est",
@@ -13172,6 +13946,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19214267",
     name: "Golf du Fort",
     country: "France",
     region: "Grand Est",
@@ -13189,6 +13964,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19235534",
     name: "Golf du Hazeau",
     country: "France",
     region: "Grand Est",
@@ -13206,6 +13982,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-136084482",
     name: "Golf du Kempferhof",
     country: "France",
     region: "Grand Est",
@@ -13223,6 +14000,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-276804016",
     name: "Golf du Pays de Sarrebourg",
     country: "France",
     region: "Grand Est",
@@ -13240,6 +14018,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-223094076",
     name: "Golf du Rhin",
     country: "France",
     region: "Grand Est",
@@ -13257,6 +14036,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-55451630",
     name: "Golf public d'Ammerschwihr Trois-Epis",
     country: "France",
     region: "Grand Est",
@@ -13274,6 +14054,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-121423563",
     name: "Golfclub Soufflenheim",
     country: "France",
     region: "Grand Est",
@@ -13291,6 +14072,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-304079261",
     name: "Le Swin Golf",
     country: "France",
     region: "Grand Est",
@@ -13308,6 +14090,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-165982427",
     name: "Mont Saint-Jean",
     country: "France",
     region: "Grand Est",
@@ -13325,6 +14108,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-276804018",
     name: "Practice",
     country: "France",
     region: "Grand Est",
@@ -13342,6 +14126,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1392179071",
     name: "UGolf de Thionville RD",
     country: "France",
     region: "Grand Est",
@@ -13359,6 +14144,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-586994857",
     name: "Abbeville Golf Club",
     country: "France",
     region: "Hauts-de-France",
@@ -13376,6 +14162,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-41825522",
     name: "Club Golf de Valenciennes",
     country: "France",
     region: "Hauts-de-France",
@@ -13393,6 +14180,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-90664008",
     name: "Golf Club d'Amiens",
     country: "France",
     region: "Hauts-de-France",
@@ -13410,6 +14198,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-235470065",
     name: "Golf Country-Club de Chaumont-en-Vexin",
     country: "France",
     region: "Hauts-de-France",
@@ -13427,6 +14216,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-13372954345",
     name: "Golf Educatif du Marais",
     country: "France",
     region: "Hauts-de-France",
@@ -13444,6 +14234,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-209291020",
     name: "Golf Public D'Olhain",
     country: "France",
     region: "Hauts-de-France",
@@ -13461,6 +14252,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-25469005",
     name: "Golf d'Apremont",
     country: "France",
     region: "Hauts-de-France",
@@ -13478,6 +14270,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-131309453",
     name: "Golf d'Arras",
     country: "France",
     region: "Hauts-de-France",
@@ -13495,6 +14288,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-437669483",
     name: "Golf de Belle Dune",
     country: "France",
     region: "Hauts-de-France",
@@ -13512,6 +14306,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-648059970",
     name: "Golf de Berck",
     country: "France",
     region: "Hauts-de-France",
@@ -13529,6 +14324,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-2171032",
     name: "Golf de Bondues",
     country: "France",
     region: "Hauts-de-France",
@@ -13546,6 +14342,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-32652279",
     name: "Golf de Brigode",
     country: "France",
     region: "Hauts-de-France",
@@ -13563,6 +14360,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-82767679",
     name: "Golf de Béthune",
     country: "France",
     region: "Hauts-de-France",
@@ -13580,6 +14378,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19214277",
     name: "Golf de Chantilly",
     country: "France",
     region: "Hauts-de-France",
@@ -13597,6 +14396,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1388303517",
     name: "Golf de Dunkerque",
     country: "France",
     region: "Hauts-de-France",
@@ -13614,6 +14414,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19211283",
     name: "Golf de Lille Métropole",
     country: "France",
     region: "Hauts-de-France",
@@ -13631,6 +14432,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-229610479",
     name: "Golf de Menneville",
     country: "France",
     region: "Hauts-de-France",
@@ -13648,6 +14450,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-244593075",
     name: "Golf de Morfontaine",
     country: "France",
     region: "Hauts-de-France",
@@ -13665,6 +14468,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-132638836",
     name: "Golf de Mormal",
     country: "France",
     region: "Hauts-de-France",
@@ -13682,6 +14486,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-9036245",
     name: "Golf de Mérignies",
     country: "France",
     region: "Hauts-de-France",
@@ -13699,6 +14504,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-234781213",
     name: "Golf de Rebetz",
     country: "France",
     region: "Hauts-de-France",
@@ -13716,6 +14522,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-108155462",
     name: "Golf de Saint-Omer",
     country: "France",
     region: "Hauts-de-France",
@@ -13733,6 +14540,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-331362271",
     name: "Golf de Saint-Quentin - Mesnil",
     country: "France",
     region: "Hauts-de-France",
@@ -13750,6 +14558,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-123869044",
     name: "Golf de Salouël",
     country: "France",
     region: "Hauts-de-France",
@@ -13767,6 +14576,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1008116607",
     name: "Golf de Thumeries",
     country: "France",
     region: "Hauts-de-France",
@@ -13784,6 +14594,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-164396820",
     name: "Golf de Wimereux",
     country: "France",
     region: "Hauts-de-France",
@@ -13801,6 +14612,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-147040166",
     name: "Golf de l'Ailette",
     country: "France",
     region: "Hauts-de-France",
@@ -13818,6 +14630,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-238184132",
     name: "Golf des Flandres",
     country: "France",
     region: "Hauts-de-France",
@@ -13835,6 +14648,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-196344806",
     name: "Golf des Templiers",
     country: "France",
     region: "Hauts-de-France",
@@ -13852,6 +14666,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-758000633",
     name: "Golf du Cambrésis",
     country: "France",
     region: "Hauts-de-France",
@@ -13869,6 +14684,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-244059329",
     name: "Golf du Château d'Humières",
     country: "France",
     region: "Hauts-de-France",
@@ -13886,6 +14702,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-16224103",
     name: "Golf du Château de Raray",
     country: "France",
     region: "Hauts-de-France",
@@ -13903,6 +14720,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-148686942",
     name: "Golf du Douaisis - Bois des Retz",
     country: "France",
     region: "Hauts-de-France",
@@ -13920,6 +14738,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-6592905",
     name: "Golf du Lys",
     country: "France",
     region: "Hauts-de-France",
@@ -13937,6 +14756,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-86944041",
     name: "Golf du Sart",
     country: "France",
     region: "Hauts-de-France",
@@ -13954,6 +14774,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-12773558",
     name: "Golf du Touquet",
     country: "France",
     region: "Hauts-de-France",
@@ -13971,6 +14792,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-335604417",
     name: "Golf du Val Secret",
     country: "France",
     region: "Hauts-de-France",
@@ -13988,6 +14810,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-108323881",
     name: "Golf du Vert Parc",
     country: "France",
     region: "Hauts-de-France",
@@ -14005,6 +14828,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-641557141",
     name: "Golf d’Hardelot - Les Dunes",
     country: "France",
     region: "Hauts-de-France",
@@ -14022,6 +14846,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-44158407",
     name: "Golf d’Hardelot - Les Pins",
     country: "France",
     region: "Hauts-de-France",
@@ -14039,6 +14864,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1394452911",
     name: "Golf éducatif de Douai",
     country: "France",
     region: "Hauts-de-France",
@@ -14056,6 +14882,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-544654256",
     name: "Inesis Golf Park",
     country: "France",
     region: "Hauts-de-France",
@@ -14073,6 +14900,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1200614472",
     name: "La Licorne",
     country: "France",
     region: "Hauts-de-France",
@@ -14090,6 +14918,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1200614473",
     name: "Le Daguet",
     country: "France",
     region: "Hauts-de-France",
@@ -14107,6 +14936,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1200614474",
     name: "Le Faon",
     country: "France",
     region: "Hauts-de-France",
@@ -14124,6 +14954,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-95263812",
     name: "Nampont Saint-Martin Golf Club",
     country: "France",
     region: "Hauts-de-France",
@@ -14141,6 +14972,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-202277912",
     name: "Centre d'entrainement golfique de Bois-Guillaume",
     country: "France",
     region: "Normandie",
@@ -14158,6 +14990,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-168956104",
     name: "Golf Barrière Deauville",
     country: "France",
     region: "Normandie",
@@ -14175,6 +15008,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-124890651",
     name: "Golf Centre Manche",
     country: "France",
     region: "Normandie",
@@ -14192,6 +15026,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-216595264",
     name: "Golf Compact de Saint-Lô",
     country: "France",
     region: "Normandie",
@@ -14209,6 +15044,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1393071367",
     name: "Golf Normandie Côte d'Albâtre",
     country: "France",
     region: "Normandie",
@@ -14226,6 +15062,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-14140658",
     name: "Golf Omaha Beach",
     country: "France",
     region: "Normandie",
@@ -14243,6 +15080,7 @@ const GOLF_DATA = [
     lastChecked: "2026-09-17"
   },
   {
+    id: "way-1407843162",
     name: "Golf Pastoral de la Charentonne",
     country: "France",
     region: "Normandie",
@@ -14260,6 +15098,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-663278153",
     name: "Golf Pitch & Putt Mannevillette",
     country: "France",
     region: "Normandie",
@@ -14277,6 +15116,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-108331300",
     name: "Golf Public de Cabourg",
     country: "France",
     region: "Normandie",
@@ -14294,6 +15134,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-205255898",
     name: "Golf compact de Louvigny",
     country: "France",
     region: "Normandie",
@@ -14311,6 +15152,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-11299656",
     name: "Golf d'Andaine",
     country: "France",
     region: "Normandie",
@@ -14328,6 +15170,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-41989901",
     name: "Golf d'Arnouville",
     country: "France",
     region: "Normandie",
@@ -14345,6 +15188,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-80860086",
     name: "Golf d'Evreux",
     country: "France",
     region: "Normandie",
@@ -14362,6 +15206,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-34513467",
     name: "Golf d'Étretat",
     country: "France",
     region: "Normandie",
@@ -14379,6 +15224,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-52514161",
     name: "Golf de Bellême",
     country: "France",
     region: "Normandie",
@@ -14396,6 +15242,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-18573741",
     name: "Golf de Bois Guillaume",
     country: "France",
     region: "Normandie",
@@ -14413,6 +15260,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-123763645",
     name: "Golf de Bréhal",
     country: "France",
     region: "Normandie",
@@ -14430,6 +15278,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-2113419941",
     name: "Golf de Bévilliers",
     country: "France",
     region: "Normandie",
@@ -14447,6 +15296,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-111722012",
     name: "Golf de Cabourg Le Home",
     country: "France",
     region: "Normandie",
@@ -14464,6 +15314,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-49590479",
     name: "Golf de Caen",
     country: "France",
     region: "Normandie",
@@ -14481,6 +15332,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-226713167",
     name: "Golf de Cherbourg",
     country: "France",
     region: "Normandie",
@@ -14498,6 +15350,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-8273349",
     name: "Golf de Clécy-Cantelou",
     country: "France",
     region: "Normandie",
@@ -14515,6 +15368,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-132761302",
     name: "Golf de Coutainville",
     country: "France",
     region: "Normandie",
@@ -14532,6 +15386,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-46618416",
     name: "Golf de Coutainville",
     country: "France",
     region: "Normandie",
@@ -14549,6 +15404,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1064887033",
     name: "Golf de Dieppe Pourville",
     country: "France",
     region: "Normandie",
@@ -14566,6 +15422,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-236982664",
     name: "Golf de Gaillon",
     country: "France",
     region: "Normandie",
@@ -14583,6 +15440,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-15917657",
     name: "Golf de Garcelles",
     country: "France",
     region: "Normandie",
@@ -14600,6 +15458,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-9729370",
     name: "Golf de Granville",
     country: "France",
     region: "Normandie",
@@ -14617,6 +15476,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-112477210",
     name: "Golf de Houlgate",
     country: "France",
     region: "Normandie",
@@ -14634,6 +15494,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-12865153",
     name: "Golf de Jumièges",
     country: "France",
     region: "Normandie",
@@ -14651,6 +15512,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-97872388",
     name: "Golf de Léry-Poses",
     country: "France",
     region: "Normandie",
@@ -14668,6 +15530,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-75256198",
     name: "Golf de Montgeon",
     country: "France",
     region: "Normandie",
@@ -14685,6 +15548,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-13716027",
     name: "Golf de Rouen La Forêt Verte",
     country: "France",
     region: "Normandie",
@@ -14702,6 +15566,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-169121312",
     name: "Golf de Rouen Mont-Saint-Aignan",
     country: "France",
     region: "Normandie",
@@ -14719,6 +15584,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-176967019",
     name: "Golf de Saint-Gatien",
     country: "France",
     region: "Normandie",
@@ -14736,6 +15602,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19270047",
     name: "Golf de Saint-Georges",
     country: "France",
     region: "Normandie",
@@ -14753,6 +15620,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-332266393",
     name: "Golf de Saint-Julien",
     country: "France",
     region: "Normandie",
@@ -14770,6 +15638,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1057294429",
     name: "Golf de Saint-Saëns",
     country: "France",
     region: "Normandie",
@@ -14787,6 +15656,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-130019209",
     name: "Golf de Vire la Dathée",
     country: "France",
     region: "Normandie",
@@ -14804,6 +15674,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-260989563",
     name: "Golf de Yerville",
     country: "France",
     region: "Normandie",
@@ -14821,6 +15692,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-10992145",
     name: "Golf de l'Amirauté Deauville",
     country: "France",
     region: "Normandie",
@@ -14838,6 +15710,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-129958355",
     name: "Golf de la côte des isles",
     country: "France",
     region: "Normandie",
@@ -14855,6 +15728,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-214790348",
     name: "Golf de la presqu'île du Cotentin",
     country: "France",
     region: "Normandie",
@@ -14872,6 +15746,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-366443663",
     name: "Golf de l’Hippodrome d’Alençon",
     country: "France",
     region: "Normandie",
@@ -14889,6 +15764,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-8859412",
     name: "Golf des Bois-Francs",
     country: "France",
     region: "Normandie",
@@ -14906,6 +15782,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1127440546",
     name: "Golf du Bief",
     country: "France",
     region: "Normandie",
@@ -14923,6 +15800,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1408118674",
     name: "Golf du Champ de Bataille",
     country: "France",
     region: "Normandie",
@@ -14940,6 +15818,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-666116373",
     name: "Golf du Havre - Octeville-sur-Mer",
     country: "France",
     region: "Normandie",
@@ -14957,6 +15836,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-1562169",
     name: "Golf du Vaudreuil",
     country: "France",
     region: "Normandie",
@@ -14974,6 +15854,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-328191302",
     name: "Golf rustique de la Bichonnière",
     country: "France",
     region: "Normandie",
@@ -14991,6 +15872,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-7717625731",
     name: "Pont Au Golf",
     country: "France",
     region: "Normandie",
@@ -15008,6 +15890,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-124371706",
     name: "Swin Golf Annie Goutte",
     country: "France",
     region: "Normandie",
@@ -15025,6 +15908,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-40111730",
     name: "golf Evasion de La Frénaye",
     country: "France",
     region: "Normandie",
@@ -15042,6 +15926,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-199799972",
     name: "golf Flers Le Houlme",
     country: "France",
     region: "Normandie",
@@ -15059,6 +15944,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1408173974",
     name: "Balata Golf Practice",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15076,6 +15962,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-44807878",
     name: "Domaine du Golf Saint Lazare",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15093,6 +15980,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-830533358",
     name: "Domaine d’Essendiéras",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15110,6 +15998,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-430448247",
     name: "Garden Golf de Margaux",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15127,6 +16016,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-25856208",
     name: "Golf Blue Green Bordeaux Lac",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15144,6 +16034,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1391610280",
     name: "Golf Bluegreen Lacanau-La-Méjanne",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15161,6 +16052,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-132310668",
     name: "Golf Bluegreen Mazières-en-Gâtine",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15178,6 +16070,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-43042667",
     name: "Golf Bluegreen Niort-Romagné",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15195,6 +16088,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-18690865",
     name: "Golf Bluegreen Rochefort Océan",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15212,6 +16106,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-24920018",
     name: "Golf Bordelais",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15229,6 +16124,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-16225173",
     name: "Golf Club Grand Saint-Emilionnais",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15246,6 +16142,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-6406124",
     name: "Golf Club de Montendre",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15263,6 +16160,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-996886548",
     name: "Golf Club de Saint Méard de Gurçon",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15280,6 +16178,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19232436",
     name: "Golf Club du Bocage Bressuirais",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15297,6 +16196,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1394448307",
     name: "Golf Compact d'Idron",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15314,6 +16214,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-172760874",
     name: "Golf Epherra - Trous 1 à 9",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15331,6 +16232,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1195205206",
     name: "Golf Epherra - Trous 10 à 18",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15348,6 +16250,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-391006265",
     name: "Golf La Rochelle Sud",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15365,6 +16268,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3777465",
     name: "Golf Louis-Rouyer-Guillet",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15382,6 +16286,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-115540052",
     name: "Golf Mignaloux-Beauvoir",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15399,6 +16304,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-235997812",
     name: "Golf Nature Champs-Romain",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15416,6 +16322,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-433810847",
     name: "Golf Parc de la presqu'île d'Ambès",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15433,6 +16340,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-567784958",
     name: "Golf Practice des Argileyres Bordeaux Cestas",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15450,6 +16358,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-146457460",
     name: "Golf Public de Périgueux",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15467,6 +16376,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-261092195",
     name: "Golf Puy d'Arnac",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15484,6 +16394,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-499031430",
     name: "Golf d'Agen Bon Encontre",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15501,6 +16412,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-426855189",
     name: "Golf d'Albret",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15518,6 +16430,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-482575201",
     name: "Golf d'Arcachon",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15535,6 +16448,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19234969",
     name: "Golf d'Arcangues",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15552,6 +16466,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-6454953",
     name: "Golf d'Hossegor",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15569,6 +16484,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-176306926",
     name: "Golf d'Ilbarritz",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15586,6 +16502,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1394452263",
     name: "Golf d'Oléron",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15603,6 +16520,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-464762402",
     name: "Golf de Barthe",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15620,6 +16538,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-157056661",
     name: "Golf de Biarritz le Phare",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15637,6 +16556,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19267215",
     name: "Golf de Biscarrosse",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15654,6 +16574,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-8281951",
     name: "Golf de Bordeaux-Cameyrac",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15671,6 +16592,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-238401600",
     name: "Golf de Casteljaloux",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15688,6 +16610,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-427287610",
     name: "Golf de Chantaco",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15705,6 +16628,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-155267350",
     name: "Golf de Chiberta",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15722,6 +16646,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19214281",
     name: "Golf de Cognac",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15739,6 +16664,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-113952460",
     name: "Golf de Gujan",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15756,6 +16682,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-525126467",
     name: "Golf de La Roche Posay",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15773,6 +16700,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-143940495",
     name: "Golf de Lolivarie",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15790,6 +16718,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-338865233",
     name: "Golf de Loudun-Fontevraud",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15807,6 +16736,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-164304382",
     name: "Golf de Mimizan",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15824,6 +16754,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-122106732",
     name: "Golf de Moliets",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15841,6 +16772,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-594770452",
     name: "Golf de Mont de Marsan",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15858,6 +16790,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-608671213",
     name: "Golf de Mortemart",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15875,6 +16808,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-173373615",
     name: "Golf de Neuvic",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15892,6 +16826,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-168822268",
     name: "Golf de Pau-Artiguelouve",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15909,6 +16844,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-27580063",
     name: "Golf de Pessac",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15926,6 +16862,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-303412",
     name: "Golf de Pinsolle",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15943,6 +16880,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-440865316",
     name: "Golf de Planchetorte",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15960,6 +16898,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-117407467",
     name: "Golf de Poitiers-Châlons",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15977,6 +16916,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-99277429",
     name: "Golf de Royan",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -15994,6 +16934,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1316168032",
     name: "Golf de Salies-de-Béarn",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16011,6 +16952,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19211216",
     name: "Golf de Seignosse",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16028,6 +16970,7 @@ const GOLF_DATA = [
     lastChecked: "2026-09-17"
   },
   {
+    id: "way-409838906",
     name: "Golf de Teynac",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16045,6 +16988,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-26452550",
     name: "Golf de Trousse-Chemise",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16062,6 +17006,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-20316785",
     name: "Golf de l'Hirondelle",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16079,6 +17024,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-184883008",
     name: "Golf de la Cité Verte",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16096,6 +17042,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-143940496",
     name: "Golf de la Forge",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16113,6 +17060,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-311333251",
     name: "Golf de la Jonchère",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16130,6 +17078,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-41859199",
     name: "Golf de la Marterie",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16147,6 +17096,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-72880901",
     name: "Golf de la Nivelle",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16164,6 +17114,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-274562270",
     name: "Golf de la Prèze",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16181,6 +17132,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-224217392",
     name: "Golf de la porcelaine",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16198,6 +17150,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-687401012",
     name: "Golf de marmande",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16215,6 +17168,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-321053318",
     name: "Golf des Aiguilles Vertes",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16232,6 +17186,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-169639101",
     name: "Golf des Forges",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16249,6 +17204,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-8360707",
     name: "Golf des Graves et du Sauternais",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16266,6 +17222,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1391610279",
     name: "Golf du Baganais",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16283,6 +17240,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-182389119",
     name: "Golf du Chammet",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16300,6 +17258,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-8364437",
     name: "Golf du Château d'Allot",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16317,6 +17276,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3388830",
     name: "Golf du Château de la Vallade",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16334,6 +17294,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-369433165",
     name: "Golf du Château les Merles",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16351,6 +17312,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1394442020",
     name: "Golf du Genêt",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16368,6 +17330,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-112383292",
     name: "Golf du Haut Poitou",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16385,6 +17348,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-28089239",
     name: "Golf du Médoc",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16402,6 +17366,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-425980409",
     name: "Golf du Parc du Coiroux",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16419,6 +17384,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1396589548",
     name: "Golf du Thouarsais",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16436,6 +17402,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-136716116",
     name: "Golf du domaine de Rochebois",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16453,6 +17420,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-77891944",
     name: "Golf du domaine résidentiel naturiste La Jenny",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16470,6 +17438,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-179426658",
     name: "Golf d’Aubeterre",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16487,6 +17456,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-80747240",
     name: "Golf la Prée La Rochelle",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16504,6 +17474,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-267239126",
     name: "Golfe des Vigiers",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16521,6 +17492,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-234235948",
     name: "Hossegor Putting Garden",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16538,6 +17510,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-159705958",
     name: "La Palmyre Golf Club",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16555,6 +17528,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-629164428",
     name: "Le Practice de la Corniche",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16572,6 +17546,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1360092163",
     name: "Les Greens d'Eugénie",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16589,6 +17564,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1296575679",
     name: "Les Petites Chaumes",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16606,6 +17582,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3335071",
     name: "Makila Golf Club",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16623,6 +17600,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-415116728",
     name: "Max' golf",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16640,6 +17618,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-788140261",
     name: "Parcours \"Les Châteaux\"",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16657,6 +17636,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-788140254",
     name: "Parcours \"Les Vignes\"",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16674,6 +17654,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1370519387",
     name: "Parcours Compact",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16691,6 +17672,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1370519386",
     name: "Parcours Rouge",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16708,6 +17690,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-155267153",
     name: "Parcours de l'Impératrice",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16725,6 +17708,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-34238665",
     name: "Pau Golf Club",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16742,6 +17726,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-157056670",
     name: "Practice Biarritz le Phare",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16759,6 +17744,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1394447886",
     name: "Practice de Golf - US Dax",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16776,6 +17762,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1416680572",
     name: "Practice de golf des Pertuis",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16793,6 +17780,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-959714108",
     name: "Putting Green",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16810,6 +17798,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-689371603",
     name: "UGOLF Bordeaux Villenave d’Ornon",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16827,6 +17816,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-964503",
     name: "UGOLF Lacanau",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16844,6 +17834,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-2798249",
     name: "Villeneuve-sur-Lot Golf & Country Club",
     country: "France",
     region: "Nouvelle-Aquitaine",
@@ -16861,6 +17852,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-460903479",
     name: "Compact 9 trous",
     country: "France",
     region: "Occitanie",
@@ -16878,6 +17870,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-202893267",
     name: "Domaine Estolosa",
     country: "France",
     region: "Occitanie",
@@ -16895,6 +17888,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-42289808",
     name: "Domaine de Falgos",
     country: "France",
     region: "Occitanie",
@@ -16912,6 +17906,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-256828339",
     name: "Domaine de Mezeyrac",
     country: "France",
     region: "Occitanie",
@@ -16929,6 +17924,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19230614",
     name: "Ecogolf Ariège Pyrénées",
     country: "France",
     region: "Occitanie",
@@ -16946,6 +17942,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-819148754",
     name: "Espace Loisirs Saint-Jean-de-Serres",
     country: "France",
     region: "Occitanie",
@@ -16963,6 +17960,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-472631908",
     name: "Golf 9 trous de la résidence du domaine du golf",
     country: "France",
     region: "Occitanie",
@@ -16980,6 +17978,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1394439261",
     name: "Golf Alès-Ribaute",
     country: "France",
     region: "Occitanie",
@@ -16997,6 +17996,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1292405543",
     name: "Golf Château de Jumliac",
     country: "France",
     region: "Occitanie",
@@ -17014,6 +18014,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-406576260",
     name: "Golf Club Espalais",
     country: "France",
     region: "Occitanie",
@@ -17031,6 +18032,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-180032304",
     name: "Golf Club Nimes Campagne",
     country: "France",
     region: "Occitanie",
@@ -17048,6 +18050,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-189591991",
     name: "Golf Club d'Uzès",
     country: "France",
     region: "Occitanie",
@@ -17065,6 +18068,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-2974115",
     name: "Golf Club de Guinlet",
     country: "France",
     region: "Occitanie",
@@ -17082,6 +18086,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-9508246945",
     name: "Golf Nîmes Campagne",
     country: "France",
     region: "Occitanie",
@@ -17099,6 +18104,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-208777735",
     name: "Golf Pitch and Putt de Narbonne",
     country: "France",
     region: "Occitanie",
@@ -17116,6 +18122,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19244519",
     name: "Golf Resort Montpellier Fontcaude",
     country: "France",
     region: "Occitanie",
@@ -17133,6 +18140,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-186274617",
     name: "Golf communal de Font-Romeu",
     country: "France",
     region: "Occitanie",
@@ -17150,6 +18158,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1312799967",
     name: "Golf d'Auch- Embats",
     country: "France",
     region: "Occitanie",
@@ -17167,6 +18176,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-38864002",
     name: "Golf de Béziers Saint-Thomas",
     country: "France",
     region: "Occitanie",
@@ -17184,6 +18194,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-42311596",
     name: "Golf de Carcassonne",
     country: "France",
     region: "Occitanie",
@@ -17201,6 +18212,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-101045404",
     name: "Golf de Castelnau le Lez",
     country: "France",
     region: "Occitanie",
@@ -17218,6 +18230,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-39503948",
     name: "Golf de Castres Gourjade",
     country: "France",
     region: "Occitanie",
@@ -17235,6 +18248,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-366777740",
     name: "Golf de Cazilhac",
     country: "France",
     region: "Occitanie",
@@ -17252,6 +18266,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-310049135",
     name: "Golf de Fleurance",
     country: "France",
     region: "Occitanie",
@@ -17269,6 +18284,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-430408335",
     name: "Golf de Florentin -Marssac-sur-Tarn",
     country: "France",
     region: "Occitanie",
@@ -17286,6 +18302,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-41952523",
     name: "Golf de Gascogne",
     country: "France",
     region: "Occitanie",
@@ -17303,6 +18320,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-664578688",
     name: "Golf de Ginestous",
     country: "France",
     region: "Occitanie",
@@ -17320,6 +18338,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19280890",
     name: "Golf de Lamalou-les Bains",
     country: "France",
     region: "Occitanie",
@@ -17337,6 +18356,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-294141206",
     name: "Golf de Lannemezan",
     country: "France",
     region: "Occitanie",
@@ -17354,6 +18374,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-205658969",
     name: "Golf de Las Martines",
     country: "France",
     region: "Occitanie",
@@ -17371,6 +18392,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-136714695",
     name: "Golf de Lasbordes",
     country: "France",
     region: "Occitanie",
@@ -17388,6 +18410,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-9365213",
     name: "Golf de Luchon",
     country: "France",
     region: "Occitanie",
@@ -17405,6 +18428,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-2031874",
     name: "Golf de Montal",
     country: "France",
     region: "Occitanie",
@@ -17422,6 +18446,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-527691011",
     name: "Golf de Montauban l'Estang",
     country: "France",
     region: "Occitanie",
@@ -17439,6 +18464,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-727416203",
     name: "Golf de Montescot",
     country: "France",
     region: "Occitanie",
@@ -17456,6 +18482,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-26295220",
     name: "Golf de Montpellier Massane",
     country: "France",
     region: "Occitanie",
@@ -17473,6 +18500,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-40924785",
     name: "Golf de Nîmes Vacquerolles",
     country: "France",
     region: "Occitanie",
@@ -17490,6 +18518,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3388539",
     name: "Golf de Palmola",
     country: "France",
     region: "Occitanie",
@@ -17507,6 +18536,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-163218813",
     name: "Golf de Saint-Cyprien",
     country: "France",
     region: "Occitanie",
@@ -17524,6 +18554,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19209609",
     name: "Golf de Salies-du-Salat",
     country: "France",
     region: "Occitanie",
@@ -17541,6 +18572,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-24735988",
     name: "Golf de Toulouse - Seilh",
     country: "France",
     region: "Occitanie",
@@ -17558,6 +18590,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-298171427",
     name: "Golf de Téoula",
     country: "France",
     region: "Occitanie",
@@ -17575,6 +18608,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-2832265",
     name: "Golf de Vieille Toulouse",
     country: "France",
     region: "Occitanie",
@@ -17592,6 +18626,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-35995141",
     name: "Golf de l'Hippodrome",
     country: "France",
     region: "Occitanie",
@@ -17609,6 +18644,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-714794952",
     name: "Golf de la Barouge",
     country: "France",
     region: "Occitanie",
@@ -17626,6 +18662,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-239340332",
     name: "Golf de la Bigorre",
     country: "France",
     region: "Occitanie",
@@ -17643,6 +18680,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-362664419",
     name: "Golf de la Garde Guérin",
     country: "France",
     region: "Occitanie",
@@ -17660,6 +18698,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19272175",
     name: "Golf de la Grande Motte",
     country: "France",
     region: "Occitanie",
@@ -17677,6 +18716,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-249279776",
     name: "Golf de la Pommeraie",
     country: "France",
     region: "Occitanie",
@@ -17694,6 +18734,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-200924956",
     name: "Golf de la Ramée",
     country: "France",
     region: "Occitanie",
@@ -17711,6 +18752,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1211082880",
     name: "Golf des Aiguillons",
     country: "France",
     region: "Occitanie",
@@ -17728,6 +18770,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-972695362",
     name: "Golf des Charmilles",
     country: "France",
     region: "Occitanie",
@@ -17745,6 +18788,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-330661608",
     name: "Golf des Gorges du Tarn",
     country: "France",
     region: "Occitanie",
@@ -17762,6 +18806,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-310656614",
     name: "Golf des Roucous",
     country: "France",
     region: "Occitanie",
@@ -17779,6 +18824,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3911375",
     name: "Golf des Tumulus",
     country: "France",
     region: "Occitanie",
@@ -17796,6 +18842,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-6292431",
     name: "Golf des Étangs de Fiac",
     country: "France",
     region: "Occitanie",
@@ -17813,6 +18860,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-375576912",
     name: "Golf du Cap",
     country: "France",
     region: "Occitanie",
@@ -17830,6 +18878,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-13007665",
     name: "Golf du Cap d'Agde",
     country: "France",
     region: "Occitanie",
@@ -17847,6 +18896,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-334757365",
     name: "Golf du Château de Barbet",
     country: "France",
     region: "Occitanie",
@@ -17864,6 +18914,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-875285179",
     name: "Golf du Comminges",
     country: "France",
     region: "Occitanie",
@@ -17881,6 +18932,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19208271",
     name: "Golf du Grand Rodez",
     country: "France",
     region: "Occitanie",
@@ -17898,6 +18950,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19248199",
     name: "Golf du Gévaudan - Domaine de Barres",
     country: "France",
     region: "Occitanie",
@@ -17915,6 +18968,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19271844",
     name: "Golf du Pic Saint-Loup",
     country: "France",
     region: "Occitanie",
@@ -17932,6 +18986,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-241238831",
     name: "Golf du Totche",
     country: "France",
     region: "Occitanie",
@@ -17949,6 +19004,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-300762872",
     name: "Golf du château de Pallanne",
     country: "France",
     region: "Occitanie",
@@ -17966,6 +19022,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-381444705",
     name: "Le Golf d'Aiguelèze",
     country: "France",
     region: "Occitanie",
@@ -17983,6 +19040,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-192151419",
     name: "Lourdes Pyrénées Golf Club",
     country: "France",
     region: "Occitanie",
@@ -18000,6 +19058,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-1773110063",
     name: "Plaisance Swin-Golf",
     country: "France",
     region: "Occitanie",
@@ -18017,6 +19076,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-437737737",
     name: "Souillac Golf & Country Club",
     country: "France",
     region: "Occitanie",
@@ -18034,6 +19094,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-234544728",
     name: "Ugolf Toulouse Lou verdaï",
     country: "France",
     region: "Occitanie",
@@ -18051,6 +19112,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-14497319",
     name: "18 trous par 73",
     country: "France",
     region: "Pays de la Loire",
@@ -18068,6 +19130,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-14497318",
     name: "9 trous compact",
     country: "France",
     region: "Pays de la Loire",
@@ -18085,6 +19148,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-365960587",
     name: "Anjou golf & country club",
     country: "France",
     region: "Pays de la Loire",
@@ -18102,6 +19166,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19214280",
     name: "Bourgenay Golf Club",
     country: "France",
     region: "Pays de la Loire",
@@ -18119,6 +19184,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-4399004141",
     name: "Golf 9 trous de la Presqu'île",
     country: "France",
     region: "Pays de la Loire",
@@ -18136,6 +19202,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19211413",
     name: "Golf AGS",
     country: "France",
     region: "Pays de la Loire",
@@ -18153,6 +19220,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-186476177",
     name: "Golf Alençon en Arçonnay",
     country: "France",
     region: "Pays de la Loire",
@@ -18170,6 +19238,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1498277153",
     name: "Golf Bluegreen du Pays de Saint-Gilles-Croix-de-Vie",
     country: "France",
     region: "Pays de la Loire",
@@ -18187,6 +19256,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3789061",
     name: "Golf International Barrière La Baule",
     country: "France",
     region: "Pays de la Loire",
@@ -18204,6 +19274,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-171440034",
     name: "Golf Les Alouettes",
     country: "France",
     region: "Pays de la Loire",
@@ -18221,6 +19292,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-362478571",
     name: "Golf d'Angers",
     country: "France",
     region: "Pays de la Loire",
@@ -18238,6 +19310,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-170145459",
     name: "Golf d'Avrillé",
     country: "France",
     region: "Pays de la Loire",
@@ -18255,6 +19328,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-145336418",
     name: "Golf de Baugé",
     country: "France",
     region: "Pays de la Loire",
@@ -18272,6 +19346,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-122996627",
     name: "Golf de Carquefou",
     country: "France",
     region: "Pays de la Loire",
@@ -18289,6 +19364,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-31338918",
     name: "Golf de Cholet",
     country: "France",
     region: "Pays de la Loire",
@@ -18306,6 +19382,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-510429443",
     name: "Golf de Guérande",
     country: "France",
     region: "Pays de la Loire",
@@ -18323,6 +19400,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-155041954",
     name: "Golf de Laval",
     country: "France",
     region: "Pays de la Loire",
@@ -18340,6 +19418,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-516906555",
     name: "Golf de Mesquer",
     country: "France",
     region: "Pays de la Loire",
@@ -18357,6 +19436,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1394432974",
     name: "Golf de Montjoie",
     country: "France",
     region: "Pays de la Loire",
@@ -18374,6 +19454,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-2606662",
     name: "Golf de Nantes",
     country: "France",
     region: "Pays de la Loire",
@@ -18391,6 +19472,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1478906418",
     name: "Golf de Nantes - Erdre",
     country: "France",
     region: "Pays de la Loire",
@@ -18408,6 +19490,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-42714266",
     name: "Golf de Pornic",
     country: "France",
     region: "Pays de la Loire",
@@ -18425,6 +19508,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-159036328",
     name: "Golf de Sablé-Solesmes",
     country: "France",
     region: "Pays de la Loire",
@@ -18442,6 +19526,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-34990576",
     name: "Golf de Saint-Jean-de-Monts",
     country: "France",
     region: "Pays de la Loire",
@@ -18459,6 +19544,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-557790248",
     name: "Golf de Saint-Sylvain d'Anjou",
     country: "France",
     region: "Pays de la Loire",
@@ -18476,6 +19562,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-126104756",
     name: "Golf de Sargé",
     country: "France",
     region: "Pays de la Loire",
@@ -18493,6 +19580,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-245206619",
     name: "Golf de Saumur",
     country: "France",
     region: "Pays de la Loire",
@@ -18510,6 +19598,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-169453743",
     name: "Golf de Savenay",
     country: "France",
     region: "Pays de la Loire",
@@ -18527,6 +19616,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-153021345",
     name: "Golf de Segré",
     country: "France",
     region: "Pays de la Loire",
@@ -18544,6 +19634,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-128139128",
     name: "Golf de la Bretesche",
     country: "France",
     region: "Pays de la Loire",
@@ -18561,6 +19652,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-223161871",
     name: "Golf de la Domangère",
     country: "France",
     region: "Pays de la Loire",
@@ -18578,6 +19670,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-34406337",
     name: "Golf des 24 heures",
     country: "France",
     region: "Pays de la Loire",
@@ -18595,6 +19688,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-398114493",
     name: "Golf des Sables d'Olonne",
     country: "France",
     region: "Pays de la Loire",
@@ -18612,6 +19706,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-4459310",
     name: "Golf du Croisic",
     country: "France",
     region: "Pays de la Loire",
@@ -18629,6 +19724,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-371204483",
     name: "Golf Île d'Or",
     country: "France",
     region: "Pays de la Loire",
@@ -18646,6 +19742,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-12112286736",
     name: "Grand Lieu Swin Golf",
     country: "France",
     region: "Pays de la Loire",
@@ -18663,6 +19760,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1200665037",
     name: "Multigolf Meslay",
     country: "France",
     region: "Pays de la Loire",
@@ -18680,6 +19778,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-6351578",
     name: "Néogolf",
     country: "France",
     region: "Pays de la Loire",
@@ -18697,6 +19796,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-12117925192",
     name: "Pitch And Putt de la Presqu'île",
     country: "France",
     region: "Pays de la Loire",
@@ -18714,6 +19814,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1353314784",
     name: "Practice de Pornichet",
     country: "France",
     region: "Pays de la Loire",
@@ -18731,6 +19832,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-628350252",
     name: "Swin Golf La Barre de Monts",
     country: "France",
     region: "Pays de la Loire",
@@ -18748,6 +19850,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-797736436",
     name: "Swin golf Quelaines",
     country: "France",
     region: "Pays de la Loire",
@@ -18765,6 +19868,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-149878143",
     name: "Swin golf du Gué de Selle",
     country: "France",
     region: "Pays de la Loire",
@@ -18782,6 +19886,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-2255042850",
     name: "Swin-golf d'Yvrelle",
     country: "France",
     region: "Pays de la Loire",
@@ -18799,6 +19904,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-16191415",
     name: "Swingolf Nantes Petit Port",
     country: "France",
     region: "Pays de la Loire",
@@ -18816,6 +19922,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-689389118",
     name: "Accueil Golf De Valgarde",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -18833,6 +19940,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-27577166",
     name: "Aix Golf",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -18850,6 +19958,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1396714240",
     name: "Auron Mountain Golf",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -18867,6 +19976,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19224081",
     name: "Château l'Arc Golf Club",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -18884,6 +19994,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-349650483",
     name: "Domaine de Taulane",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -18901,6 +20012,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-667672973",
     name: "Golf Bouc-Bel-Air",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -18918,6 +20030,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-60415536",
     name: "Golf Club Aix Marseille",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -18935,6 +20048,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-786549613",
     name: "Golf Club Claviere",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -18952,6 +20066,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-766472471",
     name: "Golf Club de Menton",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -18969,6 +20084,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-165314138",
     name: "Golf Club de Miramas",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -18986,6 +20102,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-419703884",
     name: "Golf Country Club",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19003,6 +20120,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-22376856",
     name: "Golf Country Club Cannes-Mougins",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19020,6 +20138,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-30657111",
     name: "Golf Country Club de Saint-Donat",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19037,6 +20156,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-91386815",
     name: "Golf Côte Bleue",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19054,6 +20174,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-6715288286",
     name: "Golf Du Domaine De Manville",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19071,6 +20192,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-8843251",
     name: "Golf Frégate Provence",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19088,6 +20210,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-187161586",
     name: "Golf Grand Avignon",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19105,6 +20228,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-336817594",
     name: "Golf Grasse Country Club – Claux Amic",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19122,6 +20246,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19247330",
     name: "Golf Roches d'Azur",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19139,6 +20264,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-646310896",
     name: "Golf Up",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19156,6 +20282,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-335052574",
     name: "Golf d'Aix-en-Provence",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19173,6 +20300,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-121201497",
     name: "Golf d'Orange",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19190,6 +20318,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-260854416",
     name: "Golf de Barbaroux",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19207,6 +20336,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1003313043",
     name: "Golf de Barbentane",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19224,6 +20354,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-14918148",
     name: "Golf de Beauvallon",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19241,6 +20372,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-9459270",
     name: "Golf de Biot",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19258,6 +20390,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3480167",
     name: "Golf de Châteaublanc",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19275,6 +20408,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-52161597",
     name: "Golf de Digne La Lavande",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19292,6 +20426,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-139622616",
     name: "Golf de Gap-Bayard",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19309,6 +20444,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-340079370",
     name: "Golf de Gassin",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19326,6 +20462,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-466623614",
     name: "Golf de Marseille la Salette",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19343,6 +20480,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-8362624",
     name: "Golf de Montgenèvre",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19360,6 +20498,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-1834587",
     name: "Golf de Pont-Royal",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19377,6 +20516,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-289024542",
     name: "Golf de Roquebrune",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19394,6 +20534,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-301404492",
     name: "Golf de Saint Martin de Crau",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19411,6 +20552,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-30754731",
     name: "Golf de Sainte-Maxime",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19428,6 +20570,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1204542374",
     name: "Golf de Saumane",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19445,6 +20588,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-37561327",
     name: "Golf de Servanes",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19462,6 +20606,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-21244136",
     name: "Golf de Valcros",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19479,6 +20624,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19947427",
     name: "Golf de Valescure",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19496,6 +20642,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-8252533",
     name: "Golf de Valgarde",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19513,6 +20660,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-210143196",
     name: "Golf de l'école de l'air",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19530,6 +20678,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-167482677",
     name: "Golf de la Cabre d'Or",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19547,6 +20696,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-1736661",
     name: "Golf de la Grande Bastide",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19564,6 +20714,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-101386557",
     name: "Golf de la Sainte-Baume",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19581,6 +20732,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-775359957",
     name: "Golf de la Tour d'Opio",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19598,6 +20750,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-1734815",
     name: "Golf de la Vanade",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19615,6 +20768,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-672831791",
     name: "Golf des Ocres",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19632,6 +20786,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-160452032",
     name: "Golf du Bois Chenu",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19649,6 +20804,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-3590174",
     name: "Golf du Domaine de Manville",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19666,6 +20822,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-178443950",
     name: "Golf du Luberon",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19683,6 +20840,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-7428915",
     name: "Golf d’Opio Valbonne",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19700,6 +20858,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19244413",
     name: "Golf Ésterel Latitude",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19717,6 +20876,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-782987990",
     name: "La Durance",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19734,6 +20894,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-14482930",
     name: "Le Provençal Golf",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19751,6 +20912,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-326063030",
     name: "Monte-Carlo Golf Club",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19768,6 +20930,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1363850593",
     name: "Nouveau practice de golf",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19785,6 +20948,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-16704569",
     name: "Old Course Cannes Golf Links",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19802,6 +20966,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-503904112",
     name: "Petit golf de Piolenc",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19819,6 +20984,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1218203666",
     name: "Pian del Colle",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19836,6 +21002,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-70700442",
     name: "Practice du Golf",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19853,6 +21020,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-788735581",
     name: "Ribiera Swing Golf - Golf de Forcalquier Luberon",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19870,6 +21038,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-95304161",
     name: "Riviera Golf Club",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19887,6 +21056,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19214269",
     name: "Royal Mougins Golf",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19904,6 +21074,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-240681450",
     name: "Saint-Endréol",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19921,6 +21092,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-335052560",
     name: "Set Golf",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19938,6 +21110,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-303679751",
     name: "Swing Center My Golf Le Castellet",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19955,6 +21128,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-383943911",
     name: "Terre Blanche",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19972,6 +21146,7 @@ const GOLF_DATA = [
     lastChecked: "2026-09-17"
   },
   {
+    id: "way-265845228",
     name: "Valberg golf Club",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -19989,6 +21164,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-23543863",
     name: "Victoria Golf Club",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -20006,6 +21182,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-288827624",
     name: "Vidauban Golf Club",
     country: "France",
     region: "Provence-Alpes-Côte d'Azur",
@@ -20023,6 +21200,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-41736051",
     name: "Crécy Golf Club",
     country: "France",
     region: "Île-de-France",
@@ -20040,6 +21218,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-687955612",
     name: "Golf Bluegreen Bellefontaine",
     country: "France",
     region: "Île-de-France",
@@ -20057,6 +21236,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-425982307",
     name: "Golf Bluegreen Rueil-Malmaison",
     country: "France",
     region: "Île-de-France",
@@ -20074,6 +21254,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-2915032",
     name: "Golf Clément Ader",
     country: "France",
     region: "Île-de-France",
@@ -20091,6 +21272,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-62114",
     name: "Golf Disneyland",
     country: "France",
     region: "Île-de-France",
@@ -20108,6 +21290,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-47473145",
     name: "Golf Isabella",
     country: "France",
     region: "Île-de-France",
@@ -20125,6 +21308,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-290619725",
     name: "Golf National",
     country: "France",
     region: "Île-de-France",
@@ -20142,6 +21326,7 @@ const GOLF_DATA = [
     lastChecked: "2026-09-17"
   },
   {
+    id: "way-579387325",
     name: "Golf ParisLongchamp",
     country: "France",
     region: "Île-de-France",
@@ -20159,6 +21344,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-20324338",
     name: "Golf d'Ableiges",
     country: "France",
     region: "Île-de-France",
@@ -20176,6 +21362,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-74463795",
     name: "Golf d'Ecancourt",
     country: "France",
     region: "Île-de-France",
@@ -20193,6 +21380,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-28684357",
     name: "Golf d'Ozoir-la-Ferrière",
     country: "France",
     region: "Île-de-France",
@@ -20210,6 +21398,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-194844502",
     name: "Golf d'Étiolles",
     country: "France",
     region: "Île-de-France",
@@ -20227,6 +21416,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-156015232",
     name: "Golf de Buc-Toussus",
     country: "France",
     region: "Île-de-France",
@@ -20244,6 +21434,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-375467",
     name: "Golf de Bussy-Guermantes",
     country: "France",
     region: "Île-de-France",
@@ -20261,6 +21452,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-1310109",
     name: "Golf de Béthemont",
     country: "France",
     region: "Île-de-France",
@@ -20278,6 +21470,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-17130632",
     name: "Golf de Cergy Vauréal",
     country: "France",
     region: "Île-de-France",
@@ -20295,6 +21488,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-23009387",
     name: "Golf de Cély",
     country: "France",
     region: "Île-de-France",
@@ -20312,6 +21506,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-111797453",
     name: "Golf de Domont-Montmorency",
     country: "France",
     region: "Île-de-France",
@@ -20329,6 +21524,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-47473272",
     name: "Golf de Feucherolles",
     country: "France",
     region: "Île-de-France",
@@ -20346,6 +21542,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-42287906",
     name: "Golf de Fontainebleau",
     country: "France",
     region: "Île-de-France",
@@ -20363,6 +21560,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-159969048",
     name: "Golf de Forges Les Bains",
     country: "France",
     region: "Île-de-France",
@@ -20380,6 +21578,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-47473334",
     name: "Golf de Fourqueux",
     country: "France",
     region: "Île-de-France",
@@ -20397,6 +21596,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-21184875",
     name: "Golf de Gadancourt",
     country: "France",
     region: "Île-de-France",
@@ -20414,6 +21614,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19268438",
     name: "Golf de Gif-sur-Yvette Chevry",
     country: "France",
     region: "Île-de-France",
@@ -20431,6 +21632,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-168102447",
     name: "Golf de Guerville",
     country: "France",
     region: "Île-de-France",
@@ -20448,6 +21650,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-2351017",
     name: "Golf de Joyenval",
     country: "France",
     region: "Île-de-France",
@@ -20465,6 +21668,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-28797766",
     name: "Golf de Lésigny-Réveillon",
     country: "France",
     region: "Île-de-France",
@@ -20482,6 +21686,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-7886332",
     name: "Golf de Maisons Laffitte",
     country: "France",
     region: "Île-de-France",
@@ -20499,6 +21704,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-166326788",
     name: "Golf de Marivaux",
     country: "France",
     region: "Île-de-France",
@@ -20516,6 +21722,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19211100",
     name: "Golf de Marolles-en-Brie",
     country: "France",
     region: "Île-de-France",
@@ -20533,6 +21740,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-145189474",
     name: "Golf de Maudétour",
     country: "France",
     region: "Île-de-France",
@@ -20550,6 +21758,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1019723368",
     name: "Golf de Meaux-Boutigny",
     country: "France",
     region: "Île-de-France",
@@ -20567,6 +21776,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-209108682",
     name: "Golf de Mennecy Chevannes",
     country: "France",
     region: "Île-de-France",
@@ -20584,6 +21794,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-7743283",
     name: "Golf de Montgriffon",
     country: "France",
     region: "Île-de-France",
@@ -20601,6 +21812,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-22604155",
     name: "Golf de Noisy le Roi",
     country: "France",
     region: "Île-de-France",
@@ -20618,6 +21830,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-9926146",
     name: "Golf de Paris",
     country: "France",
     region: "Île-de-France",
@@ -20635,6 +21848,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-87256088",
     name: "Golf de Roissy",
     country: "France",
     region: "Île-de-France",
@@ -20652,6 +21866,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-23279540",
     name: "Golf de Rosny-sous-Bois",
     country: "France",
     region: "Île-de-France",
@@ -20669,6 +21884,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19230188",
     name: "Golf de Saint-Aubin",
     country: "France",
     region: "Île-de-France",
@@ -20686,6 +21902,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-22752042",
     name: "Golf de Saint-Cloud",
     country: "France",
     region: "Île-de-France",
@@ -20703,6 +21920,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1350321773",
     name: "Golf de Saint-Germain-en-Laye",
     country: "France",
     region: "Île-de-France",
@@ -20720,6 +21938,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19218935",
     name: "Golf de Saint-Germain-lès-Corbeil",
     country: "France",
     region: "Île-de-France",
@@ -20737,6 +21956,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-22604082",
     name: "Golf de Saint-Nom la Bretêche",
     country: "France",
     region: "Île-de-France",
@@ -20754,6 +21974,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-444895",
     name: "Golf de Saint-Ouen l'Aumône",
     country: "France",
     region: "Île-de-France",
@@ -20771,6 +21992,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-22673458",
     name: "Golf de Saint-Quentin en Yvelines",
     country: "France",
     region: "Île-de-France",
@@ -20788,6 +22010,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-42303198",
     name: "Golf de Seraincourt",
     country: "France",
     region: "Île-de-France",
@@ -20805,6 +22028,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-2849080",
     name: "Golf de Sénart",
     country: "France",
     region: "Île-de-France",
@@ -20822,6 +22046,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1055963578",
     name: "Golf de Thiverval-Grignon",
     country: "France",
     region: "Île-de-France",
@@ -20839,6 +22064,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-31513841",
     name: "Golf de Vaires-Torcy",
     country: "France",
     region: "Île-de-France",
@@ -20856,6 +22082,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-24809232",
     name: "Golf de Val Grand",
     country: "France",
     region: "Île-de-France",
@@ -20873,6 +22100,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-213162073",
     name: "Golf de Verrières-le-Buisson",
     country: "France",
     region: "Île-de-France",
@@ -20890,6 +22118,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-47422171",
     name: "Golf de Villacoublay",
     country: "France",
     region: "Île-de-France",
@@ -20907,6 +22136,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-148729889",
     name: "Golf de Villarceaux",
     country: "France",
     region: "Île-de-France",
@@ -20924,6 +22154,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-148729888",
     name: "Golf de Villarceaux",
     country: "France",
     region: "Île-de-France",
@@ -20941,6 +22172,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-85447354",
     name: "Golf de Villennes",
     country: "France",
     region: "Île-de-France",
@@ -20958,6 +22190,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-14180078",
     name: "Golf de Viltain Saint-Marc",
     country: "France",
     region: "Île-de-France",
@@ -20975,6 +22208,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-685169687",
     name: "Golf de l'Hermitage",
     country: "France",
     region: "Île-de-France",
@@ -20992,6 +22226,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-166054741",
     name: "Golf de l'Isle Adam",
     country: "France",
     region: "Île-de-France",
@@ -21009,6 +22244,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-299046267",
     name: "Golf de l'Yvette",
     country: "France",
     region: "Île-de-France",
@@ -21026,6 +22262,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-166523254",
     name: "Golf de l'Île Fleurie",
     country: "France",
     region: "Île-de-France",
@@ -21043,6 +22280,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-25995180",
     name: "Golf de l'Île de loisirs de Bois-le-Roi",
     country: "France",
     region: "Île-de-France",
@@ -21060,6 +22298,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1447253378",
     name: "Golf de la Croix des Anges",
     country: "France",
     region: "Île-de-France",
@@ -21077,6 +22316,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-243804869",
     name: "Golf de la Forteresse",
     country: "France",
     region: "Île-de-France",
@@ -21094,6 +22334,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-27134737",
     name: "Golf de la Grande Vallée",
     country: "France",
     region: "Île-de-France",
@@ -21111,6 +22352,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-343687533",
     name: "Golf de la Marsaudière",
     country: "France",
     region: "Île-de-France",
@@ -21128,6 +22370,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-42285314",
     name: "Golf des Boucles de Seine",
     country: "France",
     region: "Île-de-France",
@@ -21145,6 +22388,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-11292962244",
     name: "Golf des Bruyeres",
     country: "France",
     region: "Île-de-France",
@@ -21162,6 +22406,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-120946651",
     name: "Golf des Yvelines",
     country: "France",
     region: "Île-de-France",
@@ -21179,6 +22424,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-242406556",
     name: "Golf du Château de Rochefort",
     country: "France",
     region: "Île-de-France",
@@ -21196,6 +22442,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-42303248",
     name: "Golf du Château de la Chouette",
     country: "France",
     region: "Île-de-France",
@@ -21213,6 +22460,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-23068336",
     name: "Golf du Coudray-Monceau",
     country: "France",
     region: "Île-de-France",
@@ -21230,6 +22478,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-167467631",
     name: "Golf du Haras Lupin",
     country: "France",
     region: "Île-de-France",
@@ -21247,6 +22496,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-19268500",
     name: "Golf du Haras de Jardy",
     country: "France",
     region: "Île-de-France",
@@ -21264,6 +22514,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-174117499",
     name: "Golf du Parc du Tremblay",
     country: "France",
     region: "Île-de-France",
@@ -21281,6 +22532,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-42346959",
     name: "Golf du Prieuré",
     country: "France",
     region: "Île-de-France",
@@ -21298,6 +22550,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-155575427",
     name: "Golf du Stade Français - Courson",
     country: "France",
     region: "Île-de-France",
@@ -21315,6 +22568,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-184742274",
     name: "Golf du Tremblay",
     country: "France",
     region: "Île-de-France",
@@ -21332,6 +22586,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-17333547",
     name: "Golf départemental",
     country: "France",
     region: "Île-de-France",
@@ -21349,6 +22604,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-27486869",
     name: "Golf d’Ormesson",
     country: "France",
     region: "Île-de-France",
@@ -21366,6 +22622,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1398563959",
     name: "Golf éducatif de Collégien",
     country: "France",
     region: "Île-de-France",
@@ -21383,6 +22640,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-817784239",
     name: "La Vaucouleurs Golf Club",
     country: "France",
     region: "Île-de-France",
@@ -21400,6 +22658,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "node-4383886282",
     name: "Les Étangs",
     country: "France",
     region: "Île-de-France",
@@ -21417,6 +22676,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "relation-7208703",
     name: "Parcours Ouest",
     country: "France",
     region: "Île-de-France",
@@ -21434,6 +22694,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-49038958",
     name: "Paris International Golf Club",
     country: "France",
     region: "Île-de-France",
@@ -21451,6 +22712,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-186903193",
     name: "Practice Golf",
     country: "France",
     region: "Île-de-France",
@@ -21468,6 +22730,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-830322596",
     name: "Practice de Golf du Château de Villiers-le-Mahieu",
     country: "France",
     region: "Île-de-France",
@@ -21485,6 +22748,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-56236701",
     name: "Privé (domaine Dassault)",
     country: "France",
     region: "Île-de-France",
@@ -21502,6 +22766,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1408185825",
     name: "Racing Club de France - Golf de la Boulie",
     country: "France",
     region: "Île-de-France",
@@ -21519,6 +22784,7 @@ const GOLF_DATA = [
     lastChecked: null
   },
   {
+    id: "way-1350396782",
     name: "Rouge",
     country: "France",
     region: "Île-de-France",
