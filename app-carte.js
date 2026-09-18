@@ -184,6 +184,24 @@
     link.rel = "noopener noreferrer";
     card.appendChild(link);
 
+    if (window.GolfSelection) {
+      const selectBtn = document.createElement("button");
+      selectBtn.type = "button";
+      selectBtn.className = "select-toggle";
+      selectBtn.dataset.golfId = golf.id;
+      selectBtn.textContent = window.GolfSelection.isSelected(golf.id)
+        ? "✓ Dans ma sélection"
+        : "+ Ajouter à ma sélection";
+      selectBtn.addEventListener("click", () => {
+        if (window.GolfSelection.isSelected(golf.id)) {
+          window.GolfSelection.removeGolf(golf.id);
+        } else {
+          window.GolfSelection.addGolf(golf.id);
+        }
+      });
+      card.appendChild(selectBtn);
+    }
+
     card.addEventListener("mouseenter", () => setActiveMarker(golf.id));
     card.addEventListener("mouseleave", () => setActiveMarker(null));
 
@@ -328,6 +346,7 @@
   });
 
   input.addEventListener("input", render);
+  document.addEventListener("golf-selection:change", render);
 
   dbCountEl.textContent = String(GOLFS.length);
   verifiedCountEl.textContent = String(GOLFS.filter((g) => g.verified).length);

@@ -38,6 +38,18 @@
 
   <div id="province-chips" class="chips"></div>
 
+  <section id="selection-panel" class="selection-panel">
+    <div class="selection-header">
+      <h2>Ma sélection <span id="selection-count" class="selection-count">0/10</span></h2>
+      <button id="selection-share" type="button" class="selection-share-btn" disabled>Copier le lien à partager</button>
+    </div>
+    <p id="selection-warning" class="selection-warning" hidden></p>
+    <p id="selection-empty" class="selection-empty">
+      Cliquez « + Ajouter à ma sélection » sur un golf (jusqu'à 10) pour composer votre programme.
+    </p>
+    <ul id="selection-list" class="selection-list"></ul>
+  </section>
+
   <div class="map-wrap">
     <div id="map" role="img" aria-label="Carte des golfs d'Andalousie"></div>
   </div>
@@ -72,6 +84,8 @@
 
 <script src="data/golfs.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="selection.js"></script>
 <script src="app-andalucia.js"></script>
 </body>
 </html>
