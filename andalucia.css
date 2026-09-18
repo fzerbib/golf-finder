@@ -314,3 +314,49 @@
   opacity: 0.5;
   cursor: not-allowed;
 }
+
+.player-index-input {
+  flex: 0 0 90px;
+  text-align: center;
+}
+
+.slope-field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 14px;
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+}
+
+.slope-field input {
+  width: 80px;
+  padding: 6px 8px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+  color: var(--ink);
+  font-family: var(--font-mono);
+  text-align: center;
+}
+
+.score-table th.player-group-name {
+  border-bottom: none;
+}
+
+.score-table th.player-sub-col {
+  font-size: 0.62rem;
+  padding: 4px 6px;
+}
+
+.score-table td.stableford-cell {
+  font-family: var(--font-mono);
+  color: var(--ink-muted);
+  background: var(--surface-2);
+}
+
+.score-table td.total-cell {
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  font-weight: 700;
+}

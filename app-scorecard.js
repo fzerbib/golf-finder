@@ -1,7 +1,8 @@
-// Carte de score : 1 à 6 joueurs, par/handicap pré-remplis depuis OpenStreetMap quand
-// connus (HOLES_DATA, voir data/holes.js), toujours éditables. Persistée dans Supabase
-// (table `rounds`) avec un lien partageable (?id=<uuid>), même mécanique que
-// selection.js.
+// Carte de score : 1 à 6 joueurs (nom + index), par/handicap pré-remplis depuis
+// OpenStreetMap quand connus (HOLES_DATA, voir data/holes.js), toujours éditables.
+// Calcule trou par trou le score brut, les putts, le Stableford brut et le Stableford
+// net (à partir de l'index du joueur et du slope du parcours), plus les totaux.
+// Persistée dans Supabase (table `rounds`) avec un lien partageable (?id=<uuid>).
 (function () {
   const SUPABASE_URL = "https://pkqmrqffkcswbifhrqri.supabase.co";
   const SUPABASE_ANON_KEY =
@@ -23,21 +24,60 @@
   const deleteBtn = document.getElementById("delete-round");
   const statusEl = document.getElementById("save-status");
   const rosterChipsEl = document.getElementById("roster-chips");
+  const slopeInput = document.getElementById("slope-input");
 
   const golfIndex = new Map((typeof GOLF_DATA !== "undefined" ? GOLF_DATA : []).map((g) => [g.id, g]));
 
   const params = new URLSearchParams(window.location.search);
   let roundId = params.get("id");
   let golf = null;
-  let players = ["Joueur 1"];
+  let players = [{ name: "Joueur 1", index: null }];
   let holes = [];
   let scores = {}; // { "<hole number>": [score, score, ...] }
+  let putts = {}; // { "<hole number>": [putts, putts, ...] }
+  let slope = null;
   let saveTimer = null;
+
+  // --- Calculs Stableford ---------------------------------------------------
+
+  function playingHandicap(playerIndex) {
+    if (playerIndex == null || slope == null) return null;
+    return Math.round((playerIndex * slope) / 113);
+  }
+
+  function strokesReceived(ph, holeHandicap) {
+    if (ph == null) return null;
+    if (holeHandicap == null) return null;
+    const base = Math.floor(ph / 18);
+    const extra = ph % 18;
+    return base + (holeHandicap <= extra ? 1 : 0);
+  }
+
+  function stablefordPoints(score, par) {
+    if (score == null || par == null) return null;
+    return Math.max(0, 2 - (score - par));
+  }
+
+  function grossStableford(hole, score) {
+    return stablefordPoints(score, hole.par);
+  }
+
+  function netStableford(hole, score, playerIndex) {
+    if (score == null) return null;
+    const ph = playingHandicap(playerIndex);
+    const sr = strokesReceived(ph, hole.handicap);
+    if (sr == null) return null;
+    return stablefordPoints(score - sr, hole.par);
+  }
 
   // --- Liste de joueurs enregistrés (persistée une fois, réutilisable sur toutes les
   // cartes de score, indépendante des joueurs propres à chaque carte) ---
-  let roster = [];
+  let roster = []; // [{ name, index }]
   let rosterId = null;
+
+  function normalizeRosterEntry(entry) {
+    return typeof entry === "string" ? { name: entry, index: null } : { name: entry.name, index: entry.index ?? null };
+  }
 
   async function loadRoster() {
     if (!supabase) return;
@@ -53,7 +93,7 @@
     }
     if (data) {
       rosterId = data.id;
-      roster = data.names || [];
+      roster = (data.names || []).map(normalizeRosterEntry);
     } else {
       const { data: created, error: insertError } = await supabase
         .from("player_roster")
@@ -62,7 +102,7 @@
         .single();
       if (!insertError) {
         rosterId = created.id;
-        roster = created.names || [];
+        roster = (created.names || []).map(normalizeRosterEntry);
       }
     }
     renderRoster();
@@ -73,17 +113,25 @@
     await supabase.from("player_roster").update({ names: roster, updated_at: new Date().toISOString() }).eq("id", rosterId);
   }
 
-  function addToRoster(name) {
-    const trimmed = name.trim();
+  function upsertRoster(name, indexValue) {
+    const trimmed = (name || "").trim();
     if (!trimmed || /^Joueur \d+$/.test(trimmed)) return;
-    if (roster.some((n) => n.toLowerCase() === trimmed.toLowerCase())) return;
-    roster.push(trimmed);
-    renderRoster();
-    saveRoster();
+    const existing = roster.find((r) => r.name.toLowerCase() === trimmed.toLowerCase());
+    if (existing) {
+      if (indexValue != null && indexValue !== existing.index) {
+        existing.index = indexValue;
+        renderRoster();
+        saveRoster();
+      }
+    } else {
+      roster.push({ name: trimmed, index: indexValue != null ? indexValue : null });
+      renderRoster();
+      saveRoster();
+    }
   }
 
   function removeFromRoster(name) {
-    roster = roster.filter((n) => n !== name);
+    roster = roster.filter((r) => r.name !== name);
     renderRoster();
     saveRoster();
   }
@@ -91,22 +139,23 @@
   function renderRoster() {
     if (!rosterChipsEl) return;
     rosterChipsEl.innerHTML = "";
-    roster.forEach((name) => {
+    roster.forEach((entry) => {
       const chip = document.createElement("span");
-      const alreadyInRound = players.includes(name);
+      const alreadyInRound = players.some((p) => p.name === entry.name);
       chip.className = `chip roster-chip${alreadyInRound ? " is-added" : ""}`;
 
       const label = document.createElement("button");
       label.type = "button";
       label.className = "roster-chip-label";
-      label.textContent = name;
+      label.textContent = entry.index != null ? `${entry.name} (${entry.index})` : entry.name;
       label.disabled = alreadyInRound || players.length >= MAX_PLAYERS;
       label.addEventListener("click", () => {
-        const emptySlot = players.findIndex((p) => /^Joueur \d+$/.test(p));
+        const newPlayer = { name: entry.name, index: entry.index };
+        const emptySlot = players.findIndex((p) => /^Joueur \d+$/.test(p.name));
         if (emptySlot !== -1) {
-          players[emptySlot] = name;
+          players[emptySlot] = newPlayer;
         } else if (players.length < MAX_PLAYERS) {
-          players.push(name);
+          players.push(newPlayer);
         } else {
           return;
         }
@@ -120,8 +169,8 @@
       removeBtn.type = "button";
       removeBtn.className = "roster-chip-remove";
       removeBtn.textContent = "×";
-      removeBtn.setAttribute("aria-label", `Oublier ${name} de la liste enregistrée`);
-      removeBtn.addEventListener("click", () => removeFromRoster(name));
+      removeBtn.setAttribute("aria-label", `Oublier ${entry.name} de la liste enregistrée`);
+      removeBtn.addEventListener("click", () => removeFromRoster(entry.name));
 
       chip.append(label, removeBtn);
       rosterChipsEl.appendChild(chip);
@@ -161,7 +210,7 @@
       setStatus("Non sauvegardé (backend non configuré)");
       return;
     }
-    const payload = { golf_id: golf.id, holes, players: players.map((name) => ({ name })), scores };
+    const payload = { golf_id: golf.id, holes, players, scores, putts, slope };
     if (!roundId) {
       const { data, error } = await supabase.from("rounds").insert(payload).select("id").single();
       if (error) {
@@ -207,32 +256,52 @@
     playerCountEl.textContent = `${players.length}/${MAX_PLAYERS}`;
     addPlayerBtn.disabled = players.length >= MAX_PLAYERS;
     playerListEl.innerHTML = "";
-    players.forEach((name, i) => {
+    players.forEach((player, i) => {
       const row = document.createElement("li");
       row.className = "selection-row";
-      const input = document.createElement("input");
-      input.type = "text";
-      input.value = name;
-      input.placeholder = `Joueur ${i + 1}`;
-      input.className = "selection-day";
-      input.style.flex = "1 1 auto";
-      input.addEventListener("input", () => {
-        players[i] = input.value || `Joueur ${i + 1}`;
+
+      const nameInput = document.createElement("input");
+      nameInput.type = "text";
+      nameInput.value = player.name;
+      nameInput.placeholder = `Joueur ${i + 1}`;
+      nameInput.className = "selection-day";
+      nameInput.style.flex = "1 1 auto";
+      nameInput.addEventListener("input", () => {
+        players[i].name = nameInput.value || `Joueur ${i + 1}`;
         renderTableHeaderNamesOnly();
         scheduleSave();
       });
-      input.addEventListener("blur", () => addToRoster(input.value));
-      row.appendChild(input);
+      nameInput.addEventListener("blur", () => upsertRoster(players[i].name, players[i].index));
+      row.appendChild(nameInput);
+
+      const indexInput = document.createElement("input");
+      indexInput.type = "number";
+      indexInput.step = "0.1";
+      indexInput.placeholder = "Index";
+      indexInput.title = "Index de handicap du joueur";
+      indexInput.className = "selection-day player-index-input";
+      indexInput.value = player.index == null ? "" : player.index;
+      indexInput.addEventListener("input", () => {
+        players[i].index = indexInput.value === "" ? null : parseFloat(indexInput.value);
+        renderTotals();
+        scheduleSave();
+      });
+      indexInput.addEventListener("blur", () => upsertRoster(players[i].name, players[i].index));
+      row.appendChild(indexInput);
+
       if (players.length > 1) {
         const removeBtn = document.createElement("button");
         removeBtn.type = "button";
         removeBtn.className = "selection-remove";
         removeBtn.textContent = "×";
-        removeBtn.setAttribute("aria-label", `Retirer ${name}`);
+        removeBtn.setAttribute("aria-label", `Retirer ${player.name}`);
         removeBtn.addEventListener("click", () => {
           players.splice(i, 1);
           Object.keys(scores).forEach((hole) => {
             if (scores[hole]) scores[hole].splice(i, 1);
+          });
+          Object.keys(putts).forEach((hole) => {
+            if (putts[hole]) putts[hole].splice(i, 1);
           });
           renderPlayers();
           renderTable();
@@ -247,36 +316,60 @@
   }
 
   function renderTableHeaderNamesOnly() {
-    tableEl.querySelectorAll("thead th.player-col").forEach((th, i) => {
-      th.textContent = players[i] || `Joueur ${i + 1}`;
+    tableEl.querySelectorAll("thead .player-group-name").forEach((th, i) => {
+      const p = players[i];
+      th.textContent = p ? p.name : `Joueur ${i + 1}`;
     });
   }
 
-  function totalFor(playerIndex) {
-    let total = 0;
+  function totalsFor(playerIndex, player) {
+    let gross = 0;
+    let puttsTotal = 0;
+    let stabBrut = 0;
+    let stabNet = 0;
     holes.forEach((h) => {
-      const v = (scores[h.number] || [])[playerIndex];
-      if (typeof v === "number") total += v;
+      const score = (scores[h.number] || [])[playerIndex];
+      const putt = (putts[h.number] || [])[playerIndex];
+      if (typeof score === "number") gross += score;
+      if (typeof putt === "number") puttsTotal += putt;
+      const gb = grossStableford(h, score);
+      if (gb != null) stabBrut += gb;
+      const nb = netStableford(h, score, player.index);
+      if (nb != null) stabNet += nb;
     });
-    return total;
+    return { gross, puttsTotal, stabBrut, stabNet };
   }
 
   function renderTable() {
     tableEl.innerHTML = "";
     const thead = document.createElement("thead");
-    const headRow = document.createElement("tr");
+
+    const row1 = document.createElement("tr");
     ["Trou", "Par", "Hcp"].forEach((label) => {
       const th = document.createElement("th");
       th.textContent = label;
-      headRow.appendChild(th);
+      th.rowSpan = 2;
+      row1.appendChild(th);
     });
-    players.forEach((name, i) => {
+    players.forEach((player) => {
       const th = document.createElement("th");
-      th.className = "player-col";
-      th.textContent = name;
-      headRow.appendChild(th);
+      th.colSpan = 4;
+      th.className = "player-group-name";
+      th.textContent = player.name;
+      row1.appendChild(th);
     });
-    thead.appendChild(headRow);
+    thead.appendChild(row1);
+
+    const row2 = document.createElement("tr");
+    players.forEach(() => {
+      ["Brut", "Putts", "Stab.B", "Stab.N"].forEach((label) => {
+        const th = document.createElement("th");
+        th.className = "player-sub-col";
+        th.textContent = label;
+        row2.appendChild(th);
+      });
+    });
+    thead.appendChild(row2);
     tableEl.appendChild(thead);
 
     const tbody = document.createElement("tbody");
@@ -286,19 +379,43 @@
       numTd.textContent = h.number;
       row.appendChild(numTd);
 
-      row.appendChild(numberInputCell(h.par, (v) => { h.par = v; scheduleSave(); }));
-      row.appendChild(numberInputCell(h.handicap, (v) => { h.handicap = v; scheduleSave(); }));
+      row.appendChild(
+        numberInputCell(h.par, (v) => {
+          h.par = v;
+          renderTotals();
+          scheduleSave();
+        })
+      );
+      row.appendChild(
+        numberInputCell(h.handicap, (v) => {
+          h.handicap = v;
+          renderTotals();
+          scheduleSave();
+        })
+      );
 
-      players.forEach((_, i) => {
-        const current = (scores[h.number] || [])[i];
+      players.forEach((player, i) => {
+        const score = (scores[h.number] || [])[i];
+        const putt = (putts[h.number] || [])[i];
+
         row.appendChild(
-          numberInputCell(current, (v) => {
+          numberInputCell(score, (v) => {
             if (!scores[h.number]) scores[h.number] = [];
             scores[h.number][i] = v;
             renderTotals();
             scheduleSave();
           })
         );
+        row.appendChild(
+          numberInputCell(putt, (v) => {
+            if (!putts[h.number]) putts[h.number] = [];
+            putts[h.number][i] = v;
+            renderTotals();
+            scheduleSave();
+          })
+        );
+        row.appendChild(readonlyCell(grossStableford(h, score), `stab-brut-${h.number}-${i}`));
+        row.appendChild(readonlyCell(netStableford(h, score, player.index), `stab-net-${h.number}-${i}`));
       });
       tbody.appendChild(row);
     });
@@ -310,21 +427,45 @@
     totalLabel.colSpan = 3;
     totalLabel.textContent = "Total";
     totalRow.appendChild(totalLabel);
-    players.forEach((_, i) => {
-      const td = document.createElement("td");
-      td.className = `total-cell total-${i}`;
-      td.textContent = totalFor(i) || "";
-      totalRow.appendChild(td);
+    players.forEach((player, i) => {
+      const t = totalsFor(i, player);
+      totalRow.appendChild(totalCell(t.gross, `total-gross-${i}`));
+      totalRow.appendChild(totalCell(t.puttsTotal, `total-putts-${i}`));
+      totalRow.appendChild(totalCell(t.stabBrut, `total-stabbrut-${i}`));
+      totalRow.appendChild(totalCell(t.stabNet, `total-stabnet-${i}`));
     });
     tfoot.appendChild(totalRow);
     tableEl.appendChild(tfoot);
   }
 
   function renderTotals() {
-    players.forEach((_, i) => {
-      const cell = tableEl.querySelector(`.total-${i}`);
-      if (cell) cell.textContent = totalFor(i) || "";
+    // Recalcule uniquement les cellules Stableford (dépendantes) et les totaux, sans
+    // reconstruire toute la table (évite de perdre le focus pendant la saisie).
+    holes.forEach((h) => {
+      players.forEach((player, i) => {
+        const score = (scores[h.number] || [])[i];
+        const brutCell = tableEl.querySelector(`[data-cell="stab-brut-${h.number}-${i}"]`);
+        if (brutCell) brutCell.textContent = fmt(grossStableford(h, score));
+        const netCell = tableEl.querySelector(`[data-cell="stab-net-${h.number}-${i}"]`);
+        if (netCell) netCell.textContent = fmt(netStableford(h, score, player.index));
+      });
     });
+    players.forEach((player, i) => {
+      const t = totalsFor(i, player);
+      setTotalCell(`total-gross-${i}`, t.gross);
+      setTotalCell(`total-putts-${i}`, t.puttsTotal);
+      setTotalCell(`total-stabbrut-${i}`, t.stabBrut);
+      setTotalCell(`total-stabnet-${i}`, t.stabNet);
+    });
+  }
+
+  function setTotalCell(key, value) {
+    const cell = tableEl.querySelector(`[data-cell="${key}"]`);
+    if (cell) cell.textContent = value || "";
+  }
+
+  function fmt(v) {
+    return v == null ? "–" : String(v);
   }
 
   function numberInputCell(value, onChange) {
@@ -342,12 +483,29 @@
     return td;
   }
 
+  function readonlyCell(value, key) {
+    const td = document.createElement("td");
+    td.className = "stableford-cell";
+    td.dataset.cell = key;
+    td.textContent = fmt(value);
+    return td;
+  }
+
+  function totalCell(value, key) {
+    const td = document.createElement("td");
+    td.className = "total-cell";
+    td.dataset.cell = key;
+    td.textContent = value || "";
+    return td;
+  }
+
   function boot() {
     if (golf) {
       golfNameEl.textContent = golf.name;
       golfLocationEl.textContent = [golf.city, golf.region, golf.country].filter(Boolean).join(", ");
       notFoundEl.hidden = true;
       appEl.hidden = false;
+      slopeInput.value = slope == null ? "" : slope;
       renderPlayers();
       renderTable();
       shareBtn.disabled = !roundId;
@@ -359,9 +517,15 @@
     }
   }
 
+  slopeInput.addEventListener("input", () => {
+    slope = slopeInput.value === "" ? null : parseInt(slopeInput.value, 10);
+    renderTotals();
+    scheduleSave();
+  });
+
   addPlayerBtn.addEventListener("click", () => {
     if (players.length >= MAX_PLAYERS) return;
-    players.push(`Joueur ${players.length + 1}`);
+    players.push({ name: `Joueur ${players.length + 1}`, index: null });
     renderPlayers();
     renderTable();
     scheduleSave();
@@ -403,24 +567,27 @@
     url.searchParams.set("golf", golf.id);
     window.history.replaceState({}, "", url);
     setStatus("");
-    renderPlayers();
-    renderTable();
-    shareBtn.disabled = true;
-    deleteBtn.disabled = true;
+    boot();
   });
 
   function applyRoundData(data) {
     golf = golfIndex.get(data.golf_id) || null;
     holes = Array.isArray(data.holes) && data.holes.length ? data.holes : buildDefaultHoles(18, data.golf_id);
-    players = (data.players || []).map((p) => p.name).slice(0, MAX_PLAYERS);
-    if (players.length === 0) players = ["Joueur 1"];
+    players = (data.players || []).map((p, i) =>
+      typeof p === "string" ? { name: p, index: null } : { name: p.name || `Joueur ${i + 1}`, index: p.index ?? null }
+    ).slice(0, MAX_PLAYERS);
+    if (players.length === 0) players = [{ name: "Joueur 1", index: null }];
     scores = data.scores || {};
+    putts = data.putts || {};
+    slope = data.slope != null ? data.slope : (golf ? golf.slope : null);
   }
 
   function resetToBlankRound() {
     roundId = null;
-    players = ["Joueur 1"];
+    players = [{ name: "Joueur 1", index: null }];
     scores = {};
+    putts = {};
+    slope = golf ? golf.slope : null;
     if (golf) {
       const count = golf.holes === 9 ? 9 : 18;
       holes = buildDefaultHoles(count, golf.id);
@@ -456,6 +623,7 @@
       if (golf && !roundId) {
         const count = golf.holes === 9 ? 9 : 18;
         holes = buildDefaultHoles(count, golf.id);
+        slope = golf.slope != null ? golf.slope : null;
       }
     }
 
