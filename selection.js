@@ -8,8 +8,9 @@
 // SQL fourni (table `weekly_plans` + policies), puis remplacer SUPABASE_URL et
 // SUPABASE_ANON_KEY ci-dessous par les valeurs de Settings → API de ce projet.
 (function () {
-  const SUPABASE_URL = "YOUR_SUPABASE_URL";
-  const SUPABASE_ANON_KEY = "YOUR_SUPABASE_ANON_KEY";
+  const SUPABASE_URL = "https://pkqmrqffkcswbifhrqri.supabase.co";
+  const SUPABASE_ANON_KEY =
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBrcW1ycWZma2Nzd2JpZmhycXJpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODk3Mjg4ODAsImV4cCI6MjEwNTMwNDg4MH0.gRPVLts7SoPWxQpzc-3o_fMKs2x240SuXoI94bXfDzY";
   const MAX_SELECTION = 10;
   const DAYS = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"];
   const LAST_PLAN_KEY = "golf-finder:last-plan";
