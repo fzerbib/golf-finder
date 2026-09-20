@@ -262,5 +262,21 @@
     "greenFee": { "low": 100, "high": 146, "currency": "EUR" },
     "note": "Benahavís, resort Villa Padierna. Slope 141 aux départs blancs (varie selon les départs).",
     "lastChecked": "2026-09-17"
+  },
+  {
+    "name": "Los Arqueros Golf & Country Club",
+    "country": "Espagne",
+    "region": "Andalousie",
+    "city": "Benahavís",
+    "lat": 36.5192,
+    "lon": -5.0081,
+    "website": "https://www.losarquerosgolf.com/",
+    "holes": 18,
+    "par": null,
+    "slope": 137,
+    "courseRating": null,
+    "greenFee": { "low": 70.5, "high": 70.5, "currency": "EUR" },
+    "note": "Absent d'OpenStreetMap (trou de couverture confirmé) : coordonnées et localisation approximatives (quartier Los Arqueros, Ctra. de Ronda A-397 Km. 44.5). Par non confirmé.",
+    "lastChecked": "2026-09-20"
   }
 ]
